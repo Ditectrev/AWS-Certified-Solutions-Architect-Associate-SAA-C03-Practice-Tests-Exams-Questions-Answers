@@ -1,5 +1,7 @@
 # AWS-Solutions-Architect-Associate-SAA-C03-Practice-Tests-Exams-Questions-Answers
 
+![Promotional image](images/promotional.png)
+
 ## Table of Contents
 
 | No. | Questions |
