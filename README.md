@@ -12,9 +12,9 @@
 | 4   | [Which of the following are valid statements about Amazon 53? Choose 2 answers](#question4) |
 | 5   | [How can the domain's zone apex, for example, 'myzoneapexdomain.com', be pointed towards an Elastic Load Balancer?](#question5) |
 | 6   | [When should I choose Provisioned lOPS over Standard RDS storage?](#question6) |
-| 7   | [Your department creates regular analytics reports from your company’s log files All log data is collected in Amazon 53 and processed by daily Amazon Elastic Map Reduce (EMR) jobs that generate daily PDF reports and aggregated tables in CSV format for an Amazon Redshift data warehouse. Your CFO requests that you optimize the cost structure for this system. Which of the following alternatives will lower costs without compromising average performance of the system or data integrity for the raw data?](#question7) |
+| 7   | [Your department creates regular analytics reports from your company's log files All log data is collected in Amazon 53 and processed by daily Amazon Elastic Map Reduce (EMR) jobs that generate daily PDF reports and aggregated tables in CSV format for an Amazon Redshift data warehouse. Your CFO requests that you optimize the cost structure for this system. Which of the following alternatives will lower costs without compromising average performance of the system or data integrity for the raw data?](#question7) |
 | 8   | [Because of the extensibility limitations of striped storage attached to Windows Server, Amazon RDS does not currently support increasing storage on a __ DB Instance.](#question8) |
-| 9   | [In regards to lAM you can edit user properties later, but you cannot use the console to change the](#question9) |
+| 9   | [In regards to IAM you can edit user properties later, but you cannot use the console to change the](#question9) |
 | 10  | [In Amazon EC2 Container Service, are other container types supported?](#question10)   |
 | 11  | [Content and Media Server is the latest requirement that you need to meet for a client. The client has been very specific about his requirements such as low latency, high availability, durability, and access control. Potentially there will be millions of views on this server and because of “spiky” usage patterns, operations teams will need to provision static hardware, network, and management resources to support the maximum expected need. The Customer base will be initially low but is expected to grow and become more geographically distributed. Which of the following would be a good solution for content distribution?](#question11)   |
 | 12  | [Name the disk storage supported by Amazon Elastic Compute Cloud (EC2).](#question12)   |
@@ -22,12 +22,12 @@
 | 14  | [After an Amazon VPC instance is launched, can I change the VPC security groups it belongs to?](#question14)   |
 | 15  | [Amazon RDS supports SOAP only through ___ _](#question15)   |
 | 16  | [Which of the following services natively encrypts data at rest within an AWS region? Choose 2 answers](#question16)   |
-| 17  | [Which one of the following can’t be used as an origin server with Amazon CloudFront?](#question17)   |
+| 17  | [Which one of the following can't be used as an origin server with Amazon CloudFront?](#question17)   |
 | 18  | [Select the most correct The device name /dev/sdal (within Amazon EC2) is __](#question18)   |
 | 19  | [How can I change the security group membership for interfaces owned by other AWS, such as Elastic Load Balancing?](#question19)   |
 | 20  | [You have created a Route 53 latency record set from your domain to a machine in Northern Virginia and a similar record to a machine in Sydney. When a user located in US visits your domain he will be routed to:](#question20)   |
 | 21  | [In the context of MySQL, version numbers are organized as MySQL version = X.Y.Z. What does X denote here?](#question21)   |
-| 22  | [Which one of the below doesn’t affect Amazon CloudFront billing?](#question22)   |
+| 22  | [Which one of the below doesn't affect Amazon CloudFront billing?](#question22)   |
 | 23  | [Just when you thought you knew every possible storage option on AWS you hear someone mention Reduced Redundancy Storage (RRS) within Amazon S3. What is the ideal scenario to use Reduced Redundancy Storage (RRS)?](#question23)   |
 | 24  | [$ aws sqs receive-message –queue-url https://queue.amazonaws.com/546419318123/Test](#question24)   |
 | 25  | [When running my DB Instance as a Multi-AZ deployment, can I use the standby for read or write operations?](#question25)   |
@@ -42,7 +42,7 @@
 | 34  | [You need to quickly set up an email-sending service because a client needs to start using it in the next hour. Amazon Simple Email Service (Amazon SES) seems to be the logical choice but there are several options available to set it up. Which of the following options to set up SES would best meet the needs of the client?](#question34)   |
 | 35  | [A user is observing the EC2 CPU utilization metric on CloudWatch. The user has observed some interesting patterns while filtering over the 1 week period for a particular hour. The user wants to zoom that data point to a more granular period. How can the user do that easily with CloudWatch?](#question35)   |
 | 36  | [A company is running a batch analysis every hour on their main transactional DB. running on an RDS MySQL instance to populate their central Data Warehouse running on Redshift During the execution of the batch their transactional applications are very slow When the batch completes they need to update the top management dashboard with the new data The dashboard is produced by another system running on-premises that is currently started when a manually-sent email notifies that an update is required The on-premises system cannot be modified because is managed by anotherteam. How would you optimize this scenario to solve performance issues and automate the process as much as possible? How would you optimize this scenario to solve performance issues and automate the process as much as possible?](#question36)   |
-| 37  | [You are configuring a new VPC for one of your clients for a cloud migration project, and only a public VPN will be in place. After you created your VPC, you created a new subnet, a new internet gateway, and attached your internet gateway to your VPC. When you launched your first instance into your VPC, you realized that you aren’t able to connect to the instance, even if it is configured with an elastic IP. What should be done to access the instance?](#question37)   |
+| 37  | [You are configuring a new VPC for one of your clients for a cloud migration project, and only a public VPN will be in place. After you created your VPC, you created a new subnet, a new internet gateway, and attached your internet gateway to your VPC. When you launched your first instance into your VPC, you realized that you aren't able to connect to the instance, even if it is configured with an elastic IP. What should be done to access the instance?](#question37)   |
 | 38  | [You have been asked to build a database warehouse using Amazon Redshift. You know a little about it, including that it is a SQL data warehouse solution, and uses industry standard ODBC and JDBCconnections and PostgreSQL drivers. However you are not sure about what sort of storage it uses for database tables. What sort of storage does Amazon Redshift use for database tables?](#question38)   |
 | 39  | [A user has attached 1 EBS volume to a VPC instance. The user wants to achieve the best fault tolerance of data possible. Which of the below mentioned options can help achieve fault tolerance?](#question39)   |
 | 40  | [Which features can be used to restrict access to data in 53? Choose 2 answers](#question40)   |
@@ -54,7 +54,7 @@
 | 46  | [You are deploying an application to collect votes for a very popular television show. Millions of users will submit votes using mobile devices. The votes must be collected into a durable, scalable, andhighly available data store for real-time public tabulation. Which service should you use?](#question46)   |
 | 47  | [Are Reserved Instances available for Multi-AZ Deployments?](#question47)   |
 | 48  | [A _____ for a VPC is a collection of subnets (typically private) that you may want to designate for your backend RDS DB Instances.](#question48)   |
-| 49  | [An instance is launched into a VPC subnet with the network ACL configured to al low all inbound traffic and deny all outbound traffic. The instance’s security group is configured to allow SSH from any IPaddress and deny all outbound traffic. What changes need to be made to allow SSH access to the instance?](#question49)   |
+| 49  | [An instance is launched into a VPC subnet with the network ACL configured to al low all inbound traffic and deny all outbound traffic. The instance's security group is configured to allow SSH from any IPaddress and deny all outbound traffic. What changes need to be made to allow SSH access to the instance?](#question49)   |
 | 50  | [You can modify the backup retention period; valid values are 0 (for no backup retention) to a maximum of days.](#question50)   |
 | 51  | [To serve Web traffic for a popular product your chief financial officer and IT director have purchased 10 ml large heavy utilization Reserved Instances (RIs) evenly spread across two availability zones: Route 53 is used to deliver the traffic to an Elastic Load Balancer (ELB). After several months, the product grows even more popular and you need additional capacity As a result, your company purchases two C3.2xlarge medium utilization RIs You register the two c3 2xlarge instances with your ELB and quickly find that the ml large instances are at 100% of capacity and the c3 2xlarge instances have significant capacity that's unused Which option is the most cost effective and uses EC2 capacity most effectively?](#question51)   |
 | 52  | [An existing application stores sensitive information on a non-boot Amazon EBS data volume attached to an Amazon Elastic Compute Cloud instance. Which of the following approaches would protect the sensitive data on an Amazon EBS volume?](#question52)   |
@@ -64,7 +64,7 @@
 | 56  | [You need to import several hundred megabytes of data from a local Oracle database to an Amazon RDS DB instance. What does AWS recommend you use to accomplish this?](#question56)   |
 | 57  | [In the context of AWS support, why must an EC2 instance be unreachable for 20 minutes rather than allowing customers to open tickets immediately?](#question57)   |
 | 58  | [HTIP Query-based requests are HTIP requests that use the HTIP verb GET or POST and a Query parameter named _____](#question58)   |
-| 59  | [A friend tells you he is being charged $100 a month to host his WordPress website, and you tell him you can move it to AWS for him and he will only pay a fraction of that, which makes him very happy. He then tells you he is being charged $50 a month for the domain, which is registered with the same people that set it up, and he asks if it’s possible to move that to AWS as well. You tell him you aren’t sure, but will look into it. Which of the following statements is true in regards to transferring domain names to AWS?](#question59)   |
+| 59  | [A friend tells you he is being charged $100 a month to host his WordPress website, and you tell him you can move it to AWS for him and he will only pay a fraction of that, which makes him very happy. He then tells you he is being charged $50 a month for the domain, which is registered with the same people that set it up, and he asks if it's possible to move that to AWS as well. You tell him you aren't sure, but will look into it. Which of the following statements is true in regards to transferring domain names to AWS?](#question59)   |
 | 60  | [While creating the snapshots using the command line tools, which command should I be using?](#question60)   |
 | 61  | [All Amazon EC2 instances are assigned two IP addresses at launch, out of which one can only be reached from within the Amazon EC2 network?](#question61)   |
 | 62  | [When an EC2 instance that is backed by an 53-based AMI is terminated, what happens to the data on the root volume?](#question62)   |
@@ -89,7 +89,7 @@
 | 81  | [In the Amazon RDS which uses the SQL Server engine, what is the maximum size for a Microsoft SQL Server DB Instance with SQL Server Express edition?](#question81)   |
 | 82  | [You have deployed a web application targeting a global audience across multiple AWS Regions under the domain name.example.com. You decide to use Route53 Latency-Based Routing to serve web requests to users from the region closest to the user. To provide business continuity in the event of server downtime you configure weighted record sets associated with two web servers in separate Availability Zones per region. Dunning a DR test you notice that when you disable all web servers in one of the regions Route53 does not automatically direct all users to the other region. What could be happening? (Choose 2 answers)](#question82)   |
 | 83  | [Amazon EBS provides the ability to create backups of any Amazon EC2 volume into what is known as _____.](#question83)   |
-| 84  | [You’ve been hired to enhance the overall security posture for a very large e-commerce site They have a well architected multi-tier application running in a VPC that uses ELBs in front of both the web and the app tier with static assets served directly from 53 They are using a combination of RDS and DynamoOB for their dynamic data and then archiving nightly into 53 for further processing with EMR They are concerned because they found questionable log entries and suspect someone is attempting to gain unauthorized access. Which approach provides a cost effective scalable mitigation to this kind of attack?](#question84)   |
+| 84  | [You've been hired to enhance the overall security posture for a very large e-commerce site They have a well architected multi-tier application running in a VPC that uses ELBs in front of both the web and the app tier with static assets served directly from 53 They are using a combination of RDS and DynamoOB for their dynamic data and then archiving nightly into 53 for further processing with EMR They are concerned because they found questionable log entries and suspect someone is attempting to gain unauthorized access. Which approach provides a cost effective scalable mitigation to this kind of attack?](#question84)   |
 | 85  | [You are designing the network infrastructure for an application server in Amazon VPC Users will access all the application instances from the Internet as well as from an on-premises network The on-premises network is connected to your VPC over an AWS Direct Connect link. How would you design routing to meet the above requirements?](#question85)   |
 | 86  | [You have multiple VPN connections and want to provide secure communication between sites using the AWS VPN CloudHub. Which statement is the most accurate in describing what you must do to set this up correctly?](#question86)   |
 | 87  | [A user is aware that a huge download is occurring on his instance. He has already set the Auto Scaling policy to increase the instance count when the network I/O increases beyond a certain limit. How can the user ensure that this temporary event does not result in scaling?](#question87)   |
@@ -344,7 +344,7 @@
 - [ ] If you use production online transaction processing (OLTP) workloads.
 - [ ] If you have workloads that are not sensitive to consistent performance
 
-### Your department creates regular analytics reports from your company’s log files All log data is collected in Amazon 53 and processed by daily Amazon Elastic Map Reduce (EMR) jobs that generate daily PDF reports and aggregated tables in CSV format for an Amazon Redshift data warehouse. Your CFO requests that you optimize the cost structure for this system. Which of the following alternatives will lower costs without compromising average performance of the system or data integrity for the raw data?
+### Your department creates regular analytics reports from your company's log files All log data is collected in Amazon 53 and processed by daily Amazon Elastic Map Reduce (EMR) jobs that generate daily PDF reports and aggregated tables in CSV format for an Amazon Redshift data warehouse. Your CFO requests that you optimize the cost structure for this system. Which of the following alternatives will lower costs without compromising average performance of the system or data integrity for the raw data?
 
 - [ ] Use reduced redundancy storage (RRS) for all data In 53. Use a combination of Spot Instances and Reserved Instances for Amazon EMR jobs. Use Reserved Instances for Amazon Redshift.
 - [ ] Use reduced redundancy storage (RRS) for PDF and .csv data in 53. Add Spot Instances to EMR jobs. Use Spot Instances for Amazon Redshift.
@@ -357,7 +357,7 @@
 - [ ] MySQL
 - [ ] Oracle
 
-### In regards to lAM you can edit user properties later, but you cannot use the console to change the
+### In regards to IAM you can edit user properties later, but you cannot use the console to change the
 
 - [x] user name
 - [ ] password
@@ -552,7 +552,7 @@
 - [ ] Create an RDS Read Replica for the batch analysis and SNS to notify me on-premises system to update the dashboard
 - [ ] Create an RDS Read Replica for the batch analysis and SQS to send a message to the on-premises system to update the dashboard.
 
-### You are configuring a new VPC for one of your clients for a cloud migration project, and only a public VPN will be in place. After you created your VPC, you created a new subnet, a new internet gateway, and attached your internet gateway to your VPC. When you launched your first instance into your VPC, you realized that you aren’t able to connect to the instance, even if it is configured with an elastic IP. What should be done to access the instance?
+### You are configuring a new VPC for one of your clients for a cloud migration project, and only a public VPN will be in place. After you created your VPC, you created a new subnet, a new internet gateway, and attached your internet gateway to your VPC. When you launched your first instance into your VPC, you realized that you aren't able to connect to the instance, even if it is configured with an elastic IP. What should be done to access the instance?
 
 - [x] A route should be created as 0.0.0.0/0 and your internet gateway as target.
 - [ ] Attach another ENI to the instance and connect via new EN
@@ -578,7 +578,7 @@
 - [ ] Set an 53 ACL on the bucket or the object.
 - [ ] Create a Cloud Front distribution for the bucket.
 - [x] Set an 53 bucket policy.
-- [x] Enable lAM Identity Federation.
+- [x] Enable IAM Identity Federation.
 - [ ] Use 53 Virtua l Hosting.
 
 ### You are in the process of creating a Route 53 DNS failover to direct traffic to two EC2 zones. Obviously, if one fails, you would like Route 53 to direct traffic to the other region. Each region has an ELB with some instances being distributed. What is the best way for you to configure the Route 53 health check?
@@ -637,7 +637,7 @@
 - [x] DB Subnet Group
 - [ ] DB Subnet Collection
 
-### An instance is launched into a VPC subnet with the network ACL configured to al low all inbound traffic and deny all outbound traffic. The instance’s security group is configured to allow SSH from any IPaddress and deny all outbound traffic. What changes need to be made to allow SSH access to the instance?
+### An instance is launched into a VPC subnet with the network ACL configured to al low all inbound traffic and deny all outbound traffic. The instance's security group is configured to allow SSH from any IPaddress and deny all outbound traffic. What changes need to be made to allow SSH access to the instance?
 
 - [ ] The out bound security group needs to be modified to allow out bound traffic.
 - [x] The outbound network ACL needs to be modified to allow outbound traffic.
@@ -709,10 +709,10 @@
 - [ ] Reset
 - [ ] Retrieve.
 
-### A friend tells you he is being charged $100 a month to host his WordPress website, and you tell him you can move it to AWS for him and he will only pay a fraction of that, which makes him very happy. He then tells you he is being charged $50 a month for the domain, which is registered with the same people that set it up, and he asks if it’s possible to move that to AWS as well. You tell him you aren’t sure, but will look into it. Which of the following statements is true in regards to transferring domain names to AWS?
+### A friend tells you he is being charged $100 a month to host his WordPress website, and you tell him you can move it to AWS for him and he will only pay a fraction of that, which makes him very happy. He then tells you he is being charged $50 a month for the domain, which is registered with the same people that set it up, and he asks if it's possible to move that to AWS as well. You tell him you aren't sure, but will look into it. Which of the following statements is true in regards to transferring domain names to AWS?
 
-- [ ] You can’t transfer existing domains to AW
-- [x] You can transfer existing domains into Amazon Route 53’s management.
+- [ ] You can't transfer existing domains to AW
+- [x] You can transfer existing domains into Amazon Route 53's management.
 - [ ] You can transfer existing domains via AWS Direct Connect.
 - [ ] You can transfer existing domains via AWS Import/Export.
 
@@ -810,9 +810,9 @@
 ### A company is building software on AWS that requires access to various AWS services. Which configuration should be used to ensure mat AWS credentials (i.e ., Access Key ID/Secret Access Key combination) are not compromised?
 
 - [x] Enable Multi-Factor Authentication for your AWS root account.
-- [ ] Assign an lAM role to the Amazon EC2 instance.
+- [ ] Assign an IAM role to the Amazon EC2 instance.
 - [ ] Store the AWS Access Key ID/Secret Access Key combination in software comments.
-- [ ] Assign an lAM user to the Amazon EC2 Instance.
+- [ ] Assign an IAM user to the Amazon EC2 Instance.
 
 ### Can we attach an EBS volume to more than one EC2 instance at the same time?
 
@@ -879,7 +879,7 @@
 - [x] You did not setup an HTIP health check tor one or more of the weighted resource record sets associated with me disabled web servers.
 - [ ] The value of the weight associated with the latency alias resource record set in the region with the disabled servers is higher than the weight for the other region.
 - [ ] One of the two working web servers in the other region did not pass its HTIP health check.
-- [ ] You did not set 'Evaluate Target Health' to 'Yes' on the latency alias resource record set associated with example com in the region where you disabled the servers.
+- [x] You did not set 'Evaluate Target Health' to 'Yes' on the latency alias resource record set associated with example com in the region where you disabled the servers.
 
 ### Amazon EBS provides the ability to create backups of any Amazon EC2 volume into what is known as _____.
 
@@ -888,7 +888,7 @@
 - [ ] instance backups
 - [ ] mirrors.
 
-### You’ve been hired to enhance the overall security posture for a very large e-commerce site They have a well architected multi-tier application running in a VPC that uses ELBs in front of both the web and the app tier with static assets served directly from 53 They are using a combination of RDS and DynamoOB for their dynamic data and then archiving nightly into 53 for further processing with EMR They are concerned because they found questionable log entries and suspect someone is attempting to gain unauthorized access. Which approach provides a cost effective scalable mitigation to this kind of attack?
+### You've been hired to enhance the overall security posture for a very large e-commerce site They have a well architected multi-tier application running in a VPC that uses ELBs in front of both the web and the app tier with static assets served directly from 53 They are using a combination of RDS and DynamoOB for their dynamic data and then archiving nightly into 53 for further processing with EMR They are concerned because they found questionable log entries and suspect someone is attempting to gain unauthorized access. Which approach provides a cost effective scalable mitigation to this kind of attack?
 
 - [ ] Recommend that they lease space at a DirectConnect partner location and establish a lG DirectConnect connection to their vPC they would then establish Internet connectivity into their space, filter the traffic in hardware Web Application Firewall (WAF). And then pass the traffic through the DirectConnect connection into their application running in their VPC,
 - [ ] Add previously identified hostile source IPs as an explicit INBOUND DENY NACL to the web tier sub net.
@@ -1044,12 +1044,12 @@
 ### Which of the following options, when used together will support the autonomy/control of divisions while enabling corporate IT to maintain governance and cost oversight? Choose 2 answers
 
 - [ ] Use AWS Consolidated Billing and disable AWS root account access for the child accounts.
-- [ ] Enable lAM cross-account access for all corporate IT administrators in each child account.
+- [ ] Enable IAM cross-account access for all corporate IT administrators in each child account.
 - [ ] Create separate VPCs for each division within the corporate IT AWS account.
 - [x] Use AWS Consolidated Billing to link the divisions' accounts to a parent corporate account.
 - [ ] Write all child AWS CloudTrail and Amazon CloudWatch logs to each child account's Amazon 53 'Log' bucket.
 
-### After creating a new lAM user which of the following must be done before they can successfully make API calls?
+### After creating a new IAM user which of the following must be done before they can successfully make API calls?
 
 - [ ] Add a password to the user.
 - [ ] Enable Multi-Factor Authentication for the user.
@@ -1063,7 +1063,7 @@
 - [ ] You can use the BitTorrent protocol but you need to ask AWS for specific permissions first.
 - [x] You can use the BitTorrent protocol but only for objects that are less than 5 GB in size.
 
-### lAM's Policy Evaluation Logic always starts with a default _____ for every request, except for those that use the AWS account's root security credentials b
+### IAM's Policy Evaluation Logic always starts with a default _____ for every request, except for those that use the AWS account's root security credentials b
 
 - [ ] Permit
 - [x] Deny
@@ -1098,11 +1098,11 @@
 
 ### Which two approaches can satisfy these objectives? (Choose 2 answers)
 
-- [ ] Develop an identity broker that authenticates against lAM security Token service to assume a Lam role in order to get temporary AWS security credentials The application calls the identity broker toget AWS temporary security credentials with access to the appropriate 53 bucket.
-- [x] The application authenticates against LDAP and retrieves the name of an lAM role associated with the user. The application then ca lls the lAM Security Token Service to assume that lAM role The application can use the temporary credentials to access the appropriate 53 bucket.
-- [ ] Develop an identity broker that authenticates against LDAP and then calls lAM Security To ken Service to get lAM federated user credentials The application calls the identity broker to get lAMfederated user credentials with access to the appropriate 53 bucket.
-- [ ] The application authenticates against LDAP the application then calls the AWS identity and Access Management (lAM) Security service to log in to lAM using the LDAP credentials the application can use the lAM temporary credentials to access the appropriate 53 bucket.
-- [ ] The application authenticates against lAM Security Token Service using the LDAP credentials the application uses those temporary AWS security credentials to access the appropriate 53 bucket.
+- [ ] Develop an identity broker that authenticates against IAM security Token service to assume a Lam role in order to get temporary AWS security credentials The application calls the identity broker toget AWS temporary security credentials with access to the appropriate 53 bucket.
+- [x] The application authenticates against LDAP and retrieves the name of an IAM role associated with the user. The application then ca lls the IAM Security Token Service to assume that IAM role The application can use the temporary credentials to access the appropriate 53 bucket.
+- [ ] Develop an identity broker that authenticates against LDAP and then calls IAM Security To ken Service to get IAM federated user credentials The application calls the identity broker to get IAMfederated user credentials with access to the appropriate 53 bucket.
+- [ ] The application authenticates against LDAP the application then calls the AWS identity and Access Management (IAM) Security service to log in to IAM using the LDAP credentials the application can use the IAM temporary credentials to access the appropriate 53 bucket.
+- [ ] The application authenticates against IAM Security Token Service using the LDAP credentials the application uses those temporary AWS security credentials to access the appropriate 53 bucket.
 
 ### A group can contain many users. Can a user belong to multiple groups?
 
@@ -1218,12 +1218,12 @@
 
 - [x] Yes, you can.
 
-"An enterprise wants to use a third-party SaaS application. The SaaS application needs to have access to issue several API commands to discover Amazon EC2 resources running within the enterprise's account The enterprise has internal security policies that require any outside access to their environment must conform to the principles of least privilege and there must be controls in place to ensure that the credentials used by the 5aa5 vendor cannot be used by any other third party.
-Which of the following would meet all of these conditions?
-A. From the AW5 Management Console, navigate to the Security Credentials page and retrieve the access and secret key for your account.
-B. Create an lAM user within the enterprise account assign a user policy to the lAM user that allows only the actions required by the SaaS application create a new access and secret key for the user and provide these credentials to the 5aa5 provider.
-C. Create an lAM role for cross-account access allows the SaaS provider's account to assume the role and assign it a policy that allows only the actions required by the SaaS application.
-D. Create an lAM role for EC2 instances, assign it a policy that allows only the actions required tor the Saas application to work, provide the role ARM to the SaaS provider to use when launching their application instances.
+### An enterprise wants to use a third-party SaaS application. The SaaS application needs to have access to issue several API commands to discover Amazon EC2 resources running within the enterprise's account The enterprise has internal security policies that require any outside access to their environment must conform to the principles of least privilege and there must be controls in place to ensure that the credentials used by the 5aa5 vendor cannot be used by any other third party. Which of the following would meet all of these conditions?
+
+- [ ] From the AW5 Management Console, navigate to the Security Credentials page and retrieve the access and secret key for your account.
+- [ ] Create an IAM user within the enterprise account assign a user policy to the IAM user that allows only the actions required by the SaaS application create a new access and secret key for the user and provide these credentials to the 5aa5 provider.
+- [x] Create an IAM role for cross-account access allows the SaaS provider's account to assume the role and assign it a policy that allows only the actions required by the SaaS application.
+- [ ] Create an IAM role for EC2 instances, assign it a policy that allows only the actions required tor the Saas application to work, provide the role ARM to the SaaS provider to use when launching their application instances.
 
 ### By default what are ENIs that are automatically created and attached to instances using the EC2 console set to do when the attached instance terminates?
 
@@ -1319,7 +1319,7 @@ D. Create an lAM role for EC2 instances, assign it a policy that allows only the
 
 - [ ] User data
 - [x] EC2Config service
-- [ ] lAM roles
+- [ ] IAM roles
 - [ ] AWS Config.
 
 ### Which of the following will meet the Customer requirement?
@@ -1338,7 +1338,7 @@ D. Create an lAM role for EC2 instances, assign it a policy that allows only the
 
 ### Which of the following configurations will support these requirements?
 
-- [x] Configure an lAM Role that grants access to an Amazon 53 object containing a signed certificate and configure me Auto Scaling group to launch instances with this role Have the instances bootstrap get the certificate from Amazon 53 upon first boot.
+- [x] Configure an IAM Role that grants access to an Amazon 53 object containing a signed certificate and configure me Auto Scaling group to launch instances with this role Have the instances bootstrap get the certificate from Amazon 53 upon first boot.
 - [ ] Embed a certificate into the Amazon Machine Image that is used by the Auto Scaling group Have the launched instances generate a certificate signature request with the instance's assigned instance- id to the Key management service for signature.
 - [ ] Configure the Auto Scaling group to send an SNS notification of the launch of a new instance to the trusted key management service. Have the Key management service generate a signed certificate and send it directly to the newly launched instance.
 - [ ] Configure the launched instances to generate a new certificate upon first boot Have the Key management service poll the AutoScaling group for associated instances and send new instances acertificate signature (hat contains the specific instance-id.
@@ -1375,10 +1375,11 @@ D. Create an lAM role for EC2 instances, assign it a policy that allows only the
 - [ ] A task definition
 
 ### You are looking to migrate your Development (Dev) and Test environments to AWS. You have decided to use separate AWS accounts to host each environment. You plan to link each accounts bill to a Master AWS account using Consolidated Billing. To make sure you Keep within budget you would like to implement a way for administrators in the Master account to have access to stop, delete and/or terminate resources in both the Dev and Test accounts. Identify which option will allow you to achieve this goal.
-A. Create lAM users in the Master account with full Admin permissions. Create cross-account roles in the Dev and Test accounts that grant the Master account access to the resources in the account by inheriting permissions from the Master account.
-B. Create lAM users and a cross-account role in the Master account that grants full Admin permissions to the Dev and Test accounts.
-C. Create lAM users in the Master account Create cross-account roles in the Dev and Test accounts that have full Admin permissions and grant the Master account access.
-D. Link the accounts using Consolidated Billing. This will give lAM users in the Master account access to resources in the Dev and Test accounts
+
+- [ ] Create IAM users in the Master account with full Admin permissions. Create cross-account roles in the Dev and Test accounts that grant the Master account access to the resources in the account by inheriting permissions from the Master account.
+- [ ] Create IAM users and a cross-account role in the Master account that grants full Admin permissions to the Dev and Test accounts.
+- [x] Create IAM users in the Master account Create cross-account roles in the Dev and Test accounts that have full Admin permissions and grant the Master account access.
+- [ ] Link the accounts using Consolidated Billing. This will give IAM users in the Master account access to resources in the Dev and Test accounts.
 
 ### What will be the status of the snapshot until the snapshot is complete.
 
@@ -1402,18 +1403,18 @@ D. Link the accounts using Consolidated Billing. This will give lAM users in the
 ### Which of the design patterns below should they use?
 
 - [ ] Use Cloud Front and an Elastic Load balancer in front of an auto-scaled set of web servers, the web servers will first can the Login With Amazon service to authenticate the user then process the users vote and store the result into a multi-AZ Relational Database Service instance.
-- [ ] Use CloudFront and the static website hosting feature of 53 with the Javascript SDK to call the Login With Amazon service to authenticate the user, use lAM Roles to gain permissions to a DynamoDB table to store the users vote.
-- [ ] Use Cloud Front and an Elastic Load Balancer in front of an auto-scaled set of web servers, the web servers will first call the Login with Amazon service to authenticate the user, the web servers will process the users vote and store the result into a DynamoDB table using lAM Roles for EC2 instances to gain permissions to the DynamoDB table.
-- [x] Use Cloud Front and an Elastic Load Balancer in front of an auto-scaled set of web servers, the web servers will first call the Login. With Amazon service to authenticate the user, the web servers win process the users vote and store the result into an SQS queue using lAM Roles for EC2 Instances to gain permissions to the SQS queue. A set of application servers will then retrieve the items from the queue and store the result into a DynamoDB table.
+- [ ] Use CloudFront and the static website hosting feature of 53 with the Javascript SDK to call the Login With Amazon service to authenticate the user, use IAM Roles to gain permissions to a DynamoDB table to store the users vote.
+- [ ] Use Cloud Front and an Elastic Load Balancer in front of an auto-scaled set of web servers, the web servers will first call the Login with Amazon service to authenticate the user, the web servers will process the users vote and store the result into a DynamoDB table using IAM Roles for EC2 instances to gain permissions to the DynamoDB table.
+- [x] Use Cloud Front and an Elastic Load Balancer in front of an auto-scaled set of web servers, the web servers will first call the Login. With Amazon service to authenticate the user, the web servers win process the users vote and store the result into an SQS queue using IAM Roles for EC2 Instances to gain permissions to the SQS queue. A set of application servers will then retrieve the items from the queue and store the result into a DynamoDB table.
 
 ### What should your server-side application do when a new user registers on the photo sharing mobile application?
 
 - [ ] Create a set of long-term credentials using AWS Security Token Service with appropriate permissions Store these credentials in the mobile app and use them to access Amazon 53.
-- [x] Record the user's Information in Amazon RDS and create a role in lAM with appropriate permissions. When the user uses their mobile app create temporary credentials using the AWS Security Token Service 'Assume Role' function Store these credentials in the mobile app's memory and use them to access Amazon 53 Generate new credentials the next time the user runs the mobile app.
+- [x] Record the user's Information in Amazon RDS and create a role in IAM with appropriate permissions. When the user uses their mobile app create temporary credentials using the AWS Security Token Service 'Assume Role' function Store these credentials in the mobile app's memory and use them to access Amazon 53 Generate new credentials the next time the user runs the mobile app.
 - [ ] Record the user's Information In Amazon DynamoD
 - [ ] When the user uses their mobile app create temporary credentials using AWS Security Token Service with appropriate permissions Store these credentials in the mobile app's memory and use them to access Amazon 53 Generate new credentials the next time the user runs the mobile app.
-- [ ] Create lAM user. Assign appropriate permissions to the lAM user Generate an access key and secret key for the lAM user, store them in the mobile app and use these credentials to access Amazon 53.
-- [ ] Create an lAM user. Update the bucket policy with appropriate permissions for the lAM user Generate an access Key and secret Key for the lAM user, store them In the mobile app and use these credentials to access Amazon 53.
+- [ ] Create IAM user. Assign appropriate permissions to the IAM user Generate an access key and secret key for the IAM user, store them in the mobile app and use these credentials to access Amazon 53.
+- [ ] Create an IAM user. Update the bucket policy with appropriate permissions for the IAM user Generate an access Key and secret Key for the IAM user, store them In the mobile app and use these credentials to access Amazon 53.
 
 ### Is there a limit to how many groups a user can be in?
 
@@ -1536,7 +1537,7 @@ D. Link the accounts using Consolidated Billing. This will give lAM users in the
 ### What steps should you take to identify the source of the behavior? Choose 2 answers
 
 - [x] Verify that the private key file corresponds to the Amazon EC2 key pair assigned at launch.
-- [ ] Verify that your lAM user policy has permission to launch Amazon EC2 instances.
+- [ ] Verify that your IAM user policy has permission to launch Amazon EC2 instances.
 
 ### An Auto-Scaling group spans 3 AZs and currently has 4 running EC2 instances. When Auto Scaling needs to terminate an EC2 instance by default, AutoScaling will: Choose 2 answers
 
@@ -1638,7 +1639,7 @@ D. Link the accounts using Consolidated Billing. This will give lAM users in the
 - [ ] The placement group cannot have more than 5 instances
 - [ ] All instances must be in the same region
 
-### Amazon EC2 has no Amazon Resource Names (ARNs) because you can't specify a particular Amazon EC2 resource in an lAM policy.
+### Amazon EC2 has no Amazon Resource Names (ARNs) because you can't specify a particular Amazon EC2 resource in an IAM policy.
 
 - [x] TRUE.
 
@@ -1762,7 +1763,7 @@ D. Link the accounts using Consolidated Billing. This will give lAM users in the
 ### Which service enables AWS customers to manage users and permissions in AWS?
 
 - [ ] AWS Access Control Service (ACS)
-- [x] AWS Identity and Access Management (lAM)
+- [x] AWS Identity and Access Management (IAM)
 
 ### What is the problem and a valid solution?
 
@@ -1906,10 +1907,10 @@ What is the problem and a valid solution? Larger storage volumes support higher 
 - [ ] Attach the volume to an instance using EC2's SSL interface.
 - [ ] Write the data randomly instead of sequentially.
 - [ ] Encrypt the volume using the 53 server-side encryption service.
-- [ ] Create an lAM policy that restricts read and write access to the volume.
+- [ ] Create an IAM policy that restricts read and write access to the volume.
 - [ ] Use an encrypted file system on top of the EBS volume.
 
-### Is there a method in the lAM system to al low or deny access to a specific instance?
+### Is there a method in the IAM system to al low or deny access to a specific instance?
 
 - [ ] Only for VPC based instances
 - [ ] Yes
@@ -1922,7 +1923,7 @@ What is the problem and a valid solution? Larger storage volumes support higher 
 - [x] A scalable cluster of EC2 instances.
 - [ ] A service by this name doesn't exist.
 
-### Using Amazon lAM, can I give permission based on organizational groups?
+### Using Amazon IAM, can I give permission based on organizational groups?
 
 - [ ] Yes but only in certain cases
 - [ ] No
@@ -2066,7 +2067,7 @@ What is the problem and a valid solution? Larger storage volumes support higher 
 ### Which of the following cannot be used in Amazon EC2 to control who has access to specific Amazon EC2 instances?
 
 - [ ] Security Groups
-- [x] lAM System
+- [x] IAM System
 - [ ] SSH keys
 - [ ] Windows passwords.
 
@@ -2104,7 +2105,7 @@ What is the problem and a valid solution? Larger storage volumes support higher 
 - [x] Security Group and ACL (Access Control List) settings.
 - [ ] Decommissioning storage devices.
 - [ ] Patch management on the EC2 instance's operating system.
-- [ ] Life-cycle management of lAM credentials.
+- [ ] Life-cycle management of IAM credentials.
 - [ ] Controlling physical access to compute resources.
 - [ ] Encryption of EBS (Elastic Block Storage) volumes.
 
@@ -2186,10 +2187,10 @@ What is the problem and a valid solution? Larger storage volumes support higher 
 
 ### – launch and start production instances.
 
-- [ ] Create an lAM user, which is not allowed to terminate instances by leveraging production EC2 termination protection.
-- [x] Leverage resource based tagging along with an lAM user, which can prevent specific users from terminating production EC2 resources.
+- [ ] Create an IAM user, which is not allowed to terminate instances by leveraging production EC2 termination protection.
+- [x] Leverage resource based tagging along with an IAM user, which can prevent specific users from terminating production EC2 resources.
 - [ ] Leverage EC2 termination protection and multi-factor authentication, which together require users to authenticate before terminating EC2 instances
-- [ ] Create an lAM user and apply an lAM role which prevents users from terminating production EC2 instances.
+- [ ] Create an IAM user and apply an IAM role which prevents users from terminating production EC2 instances.
 
 ### Which statement best describes how this database will function if there is a database failure?
 
@@ -2367,7 +2368,7 @@ Which of the below mentioned options will not affect the latency of the applic
 
 - [x] security group
 - [ ] ACL
-- [ ] lAM
+- [ ] IAM
 - [ ] Private IP Addresses.
 
 ### Which of the following services would be best for providing a low-cost hub-and-spoke model for primary or backup connectivity between these remote offices?
@@ -2444,7 +2445,7 @@ Which of the below mentioned options will not affect the latency of the applic
 - [ ] Amazon RDS
 - [ ] Amazon Glacier
 - [ ] Amazon EMR
-- [x] Amazon lAM### What happens when you attach an ENI of a different subnet to this EC2 instance?
+- [x] Amazon IAM### What happens when you attach an ENI of a different subnet to this EC2 instance?
 
 - [ ] The EC2 instance follows the rules of the older subnet
 - [x] The EC2 instance follows the rules of both the subnets
@@ -2471,20 +2472,20 @@ Which of the below mentioned options will not affect the latency of the applic
 - [x] Asynchronously
 - [ ] Synchronously
 
-### What will allow the application running inside the VPC to reach back and access its internal dependencies without being reconfigured? (Choose 3 answers)
+### You are tasked with moving a legacy application from a virtual machine running Inside your datacenter to an Amazon VPC Unfortunately this app requires access to a number of on-premises services and no one who configured the app still works for your company. Even worse there's no documentation for it. What will allow the application running inside the VPC to reach back and access its internal dependencies without being reconfigured? (Choose 3 answers)
 
 - [x] An AWS Direct Connect link between the VPC and the network housing the internal services.
 - [ ] An Internet Gateway to allow a VPN connection.
 - [ ] An Elastic IP address on the VPC instance.
-- [ ] An IP address space that does not conflict with the one on-premises.
+- [x] An IP address space that does not conflict with the one on-premises.
 - [ ] Entries in Amazon Route 53 that allow the Instance to resolve its dependencies' IP addresses.
-- [ ] A VM Import of the current virtual machine.
+- [x] A VM Import of the current virtual machine.
 
 ### How should the company achievethis?
 
-- [ ] Create a new lAM role and associated policies within the new region
-- [x] Assign the existing lAM role to the Amazon EC2 instances in the new region
-- [ ] Copy the lAM role and associated policies to the new region and attach it to the instances
+- [ ] Create a new IAM role and associated policies within the new region
+- [x] Assign the existing IAM role to the Amazon EC2 instances in the new region
+- [ ] Copy the IAM role and associated policies to the new region and attach it to the instances
 - [ ] Create an Amazon Machine Image (AMI) of the instance and copy it to the desired region using the AMI Copy feature.
 
 ### If you want to launch Amazon Elastic Compute Cloud (EC2) instances and assign each instance a predetermined private IP address you should:
@@ -2618,7 +2619,7 @@ Which of the below mentioned options will not affect the latency of the applic
 ### An administrator is using Amazon CloudFormation to deploy a three tier web application that consists of a web tier and application tier that will utilize Amazon DynamoDB for storage when creating theCloudFormation template which of the following would allow the application instance access to the DynamoDB tables without exposing API credentials?
 
 - [ ] Create an Identity and Access Management Role that has the required permissions to read and write from the required DynamoDB table and associate the Role to the application instances by referencing an instance profile.
-- [ ] Use the Parameter section in the Cloud Formation template to nave the user input Access and Secret Keys from an already created lAM user that has me permissions required to read and write from the required DynamoDB table.
+- [ ] Use the Parameter section in the Cloud Formation template to nave the user input Access and Secret Keys from an already created IAM user that has me permissions required to read and write from the required DynamoDB table.
 - [x] Create an Identity and Access Management Role that has the required permissions to read and write from the required DynamoDB table and reference the Role in the instance profile property of the application instance.
 - [ ] Create an identity and Access Management user in the CloudFormation template that has permissions to read and write from the required DynamoDB table, use the GetAtt function to retrieve the Access and secret keys and pass them to the application instance through user-data.
 
@@ -2890,7 +2891,7 @@ Which of the below mentioned options will not affect the latency of the applic
 - [ ] With AWS CloudTrail you can get a history of S3 logfiles for your account.
 - [ ] With AWS CloudTrail you can get a history of CloudFormation JSON scripts used for your account.
 
-### Every user you create in the lAM system starts with ____ _
+### Every user you create in the IAM system starts with ____ _
 
 - [ ] full permissions
 - [x] no permissions
@@ -2994,7 +2995,7 @@ Which of the below mentioned options will not affect the latency of the applic
 - [x] Compute-optimized C3.
 - [ ] Storage-optimized 12.
 
-### True or False: Without lAM, you cannot control the tasks a particular user or system can do and what AWS resources they might use.
+### True or False: Without IAM, you cannot control the tasks a particular user or system can do and what AWS resources they might use.
 
 - [x] FALSE.
 
@@ -3194,7 +3195,7 @@ Which of the below mentioned options will not affect the latency of the applic
 - [ ] 50
 - [ ] 10.
 
-### True or False: When using lAM to control access to your RDS resources, the key names that can be used are case sensitive. For example, aws: CurrentTime is NOT equivalent to AWS: currenttime.
+### True or False: When using IAM to control access to your RDS resources, the key names that can be used are case sensitive. For example, aws: CurrentTime is NOT equivalent to AWS: currenttime.
 
 - [x] TRUE.
 
@@ -3219,7 +3220,7 @@ Which of the below mentioned options will not affect the latency of the applic
 - [x] A single Amazon 53 bucket
 - [ ] Multiple instance stores.
 
-### Your company has recently extended its datacenter into a VPC on AVVS to add burst computing capacity as needed Members of your Network Operations Center need to be able to go to the AWSManagement Console and administer Amazon EC2 instances as necessary You don't want to create new lAM users for each NOC member and make those users sign in again to the AWS Management Console Which option below will meet the needs for your NOC members?
+### Your company has recently extended its datacenter into a VPC on AVVS to add burst computing capacity as needed Members of your Network Operations Center need to be able to go to the AWSManagement Console and administer Amazon EC2 instances as necessary You don't want to create new IAM users for each NOC member and make those users sign in again to the AWS Management Console Which option below will meet the needs for your NOC members?
 
 - [ ] Use OAuth 2 0 to retrieve temporary AWS security credentials to enable your NOC members to sign in to the AVVS Management Console.
 - [ ] Use web Identity Federation to retrieve AWS temporary security credentials to enable your NOC members to sign in to the AWS Management Console.
@@ -3298,10 +3299,10 @@ Which of the below mentioned options will not affect the latency of the applic
 
 ### Which of these solutions would you recommend?
 
-- [x] Create a new CloudTrail trail with one new 53 bucket to store the logs and with the global services option selected Use lAM roles 53 bucket policies and Multi Factor Authentication (MFA) Delete on the 53 bucket that stores your logs.
-- [ ] Create a new CloudTrail with one new 53 bucket to store the logs Configure SNS to send log file delivery notifications to your management system Use lAM roles and 53 bucket policies on the 53bucket mat stores your logs.
+- [x] Create a new CloudTrail trail with one new 53 bucket to store the logs and with the global services option selected Use IAM roles 53 bucket policies and Multi Factor Authentication (MFA) Delete on the 53 bucket that stores your logs.
+- [ ] Create a new CloudTrail with one new 53 bucket to store the logs Configure SNS to send log file delivery notifications to your management system Use IAM roles and 53 bucket policies on the 53bucket mat stores your logs.
 - [ ] Create a new CloudTrail trail with an existing 53 bucket to store the logs and with the global services option selected Use 53 ACLs and Multi Factor Authentication (MFA) Delete on the 53 bucket that stores your logs.
-- [ ] Create three new CloudTrail trails with three new 53 buckets to store the logs one for the AWS Management console, one for AWS 5DKs and one for command line tools Use lAM roles and 53bucket policies on the 53 buckets that store your logs.
+- [ ] Create three new CloudTrail trails with three new 53 buckets to store the logs one for the AWS Management console, one for AWS 5DKs and one for command line tools Use IAM roles and 53bucket policies on the 53 buckets that store your logs.
 
 ### Does DynamoDB support in-place atomic updates?
 
@@ -3331,7 +3332,7 @@ Which of the below mentioned options will not affect the latency of the applic
 - [ ] AWS will create a new AMI and launch the instance
 - [x] AWS will throw an error saying that the AMI is deregistered.
 
-### When you use the AWS Management Console to delete an lAM user, lAM also deletes any signing certificates and any access keys belonging to the user.
+### When you use the AWS Management Console to delete an IAM user, IAM also deletes any signing certificates and any access keys belonging to the user.
 
 - [ ] FALSE
 - [ ] This is configurable
@@ -3561,7 +3562,7 @@ Which of the below mentioned options will not affect the latency of the applic
 - [x] Average queue length
 - [ ] Time it takes for the I/O operation to complete.
 
-### Within the lAM service a GROUP is regarded as a:
+### Within the IAM service a GROUP is regarded as a:
 
 - [ ] A collection of AWS accounts- [x]### Which one of the following solutions should Mike recommend to Netcrak Inc?- [x]
 
@@ -3660,12 +3661,12 @@ Which of the below mentioned options will not affect the latency of the applic
 - [x] Amazon S3 REST API
 - [ ] AWS Elastic Beanstalk.
 
-### What is the best approach for storing data to DynamoDB and 53?
+### Company B is launching a new game app for mobile devices. Users will log into the game using their existing social media account to streamline data capture. Company B would like to directly saveplayer data and scoring information from the mobile app to a DynamoDS table named Score Data. What is the best approach for storing data to DynamoDB and 53?
 
 - [ ] Use an EC2 Instance that is launched with an EC2 role providing access to the Score Data DynamoDB table and the GameState 53 bucket that communicates with the mobile app via web services.
 - [x] Use temporary security credentials that assume a role providing access to the Score Data DynamoDB table and the Game State 53 bucket using web identity federation.
 - [ ] Use Login with Amazon allowing users to sign in with an Amazon account providing the mobile app with access to the Score Data DynamoDB table and the Game State 53 bucket.
-- [ ] Use an lAM user with access credentials assigned a role providing access to the Score Data DynamoDB table and the Game State 53 bucket for distribution with the mobile app.
+- [ ] Use an IAM user with access credentials assigned a role providing access to the Score Data DynamoDB table and the Game State 53 bucket for distribution with the mobile app.
 
 ### Which of the below mentioned statements is true with respect to the placement group?
 
@@ -3681,7 +3682,7 @@ Which of the below mentioned options will not affect the latency of the applic
 - [ ] storage-exceed
 - [ ] storage-overage.
 
-### Do you need to change anything in the architecture to maintain the high availability or the application with the anticipated additional load? Why?
+### Your application is using an ELB in front of an Auto Scaling group of web/application servers deployed across two AZs and a Multi-AZ RDS Instance for data persistence. The database CPU is often above 80% usage and 90% of 1/0 operations on the database are reads. To improve performance you recently added a single-node Memcached ElastiCache Cluster to cache frequent DB query results. In the next weeks the overall workload is expected to grow by 30%.do you need to change anything in the architecture to maintain the high availability or the application with the anticipated additional load? Why? site:examtopics.com. Do you need to change anything in the architecture to maintain the high availability or the application with the anticipated additional load? Why?
 
 - [x] Yes, you should deploy two Memcached ElastiCache Clusters in different AZs because the RDS instance will not be able to handle the load if the cache node fails.
 - [ ] No, if the cache node fails you can always get the same data from the DB without having any availability impact.
@@ -3992,11 +3993,11 @@ Which of the below mentioned options will not affect the latency of the applic
 
 ### Which of the following items are required to allow an application deployed on an EC2 instance to write data to a DynamoDB table? Assume that no security keys are allowed to be stored on the EC2instance. (Choose 2 answers)
 
-- [x] Create an lAM Role that allows write access to the DynamoDB tab le.
-- [ ] Add an lAM Role to a running EC2 instance.
-- [ ] Create an lAM User that al lows write access to the Dynamo DB tab le.
-- [ ] Add an lAM User to a running EC2 instance.
-- [ ] Launch an EC2 Instance with the lAM Role included in the launch configuration.
+- [x] Create an IAM Role that allows write access to the DynamoDB tab le.
+- [ ] Add an IAM Role to a running EC2 instance.
+- [ ] Create an IAM User that al lows write access to the Dynamo DB tab le.
+- [ ] Add an IAM User to a running EC2 instance.
+- [ ] Launch an EC2 Instance with the IAM Role included in the launch configuration.
 
 ### Identify a true statement about the On-Demand instances purchasing option provided by Amazon EC2.
 
@@ -4012,7 +4013,7 @@ Which of the below mentioned options will not affect the latency of the applic
 - [ ] When it is allocated and associated with a stopped instance.
 - [x] Costs are incurred regardless of whether the ElP is associated with a running instance.
 
-### lAM provides several policy templates you can use to automatically assign permissions to the groups you create. The __ policy template gives the Admins group permission to access all accountresources, except your AWS account information
+### IAM provides several policy templates you can use to automatically assign permissions to the groups you create. The __ policy template gives the Admins group permission to access all accountresources, except your AWS account information
 
 - [ ] Read Only Access
 - [ ] Power User Access
@@ -4121,8 +4122,8 @@ Which of the below mentioned options will not affect the latency of the applic
 - [x] Setting up a federation proxy or identity provider.
 - [ ] Using AWS Security Token Service to generate temporary tokens.
 - [ ] Tagging each folder in the bucket.
-- [ ] Configuring lAM role.
-- [ ] Setting up a matching lAM user for every user in your corporate directory that needs access to a folder in the bucket.
+- [ ] Configuring IAM role.
+- [ ] Setting up a matching IAM user for every user in your corporate directory that needs access to a folder in the bucket.
 
 ### Which of these options would allow you to encrypt your data at rest? (Choose 3 answers)
 
@@ -4163,12 +4164,12 @@ Which of the below mentioned options will not affect the latency of the applic
 - [x] the checks may still be in progress on the volume
 - [ ] the check has passed
 
-### Can you create lAM security credentials for existing users?
+### Can you create IAM security credentials for existing users?
 
 - [x] Yes, existing users can have security credentials associated with their account.
-- [ ] No, lAM requires that all users who have credentials set up are not existing users
+- [ ] No, IAM requires that all users who have credentials set up are not existing users
 - [ ] No, security credentials are created within GROUPS, and then users are associated to GROUPS at a later time.
-- [ ] Yes, but only lAM credentials, not ordinary security credentials.
+- [ ] Yes, but only IAM credentials, not ordinary security credentials.
 
 ### Can I move a Reserved Instance from one Region to another?
 
@@ -4192,9 +4193,9 @@ How can the user add more zones to the existing ELB?
 - [ ] Store Web content
 - [x] Coordinate synchronous and asynchronous tasks which are distributed and fault tolerant.
 
-### Which technique can be used to integrate AWS lAM (Identity and Access Management) with an on-premise LDAP (Lightweight Directory Access Protocol) directory service?
+### Which technique can be used to integrate AWS IAM (Identity and Access Management) with an on-premise LDAP (Lightweight Directory Access Protocol) directory service?
 
-- [ ] Use an lAM policy that references the LDAP account identifiers and the AWS credentials.
+- [ ] Use an IAM policy that references the LDAP account identifiers and the AWS credentials.
 - [x]
 
 ### Which AWS product or feature satisfies this requirement?
@@ -4208,8 +4209,8 @@ How can the user add more zones to the existing ELB?
 
 - [ ] A custom bucket policy limited to the Amazon 53 API in the Amazon Glacier archive 'company backup'
 - [ ] A custom bucket policy limited to the Amazon 53 API in 'company-backup'
-- [ ] A custom lAM user policy limited to the Amazon 53 API for the Amazon Glacier archive 'company backup'.
-- [x] A custom lAM user policy limited to the Amazon 53 API in 'company-backup'.
+- [ ] A custom IAM user policy limited to the Amazon 53 API for the Amazon Glacier archive 'company backup'.
+- [x] A custom IAM user policy limited to the Amazon 53 API in 'company-backup'.
 
 ### Which of the below mentioned pricing models should the user choose in this case?
 
@@ -4225,7 +4226,15 @@ How can the user add more zones to the existing ELB?
 - [x] Billing commences when Amazon EC2 initiates the boot sequence of an AMI instance and billing ends when the instance shuts down.
 - [ ] Billing commences when Amazon EC2 initiates the boot sequence of an AMI instance and billing ends as soon as the instance starts to shutdown.
 
-"Refer to the architecture diagram above of a batch processing solution using Simple Queue Service (SQS) to set up a message queue between EC2 instances which are used as batch processors Cloud Watch monitors the number of Job requests (queued messages) and an Auto Scaling group adds or deletes batch servers automatically based on parameters set in Cloud Watch alarms. You can use this architecture to implement which of the following features in a cost effective and efficient manner?
+### Refer to the architecture diagram above (actually, below) of a batch processing solution using Simple Queue Service (SQS) to set up a message queue between EC2 instances which are used as batch processors Cloud Watch monitors the number of Job requests (queued messages) and an Auto Scaling group adds or deletes batch servers automatically based on parameters set in Cloud Watch alarms. You can use this architecture to implement which of the following features in a cost effective and efficient manner?
+
+![Question 587](images/question587.png)
+
+- [ ] Reduce the overall lime for executing jobs through parallel processing by allowing a busy EC2 instance that receives a message to pass it to the next instance in a daisy-chain setup.
+- [ ] Implement fault tolerance against EC2 instance failure since messages would remain in SQS and worn can continue with recovery of EC2 instances implement fault tolerance against SQS failure by backing up messages to 53.
+- [ ] Implement message passing between EC2 instances within a batch by exchanging messages through SQ.
+- [x] Coordinate number of EC2 instances with number of job requests automatically thus Improving cost effectiveness.
+- [ ] Handle high priority jobs before lower priority jobs by assigning a priority metadata fie ld to SQS messages.
 
 ### Where will the data be imported once it arrives at Amazon?
 
@@ -4291,7 +4300,7 @@ How can the user add more zones to the existing ELB?
 - [x] Apply Immediately.
 
 ### Which AWS services should the user configure in this case?
-### What backup solution would be most appropriate for this use case?
+### You’re running an application on-premises due to its dependency on non-x86 hardware and want to use AWS for data backup. Your backup application is only able to write to POSIX-compatible block based storage. You have 140TB of data and would like to mount it as a single folder on your file server Users must be able to access portions of this data while the backups are taking place. What backup solution would be most appropriate for this use case?
 
 - [x] Use Storage Gateway and configure it to use Gateway Cached volumes.
 - [ ] Configure your backup software to use 53 as the target for your data backups.
@@ -4356,7 +4365,7 @@ How can the user add more zones to the existing ELB?
 
 ### What AWS architecture would you recommend?
 
-- [x] ASK their customers to use an 53 client instead of an FTP client. Create a single 53 bucket Create an lAM user for each customer Put the lAM Users in a Group that has an lAM policy that permits access to sub-directories within the bucket via use of the 'username' Policy variable.
+- [x] ASK their customers to use an 53 client instead of an FTP client. Create a single 53 bucket Create an IAM user for each customer Put the IAM Users in a Group that has an IAM policy that permits access to sub-directories within the bucket via use of the 'username' Policy variable.
 - [ ] Create a single 53 bucket with Reduced Redundancy Storage turned on and ask their customers to use an 53 client instead of an FTP client Create a bucket for each customer with a Bucket Policy that permits access only to that one customer.
 - [ ] Create an auto-scaling group of FTP servers with a scaling policy to automatically scale-in when minimum network traffic on the auto-scaling group is below a given threshold. Load a central list of ftpusers from 53 as part of the user Data startup script on each Instance.
 - [ ] Create a single 53 bucket with Requester Pays turned on and ask their customers to use an 53 client instead of an FTP client Create a bucket tor each customer with a Bucket Policy that permits access only to that one customer.
@@ -4491,9 +4500,9 @@ How can the user add more zones to the existing ELB?
 ### How should the application use AWS credentials to access the 53 bucket securely?
 
 - [ ] Use the AWS account access Keys the application retrieves the credentials from the source code of the application.
-- [ ] Create an lAM user for the application with permissions that allow list access to the 53 bucket launch the instance as the lAM user and retrieve the lAM user's credentials from the EC2 instance user data.
-- [x] Create an lAM role for EC2 that allows list access to objects in the 53 bucket. Launch the instance with the role, and retrieve the role's credentials from the EC2 Instance metadata
-- [ ] Create an lAM user for the application with permissions that allow list access to the 53 bucket. The application retrieves the lAM user credentials from a temporary directory with permissions that allow read access only to the application user.
+- [ ] Create an IAM user for the application with permissions that allow list access to the 53 bucket launch the instance as the IAM user and retrieve the IAM user's credentials from the EC2 instance user data.
+- [x] Create an IAM role for EC2 that allows list access to objects in the 53 bucket. Launch the instance with the role, and retrieve the role's credentials from the EC2 Instance metadata
+- [ ] Create an IAM user for the application with permissions that allow list access to the 53 bucket. The application retrieves the IAM user credentials from a temporary directory with permissions that allow read access only to the application user.
 
 ### Which following requirement must be met for this subnet to be considered a public subnet?
 
@@ -4573,11 +4582,11 @@ How can the user add more zones to the existing ELB?
 - [ ] Create 15 Security Group rules to block the attacking IP addresses over port 80
 - [x] Create an inbound NACL (Network Access control list) associated with the web tier subnet with deny rules to block the attacking IP addresses.
 
-### Which action must you take in order to have a running Amazon EC2 instance with an lAM role assigned to it?
+### Which action must you take in order to have a running Amazon EC2 instance with an IAM role assigned to it?
 
-- [ ] Create an image of the instance, and register the image with an lAM role assigned and an Amazon EBS volume mapping.
-- [ ] Create a new lAM role with the same permissions as an existing lAM role, and assign it to the running instance.
-- [ ] Create an image of the instance, add a new lAM role with the same permissions as the desired lAM role, and deregister the image with the new role assigned.
+- [ ] Create an image of the instance, and register the image with an IAM role assigned and an Amazon EBS volume mapping.
+- [ ] Create a new IAM role with the same permissions as an existing IAM role, and assign it to the running instance.
+- [ ] Create an image of the instance, add a new IAM role with the same permissions as the desired IAM role, and deregister the image with the new role assigned.
 - [x] Create an image of the instance, and use this image to launch a new instance with the desired Lam role assigned.
 
 ### Does AWS Direct Connect allow you access to all Availabilities Zones within a Region?
@@ -4634,7 +4643,7 @@ How can the user add more zones to the existing ELB?
 - [ ] Amazon SimpleDB
 - [ ] Amazon ElastiCache.
 
-### Every user you create in the lAM system starts with ___ _
+### Every user you create in the IAM system starts with ___ _
 
 - [ ] Partial permissions
 - [ ] Full permissions
