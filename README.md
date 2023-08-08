@@ -351,19 +351,19 @@
 - [x] Use reduced redundancy storage (RRS) for PDF and .csv data in Amazon S3. Add Spot Instances to Amazon EMR jobs. Use Reserved Instances for Amazon Redshift.
 - [ ] Use reduced redundancy storage (RRS) for all data in Amazon S3. Add Spot Instances to Amazon EMR jobs. Use Reserved Instances for Amazon Redshift.
 
-### Because of the extensibility limitations of striped storage attached to Windows Server, Amazon RDS does not currently support increasing storage on a [...] DB Instance,
+### Because of the extensibility limitations of striped storage attached to Windows Server, Amazon RDS does not currently support increasing storage on a [...] DB Instance.
 
 - [x] SQL Server.
 - [ ] MySQL.
 - [ ] Oracle.
 
-### in regards to IAM you can edit user properties later, but you cannot use the console to change the [...].
+### In regards to IAM you can edit user properties later, but you cannot use the console to change the [...].
 
 - [x] user name.
 - [ ] password.
 - [ ] default group.
 
-### in Amazon EC2 Container Service, are other container types supported?
+### In Amazon EC2 Container Service, are other container types supported?
 
 - [ ] Yes, EC2 Container Service supports any container service you need.
 - [ ] Yes, EC2 Container Service also supports Microsoft container service.
@@ -432,7 +432,7 @@
 - [x] By using the service specific console or APICLI commands.
 - [ ] None of these.
 - [ ] Using Amazon EC2 API/CLI.
-- [ ] using all these methods.
+- [ ] Using all these methods.
 
 ### You have created a Route 53 latency record set from your domain to a machine in Northern Virginia and a similar record to a machine in Sydney. When a user located in US visits your domain he will be routed to
 
@@ -441,7 +441,7 @@
 - [ ] Both, Northern Virginia and Sydney.
 - [ ] Depends on the Weighted Resource Record Sets.
 
-### in the context of MySQL, version numbers are organized as MySQL version = X.Y.Z. What does X denote here?
+### In the context of MySQL, version numbers are organized as MySQL version = X.Y.Z. What does X denote here?
 
 - [ ] Release level.
 - [ ] Minor version.
@@ -476,7 +476,7 @@
 - [ ] Only for Oracle RDS instances.
 - [x] No.
 
-### in the Launch Db Instance Wizard, where can I select the backup and maintenance options?
+### In the Launch Db Instance Wizard, where can I select the backup and maintenance options?
 
 - [ ] Under DB INSTANCE DETAILS.
 - [ ] Under REVI EW.
@@ -490,7 +490,7 @@
 - [ ] Very High but variable.
 - [ ] 5 Gigabit.
 
-### in Amazon EC2, if your EBS volume stays in the detaching state, you can force the detachment by clicking [...].
+### In Amazon EC2, if your EBS volume stays in the detaching state, you can force the detachment by clicking [...].
 
 - [x] Force Detach.
 - [ ] Detach Instance.
@@ -695,7 +695,7 @@
 - [x] Oracle Data Pump.
 - [ ] DBMS_FILE_TRANSFER.
 
-### in the context of AWS support, why must an EC2 instance be unreachable for 20 minutes rather than allowing customers to open tickets immediately?
+### In the context of AWS support, why must an EC2 instance be unreachable for 20 minutes rather than allowing customers to open tickets immediately?
 
 - [x] Because most reachability issues are resolved by automated processes in less than 20 minutes.
 - [ ] Because all EC2 instances are unreachable for 20 minutes every day when AWS does routine maintenance.
@@ -866,7 +866,7 @@
 - [ ] Setup an RDS MySQL instance with multiple read replicas in 2 availability zones to store the user preference data. The mobile application will query the user preferences from the read replicas. Leverage the MySQL user management and access privilege system to manage security and access credentials.
 - [ ] Store the user preference data in 53 Setup a DynamoDB table with an item for each user and an item attribute pointing to the user' 53 object. The mobile application will retrieve the 53 URL from DynamoDB and then access the 53 object directly utilize STS, Web identity Federation, and 53 ACLs to authenticate and authorize access.
 
-### in the Amazon RDS which uses the SQL Server engine, what is the maximum size for a Microsoft SQL Server DB Instance with SQL Server Express edition?
+### In the Amazon RDS which uses the SQL Server engine, what is the maximum size for a Microsoft SQL Server DB Instance with SQL Server Express edition?
 
 - [x] 10GB per DB.
 - [ ] 100GB per DB.
@@ -929,7 +929,7 @@
 - [x] Snapshots are automatically encrypted.
 - [ ] Available to all instance types.
 - [ ] Existing volumes can be encrypted.
-- [ ] shared volumes can be encrypted.
+- [ ] Shared volumes can be encrypted.
 
 ### Is Federated Storage Engine currently supported by Amazon RDS for MySQL?
 
@@ -961,15 +961,10 @@
 
 ### If I want my instance to run on a single-tenant hardware, which value do I have to set the instance's tenancy attribute to?
 
-- [x] dedicated.
-- [ ] isolated.
-- [ ] one.
-- [ ] reserved.
-
-### Amazon RDS automated backups and DB Snapshots are currently supported for only the [...] storage engine.
-
-- [ ] MyISAM.
-- [x] lnnoDB.
+- [x] Dedicated.
+- [ ] Isolated.
+- [ ] One.
+- [ ] Reserved.
 
 ### Can the string value of 'Key' be prefixed with :aws:'?
 
@@ -1027,7 +1022,7 @@
 - [ ] EC2 security groups only.
 - [ ] VPC security groups, and EC2 security groups.
 
-### in the 'Detailed' monitoring data available for your Amazon EBS volumes, Provisioned IOPS volumes automatically send [...] minute metrics to Amazon CloudWatch.
+### In the 'Detailed' monitoring data available for your Amazon EBS volumes, Provisioned IOPS volumes automatically send [...] minute metrics to Amazon CloudWatch.
 
 - [ ] 3.
 - [x] 1.
@@ -1205,7 +1200,7 @@
 - [ ] Hibernate.
 - [ ] Pause.
 
-### in EC2, what happens to the data in an instance store if an instance reboots (either intentionally or unintentionally)?
+### In EC2, what happens to the data in an instance store if an instance reboots (either intentionally or unintentionally)?
 
 - [ ] Data is deleted from the instance store for security reasons.
 - [x] Data persists in the instance store.
@@ -1221,7 +1216,7 @@
 - [x] Add alert Amazon CloudWatch to look for high Network in and CPU utilization.
 - [ ] Create processes and capabilities to quickly add and remove rules to the instance OS firewall.
 
-### in Amazon CloudFront, if you use Amazon EC2 instances and other custom origins with CloudFront, it is recommended to [...].
+### In Amazon CloudFront, if you use Amazon EC2 instances and other custom origins with CloudFront, it is recommended to [...].
 
 - [ ] not use Elastic Load Balancing.
 - [ ] restrict Internet communication to private instances while allowing outgoing traffic.
@@ -1319,7 +1314,7 @@
 - [ ] Encrypt the data on the client-side before ingesting to Amazon S3 using their own master key.
 - [ ] Use SSL to encrypt the data while in transit to Amazon S3.
 
-### in Amazon EC2, you are billed instance-hours when [...].
+### In Amazon EC2, you are billed instance-hours when [...].
 
 - [x] your EC2 instance is in a running state.
 - [ ] the instance exits from Amazon S3 console.
@@ -1333,7 +1328,7 @@
 - [ ] Since the application is hosted on EC2, it does not need credentials to access S3.
 - [ ] Use the 509 certificates instead of the access and the secret access keys.
 
-### in Amazon EC2 Container Service components, what is the name of a logical grouping of container instances on which you can place tasks?
+### In Amazon EC2 Container Service components, what is the name of a logical grouping of container instances on which you can place tasks?
 
 - [x] A cluster.
 - [ ] A container instance.
@@ -1349,10 +1344,10 @@
 
 ### What will be the status of the snapshot until the snapshot is complete?
 
-- [ ] running.
-- [ ] working.
-- [ ] progressing.
-- [x] pending.
+- [ ] Running.
+- [ ] Working.
+- [ ] Progressing.
+- [x] Pending.
 
 ### A customer is running a multi-tier web application farm in a virtual private cloud (VPC) that is not connected to their corporate network. They are connecting to the VPC over the Internet to manage all of their Amazon EC2 instances running in both the public and private subnets. They have only authorized the bastion-security-group with Microsoft Remote Desktop Protocol (RDP) access to the application instance security groups, but the company wants to further limit administrative access to all of the instances in the VPC. Which of the following Bastion deployment scenarios will meet this requirement?
 
@@ -1407,7 +1402,7 @@
 
 - [x] policy.
 - [ ] permission.
-- [ ] Role.
+- [ ] role.
 - [ ] resource.
 
 ### A company wants to implement their website in a virtual private cloud (VPC). The web tier will use an Auto Scaling group across multiple Availability Zones (AZs). The database will use Multi-AZ RDSMySQL and should not be publicly accessible. What is the minimum number of subnets that need to be configured in the VPC?
@@ -1600,7 +1595,7 @@
 ### Amazon RDS provides high availability and failover support for DB instances using [...].
 
 - [ ] customized deployments.
-- [ ] Appstream customizations.
+- [ ] AppStream customizations.
 - [ ] log events.
 - [x] Multi-AZ deployments.
 
@@ -1644,7 +1639,7 @@
 - [x] 2.
 - [ ] 20.
 
-### in the most recent company meeting, your CEO focused on the fact that everyone in the organization needs to make sure that all of the infrastructure that is built is truly scalable. Which of the following statements is incorrect in reference to scalable architecture?
+### In the most recent company meeting, your CEO focused on the fact that everyone in the organization needs to make sure that all of the infrastructure that is built is truly scalable. Which of the following statements is incorrect in reference to scalable architecture?
 
 - [ ] A scalable service is capable of handling heterogeneity.
 - [ ] A scalable service is resilient.
@@ -1680,7 +1675,7 @@
 - [ ] It is a variant of the SQL Server Management Studio designed by Microsoft to support Oracle DBMS functionalities.
 - [ ] A different DBMS released by Microsoft free of cost.
 
-### You can use [...] and [...] to help secure the instances in your VPC.
+### You can use [...] to help secure the instances in your VPC.
 
 - [ ] security groups and multi-factor authentication.
 - [ ] security groups and 2-Factor authentication.
@@ -1776,9 +1771,9 @@
 
 ### Location of Instances are [...].
 
-- [ ] Regional.
+- [ ] regional.
 - [x] based on Availability Zone.
-- [ ] Global.
+- [ ] global.
 
 ### You log in to IAM on your AWS console and notice the following message. 'Delete your root access keys.' Why do you think IAM is requesting this?
 
@@ -1794,9 +1789,9 @@
 - [ ] USD 0.02 per GB
 - [ ] USD 0.01 per GB.
 
-### in DynamoDB, could you use IAM to grant access to Amazon DynamoDB resources and API actions?
+### In DynamoDB, could you use IAM to grant access to Amazon DynamoDB resources and API actions?
 
-- [ ] in DynamoDB there is no need to grant access.
+- [ ] In DynamoDB there is no need to grant access.
 - [ ] Depended to the type of access.
 - [x] Yes.
 - [ ] No.
@@ -1826,7 +1821,7 @@
 
 - [ ] wildcards.
 - [ ] pointers.
-- [x] Tags.
+- [x] tags.
 - [ ] special filters.
 
 ### Which of the below mentioned options is not available when an instance is launched by Auto Scaling with EC2 Classic?
@@ -2055,7 +2050,7 @@
 - [ ] Enterprise License and License Included.
 - [ ] Role based License and License Included.
 
-### in AWS, which security aspects are the customer's responsibility? Choose 4 answers
+### In AWS, which security aspects are the customer's responsibility? Choose 4 answers
 
 - [x] Security Group and ACL (Access Control List) settings.
 - [ ] Decommissioning storage devices.
@@ -2245,8 +2240,8 @@
 
 - [x] user.
 - [ ] AWS Account.
-- [ ] Group.
-- [ ] Role.
+- [ ] group.
+- [ ] role.
 
 ### A user is accessing an EC2 instance on the SSH port for IP 10.20.30.40. Which one is a secure way to configure that the instance can be accessed only from this IP?
 
@@ -2259,7 +2254,7 @@
 
 - [ ] OracleISAM.
 - [ ] MSSQLDB.
-- [x] lnnoDB.
+- [x] InnoDB.
 - [ ] MyISAM
 
 ### What is Amazon Glacier?
@@ -2283,7 +2278,7 @@
 - [ ] Yes.
 - [ ] No.
 
-### When controlling access to Amazon EC2 resources, each Amazon EBS Snapshot has a [...] attribute that controls which AWS accounts can use the snapshot
+### When controlling access to Amazon EC2 resources, each Amazon EBS Snapshot has a [...] attribute that controls which AWS accounts can use the snapshot.
 
 - [x] createVolumePermission.
 - [ ] LaunchPermission.
@@ -2318,12 +2313,12 @@
 - [ ] Any non-relational database.
 - [ ] Amazon SimpleDB.
 
-### A/An [...] acts as a firewall that controls the traffic allowed to reach one or more instances
+### A/An [...] acts as a firewall that controls the traffic allowed to reach one or more instances.
 
 - [x] security group.
 - [ ] ACL.
 - [ ] IAM.
-- [ ] Private IP Addresses.
+- [ ] private IP Addresses.
 
 ### Your manager has just given you access to multiple VPN connections that someone else has recently set up between all your company's offices. She needs you to make sure that the communication between the VPNs is secure. Which of the following services would be best for providing a low-cost hub-and-spoke model for primary or backup connectivity between these remote offices?
 
@@ -2346,7 +2341,7 @@
 - [ ] Assign static private IP addresses to your instances that persist across starts and stops.
 - [ ] Define network interfaces, and attach one or more network interfaces to your instances.
 
-### in the HQ region you run an hourly batch process reading data from every region to compute cross regional reports that are sent by email to all offices this batch process must be completed as fast as possible to quickly optimize logistics how do you build the database architecture in order to meet the requirements'?
+### In the HQ region you run an hourly batch process reading data from every region to compute cross regional reports that are sent by email to all offices this batch process must be completed as fast as possible to quickly optimize logistics how do you build the database architecture in order to meet the requirements'?
 
 - [x] For each regional deployment, use RDS MySQL with a master in the region and a read replica in the HQ region.
 - [ ] For each regional deployment, use MySQL on EC2 with a master in the region and send hourly EBS snapshots to the HQ region.
@@ -2382,9 +2377,9 @@
 
 ### Please select the Amazon EC2 resource which can be tagged.
 
-- [ ] key pairs.
+- [ ] Key pairs.
 - [ ] Elastic IP addresses.
-- [x] placement groups.
+- [x] Placement groups.
 - [ ] Amazon EBS snapshots.
 
 ### Without [...] you must either create multiple AWS accounts-each with its own billing and subscriptions to AWS products-or your employees must share the security credentials of a single AWS account.
@@ -2392,7 +2387,7 @@
 - [ ] Amazon RDS.
 - [ ] Amazon Glacier.
 - [ ] Amazon EMR.
-- [x] Amazon IAM
+- [x] Amazon IAM.
 
 ### An EC2 instance is connected to an ENI (Elastic Network Interface) in one subnet. What happens when you attach an ENI of a different subnet to this EC2 instance?
 
@@ -2474,7 +2469,7 @@
 - [ ] 20.
 - [x] 10.
 
-### in Amazon EC2, while sharing an Amazon EBS snapshot, can the snapshots with AWS Marketplace product codes be public?
+### In Amazon EC2, while sharing an Amazon EBS snapshot, can the snapshots with AWS Marketplace product codes be public?
 
 - [ ] Yes, but only for US-based providers.
 - [ ] Yes, they can be public.
@@ -2551,7 +2546,7 @@
 - [ ] Any of these.
 - [x] Amazon EBS.
 
-### in the Amazon RDS Oracle DB engine, the Database Diagnostic Pack and the Database Tuning Pack are only available with [...].
+### In the Amazon RDS Oracle DB engine, the Database Diagnostic Pack and the Database Tuning Pack are only available with [...].
 
 - [ ] Oracle Standard Edition.
 - [ ] Oracle Express Edition.
@@ -2572,7 +2567,7 @@
 - [x] Create an Identity and Access Management Role that has the required permissions to read and write from the required DynamoDB table and reference the Role in the instance profile property of the application instance.
 - [ ] Create an identity and Access Management user in the CloudFormation template that has permissions to read and write from the required DynamoDB table, use the GetAtt function to retrieve the Access and secret keys and pass them to the application instance through user-data.
 
-### in an experiment, if the minimum size for an Auto Scaling group is 1 instance, which of the following statements holds true when you terminate the running instance?
+### In an experiment, if the minimum size for an Auto Scaling group is 1 instance, which of the following statements holds true when you terminate the running instance?
 
 - [x] Auto Scaling must launch a new instance to replace it.
 - [ ] Auto Scaling will raise an alarm and send a notification to the user for action.
@@ -2644,8 +2639,8 @@
 
 ### Typically, you want your application to check whether a request generated an error before you spend any time processing results. The easiest way to find out if an error occurred is to look for an [...] node in the response from the Amazon RDS API.
 
-- [ ] Incorrect.
-- [x] Error.
+- [ ] incorrect.
+- [x] error.
 
 ### Through which of the following interfaces is AWS Identity and Access Management available? A. AWS Management Console. B. Command line interface (CLI). C. IAM Query API. D. Existing libraries.
 
@@ -3096,7 +3091,7 @@
 - [ ] CloudWatch Metrics.
 - [ ] Hadoop Web Interfaces.
 
-### A [...] is the concept of allowing (or disallowing) an entity such as a user, group, or role some type of access to one or more resources.
+### A/An [...] is the concept of allowing (or disallowing) an entity such as a user, group, or role some type of access to one or more resources.
 
 - [ ] user.
 - [x] AWS Account.
@@ -3159,7 +3154,7 @@
 - [ ] by combining partial segments into full hours.
 - [x] as full hours.
 
-### in Amazon EC2, what is the limit of Reserved Instances per Availability Zone each month?
+### In Amazon EC2, what is the limit of Reserved Instances per Availability Zone each month?
 
 - [ ] 5.
 - [x] 20.
@@ -3477,10 +3472,10 @@
 
 ### Which of the following statements is NOT true about using Elastic IP Address (EIP) in EC2-Classic and EC2-VPC platforms?
 
-- [x] in the EC2-VPC platform, the Elastic IP Address (EIP) does not remain associated with the instance when you stop it.
-- [ ] in the EC2-Classic platform, stopping the instance disassociates the Elastic IP Address (EIP) from it.
-- [ ] in the EC2-VPC platform, if you have attached a second network interface to an instance, when you disassociate the Elastic IP Address (EIP) from that instance, a new public IP address is not assigned to the instance automatically; you'll have to associate an EIP with it manually.
-- [ ] in the EC2-Classic platform, if you disassociate an Elastic IP Address (EIP) from the instance, the instance is automatically assigned a new public IP address within a few minutes.
+- [x] In the EC2-VPC platform, the Elastic IP Address (EIP) does not remain associated with the instance when you stop it.
+- [ ] In the EC2-Classic platform, stopping the instance disassociates the Elastic IP Address (EIP) from it.
+- [ ] In the EC2-VPC platform, if you have attached a second network interface to an instance, when you disassociate the Elastic IP Address (EIP) from that instance, a new public IP address is not assigned to the instance automatically; you'll have to associate an EIP with it manually.
+- [ ] In the EC2-Classic platform, if you disassociate an Elastic IP Address (EIP) from the instance, the instance is automatically assigned a new public IP address within a few minutes.
 
 ### A user has hosted an application on EC2 instances. The EC2 instances are configured with ELB and Auto Scaling. The application server session time out is 2 hours. The user wants to configure connection draining to ensure that all in-flight requests are supported by ELB even though the instance is being deregistered. What time out period should the user specify for connection draining?
 
@@ -3541,10 +3536,10 @@
 
 ### You are checking the workload on some of your General Purpose (SSD) and Provisioned IOPS (SSD) volumes and it seems that the I/O latency is higher than you require. You should probably check the [...] to make sure that your application is not trying to drive more IOPS than you have provisioned.
 
-- [ ] Amount of IOPS that are available.
-- [ ] Acknowledgement from the storage subsystem.
-- [x] Average queue length.
-- [ ] Time it takes for the I/O operation to complete.
+- [ ] amount of IOPS that are available.
+- [ ] acknowledgement from the storage subsystem.
+- [x] average queue length.
+- [ ] time it takes for the I/O operation to complete.
 
 ### Within the IAM service a GROUP is regarded as a:
 
@@ -4035,7 +4030,7 @@
 
 ### Please select the Amazon EC2 resource which cannot be tagged.
 
-- [ ] images (AMIs, kernels, RAM disks).
+- [ ] Images (AMIs, kernels, RAM disks).
 - [ ] Amazon EBS volumes.
 - [x] Elastic IP addresses.
 - [ ] VPCs.
@@ -4264,7 +4259,7 @@
 
 - [ ] Amazon S3 server-side encryption employs strong multi-factor encryption.
 - [ ] Amazon S3 server-side encryption uses one of the strongest block ciphers available, 256-bit Advanced Encryption Standard (AES-256), to encrypt your data.
-- [x] in server-side encryption, you manage encryption/decryption of your data, the encryption keys, and related tools.
+- [x] In server-side encryption, you manage encryption/decryption of your data, the encryption keys, and related tools.
 - [ ] Server-side encryption is about data encryption at rest―that is, Amazon S3 encrypts your data as it writes it to disks.
 
 ### When you run a DB Instance as a Multi-AZ deployment, the [...] serves database writes and reads
@@ -4274,7 +4269,7 @@
 - [ ] stand by.
 - [x] primary.
 
-### in Amazon EC2, how many Elastic IP addresses can you have by default?
+### In Amazon EC2, how many Elastic IP addresses can you have by default?
 
 - [ ] 10.
 - [ ] 2.
@@ -4295,7 +4290,7 @@
 - [ ] 30 seconds
 - [ ] 1 minute.
 
-### When you resize the Amazon RDS DB instance, Amazon RDS will perform the upgrade during the next maintenance window. If you want the upgrade to be performed now, rather than waiting for the maintenance window, specify the [...] option
+### When you resize the Amazon RDS DB instance, Amazon RDS will perform the upgrade during the next maintenance window. If you want the upgrade to be performed now, rather than waiting for the maintenance window, specify the [...] option.
 
 - [ ] Apply Now.
 - [ ] Apply Soon.
@@ -4360,10 +4355,10 @@
 
 ### Select the incorrect statement.
 
-- [ ] in Amazon EC2, the private IP addresses only returned to Amazon EC2 when the instance is stopped or terminated.
-- [ ] in Amazon VPC, an instance retains its private IP addresses when the instance is stopped.
-- [x] in Amazon VPC, an instance does NOT retain its private IP addresses when the instance is stopped.
-- [ ] in Amazon EC2, the private IP address is associated exclusive ly with the instance for its lifetime.
+- [ ] In Amazon EC2, the private IP addresses only returned to Amazon EC2 when the instance is stopped or terminated.
+- [ ] In Amazon VPC, an instance retains its private IP addresses when the instance is stopped.
+- [x] In Amazon VPC, an instance does NOT retain its private IP addresses when the instance is stopped.
+- [ ] In Amazon EC2, the private IP address is associated exclusive ly with the instance for its lifetime.
 
 ### An organization has a statutory requirement to protect the data at rest for data stored in EBS volumes. Which of the below mentioned options can the organization use to achieve data protection?
 
@@ -4727,7 +4722,7 @@
 - [ ] Only for Oracle RDS types.
 - [x] No.
 
-### in order to optimize performance for a compute cluster that requires low inter-node latency, which of the following feature should you use?
+### In order to optimize performance for a compute cluster that requires low inter-node latency, which of the following feature should you use?
 
 - [ ] Multiple Availability Zones.
 - [ ] AWS Direct Connect.
