@@ -1159,7 +1159,7 @@
 - [x] Use two SQS queues, one for high priority messages, the other for default priority. Transformation instances first poll the high priority queue; if there is no message, they poll the default priority queue.
 - [ ] Use a single SQS queue. Each message contains the priority level. Transformation instances poll high-priority messages first.
 
-### When you view the block device mapping for your instance, you can see only the EBS volumes, not the instance store volumes.
+### True or False: When you view the block device mapping for your instance, you can see only the EBS volumes, not the instance store volumes.
 
 - [ ] Depends on the instance type.
 - [ ] False.
@@ -1457,7 +1457,7 @@
 - [ ] Details.
 - [x] Volumes.
 
-### Provisioned IOPS Costs: you are charged for the IOPS and storage whether or not you use them in a given month.
+### True or False: Provisioned IOPS Costs - you are charged for the IOPS and storage whether or not you use them in a given month.
 
 - [x] True.
 - [ ] False.
@@ -1604,9 +1604,9 @@
 - [ ] log events.
 - [x] Multi-AZ deployments.
 
-### Amazon EC2 has no Amazon Resource Names (ARNs) because you can't specify a particular Amazon EC2 resource in an IAM policy.
+### True or False: Amazon EC2 has no Amazon Resource Names (ARNs) because you can't specify a particular Amazon EC2 resource in an IAM policy.
 
-- [x] True. [???]
+- [x] True.
 - [ ] False.
 
 ### A major client who has been spending a lot of money on his internet service provider asks you to set up an AWS Direct Connection to try and save him some money. You know he needs high-speed connectivity. Which connection port speeds are available on AWS Direct Connect?
@@ -1843,7 +1843,7 @@
 - [ ] You are billed for the virtual tape data you store in Amazon S3 and billed for the portion of virtual tape capacity that you use, not for the size of the virtual tape.
 - [ ] You are billed for the virtual tape data you store in Amazon S3 and are billed for the size of the virtual tape.
 
-### The new DB Instance that is created when you promote a Read Replica retains the backup window period
+### True or False: The new DB Instance that is created when you promote a Read Replica retains the backup window period.
 
 - [x] True.
 - [ ] False.
@@ -2579,12 +2579,12 @@
 - [ ] Auto Scaling must configure the schedule activity that terminates the instance after 5 days.
 - [ ] Auto Scaling will terminate the experiment.
 
-### True or False: Manually created DB Snapshots are deleted after the DB Instance is deleted
+### True or False: Manually created DB Snapshots are deleted after the DB Instance is deleted.
 
 - [x] True.
 - [ ] False.
 
-### Amazon S3 doesn't automatically give a user who creates [...] permission to perform other actions on that bucket or object
+### Amazon S3 doesn't automatically give a user who creates [...] permission to perform other actions on that bucket or object.
 
 - [ ] a file.
 - [x] a bucket or object.
@@ -3304,7 +3304,7 @@
 - [ ] AWS will create a new AMI and launch the instance.
 - [x] AWS will throw an error saying that the AMI is deregistered.
 
-### When you use the AWS Management Console to delete an IAM user, IAM also deletes any signing certificates and any access keys belonging to the user
+### True or False: When you use the AWS Management Console to delete an IAM user, IAM also deletes any signing certificates and any access keys belonging to the user.
 
 - [ ] False.
 - [ ] This is configurable.
@@ -3404,7 +3404,7 @@
 - [x] Create a CNAME record aliased to the load balancer DNS name.
 - [ ] Create an A record aliased to the load balancer DNS name.
 
-### REST or Query requests are HTTP or HTTPS requests that use an HTTP verb (such as GET or POST) and a parameter named Action or Operation that specifies the API you are calling
+### True or False: REST or Query requests are HTTP or HTTPS requests that use an HTTP verb (such as GET or POST) and a parameter named Action or Operation that specifies the API you are calling.
 
 - [ ] True.
 - [x] False.
