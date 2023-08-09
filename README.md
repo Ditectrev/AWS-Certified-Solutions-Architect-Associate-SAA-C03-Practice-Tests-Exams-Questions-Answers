@@ -56,7 +56,7 @@
 | 48  | [A [...] for a VPC is a collection of subnets (typically private) that you may want to designate for your backend RDS DB Instances.](#question48)   |
 | 49  | [An instance is launched into a VPC subnet with the network ACL configured to al low all inbound traffic and deny all outbound traffic. The instance's security group is configured to allow SSH from any IPaddress and deny all outbound traffic. What changes need to be made to allow SSH access to the instance?](#question49)   |
 | 50  | [You can modify the backup retention period; valid values are 0 (for no backup retention) to a maximum of days.](#question50)   |
-| 51  | [To serve Web traffic for a popular product your chief financial officer and IT director have purchased 10 ml large heavy utilization Reserved Instances (RIs) evenly spread across two availability zones: Route 53 is used to deliver the traffic to an Elastic Load Balancer (ELB). After several months, the product grows even more popular and you need additional capacity As a result, your company purchases two C3.2xlarge medium utilization RIs You register the two c3 2xlarge instances with your ELB and quickly find that the ml large instances are at 100% of capacity and the c3 2xlarge instances have significant capacity that's unused Which option is the most cost effective and uses EC2 capacity most effectively?](#question51)   |
+| 51  | [To serve Web traffic for a popular product your chief financial officer and IT director have purchased 10 ml large heavy utilization Reserved Instances (RIs) evenly spread across two Availability Zones: Route 53 is used to deliver the traffic to an Elastic Load Balancer (ELB). After several months, the product grows even more popular and you need additional capacity As a result, your company purchases two C3.2xlarge medium utilization RIs You register the two c3 2xlarge instances with your ELB and quickly find that the ml large instances are at 100% of capacity and the c3 2xlarge instances have significant capacity that's unused Which option is the most cost effective and uses EC2 capacity most effectively?](#question51)   |
 | 52  | [An existing application stores sensitive information on a non-boot Amazon EBS data volume attached to an Amazon Elastic Compute Cloud instance. Which of the following approaches would protect the sensitive data on an Amazon EBS volume?](#question52)   |
 | 53  | [A user has launched one EC2 instance in the US West region. The user wants to access the RDS instance launched in the US East region from that EC2 instance. How can the user configure the access for that EC2 instance?](#question53)   |
 | 54  | [You have been asked to build AWS infrastructure for disaster recovery for your local applications and within that you should use an AWS Storage Gateway as part of the solution. Which of the following best describes the function of an AWS Storage Gateway?](#question54)   |
@@ -69,7 +69,7 @@
 | 61  | [All Amazon EC2 instances are assigned two IP addresses at launch, out of which one can only be reached from within the Amazon EC2 network?](#question61)   |
 | 62  | [When an EC2 instance that is backed by an 53-based AMI is terminated, what happens to the data on the root volume?](#question62)   |
 | 63  | [You've created your first load balancer and have registered your EC2 instances with the load balancer. Elastic Load Balancing routinely performs health checks on all the registered EC2 instances and automatically distributes all incoming requests to the DNS name of your load balancer across your registered, healthy EC2 instances. By default, the load balancer uses the [...] protocol for checking the health of your instances.](#question63)   |
-| 64  | [Amazon Elastic Load Balancing is used to manage traffic on a fleet of Amazon EC2 instances, distributing traffic to instances across all availability zones within a region. Elastic Load Balancing has all the advantages of an on-premises load balancer, plus several security benefits. Which of the following is not an advantage of ELB over an on-premise load balancer?](#question64)   |
+| 64  | [Amazon Elastic Load Balancing is used to manage traffic on a fleet of Amazon EC2 instances, distributing traffic to instances across all Availability Zones within a region. Elastic Load Balancing has all the advantages of an on-premises load balancer, plus several security benefits. Which of the following is not an advantage of ELB over an on-premise load balancer?](#question64)   |
 | 65  | [A web company is looking to implement an external payment service into their highly available application deployed in a VPC Their application EC2 instances are behind a public lacing ELB Auto scaling is used to add additional instances as traffic increases under normal load the application runs 2 instances in the Auto Scaling group but at peak it can scale 3x in size. The application instances need to communicate with the payment service over the Internet which requires whitelisting of all public IP addresses used to communicate with it. A maximum of 4 whitelisting IP addresses are allowed at a time and can be added through an API. How should they architect their solution?](#question65)   |
 | 66  | [You are using Amazon SES as an email solution but are unsure of what its limitations are. Which statement below is correct in regards to that?](#question66)   |
 | 67  | [Your company is getting ready to do a major public announcement of a social media site on AWS. The website is running on EC2 instances deployed across multiple Availability Zones with a Multi-AZ RDS MySQL Extra Large DB Instance. The site performs a high number of small reads and writes per second and relies on an eventual consistency model. After comprehensive tests you discover that there is read contention on RDS MySQL. Which are the best approaches to meet these requirements? (Choose 2 answers)](#question67)   |
@@ -87,7 +87,7 @@
 | 79  | [A major customer has asked you to set up his AWS infrastructure so that it will be easy to recover in the case of a disaster of some sort. Which of the following is important when thinking about being able to quickly launch resources in AWS to ensure business continuity in case of a disaster?](#question79)   |
 | 80  | [You are developing a new mobile application and are considering storing user preferences in AWS.2w This would provide a more uniform cross-device experience to users using multiple mobile devices to access the application. The preference data for each user is estimated to be SOKB in size Additionally 5 million customers are expected to use the application on a regular basis. The solution needs to be cost-effective, highly available, scalable and secure, how would you design a solution to meet the above requirements?](#question80)   |
 | 81  | [In the Amazon RDS which uses the SQL Server engine, what is the maximum size for a Microsoft SQL Server DB Instance with SQL Server Express edition?](#question81)   |
-| 82  | [You have deployed a web application targeting a global audience across multiple AWS Regions under the domain name.example.com. You decide to use Route53 Latency-Based Routing to serve web requests to users from the region closest to the user. To provide business continuity in the event of server downtime you configure weighted record sets associated with two web servers in separate Availability Zones per region. Dunning a DR test you notice that when you disable all web servers in one of the regions Route53 does not automatically direct all users to the other region. What could be happening? (Choose 2 answers)](#question82)   |
+| 82  | [You have deployed a web application targeting a global audience across multiple AWS Regions under the domain name.example.com. You decide to use Route 53 Latency-Based Routing to serve web requests to users from the region closest to the user. To provide business continuity in the event of server downtime you configure weighted record sets associated with two web servers in separate Availability Zones per region. Dunning a DR test you notice that when you disable all web servers in one of the regions Route 53 does not automatically direct all users to the other region. What could be happening? (Choose 2 answers)](#question82)   |
 | 83  | [Amazon EBS provides the ability to create backups of any Amazon EC2 volume into what is known as _____.](#question83)   |
 | 84  | [You've been hired to enhance the overall security posture for a very large e-commerce site They have a well architected multi-tier application running in a VPC that uses ELBs in front of both the web and the app tier with static assets served directly from 53 They are using a combination of RDS and DynamoOB for their dynamic data and then archiving nightly into 53 for further processing with EMR They are concerned because they found questionable log entries and suspect someone is attempting to gain unauthorized access. Which approach provides a cost effective scalable mitigation to this kind of attack?](#question84)   |
 | 85  | [You are designing the network infrastructure for an application server in Amazon VPC Users will access all the application instances from the Internet as well as from an on-premises network The on-premises network is connected to your VPC over an AWS Direct Connect link. How would you design routing to meet the above requirements?](#question85)   |
@@ -313,13 +313,13 @@
 - [ ] Elastic Transcoder to transcode original high-resolution MP4 videos to HL.
 - [x] EBS volumes to host videos and EBS snapshots to incrementally backup original files after a few days. CloudFront to serve HLS transcoded videos from EC2.
 - [ ] Elastic Transcoder to transcode original high-resolution MP4 videos to HL.
-- [ ] Amazon S3 to host videos with Lifecycle Management to archive original files to Glacier after a few days. CloudFront to serve HLStranscoded videos from 53.
+- [ ] Amazon S3 to host videos with Lifecycle Management to archive original files to Glacier after a few days. CloudFront to serve HLStranscoded videos from 53. [???]
 - [ ] A video transcoding pipeline running on EC2 using SQS to distribute tasks and Auto Scaling to adjust the number of nodes depending on the length of the queue. 53 to host videos with Lifecycle Management to archive all files to Glacier after a few days. CloudFront to serve HLS transcoded videos from Glacier.
 
 ### You are designing an intrusion detection prevention (IDS/IPS) solution for a customer web application in a single VPC. You are considering the options for implementing lOS IPS protection for traffic coming from the Internet. Which of the following options would you consider? (Choose 2 answers)
 
-- [ ] Implement IDS/IPS agents on each Instance running in VPC.
-- [x] Configure an instance in each subnet to switch its network interface card to promiscuous mode and analyze network traffic.
+- [x] Implement IDS/IPS agents on each Instance running in VPC.
+- [ ] Configure an instance in each subnet to switch its network interface card to promiscuous mode and analyze network traffic.
 - [ ] Implement Elastic Load Balancing with SSL listeners in front of the web applications.
 - [x] Implement a reverse proxy layer in front of web servers and configure IDS/ IPS agents on each reverse proxy server.
 
@@ -329,7 +329,7 @@
 - [ ] Consistency is not guaranteed for any type of PUT or DELETE.
 - [x] A successful response to a PUT request only occurs when a complete object is saved.
 - [ ] Partially saved objects are immediately readable with a GET after an overwrite PU.
-- [ ] S3 provides eventual consistency for overwrite PUTS and DELETE.
+- [x] S3 provides eventual consistency for overwrite PUTS and DELETE.
 
 ### How can the domain's zone apex, for example, 'myzoneapexdomain.com', be pointed towards an Elastic Load Balancer?
 
@@ -573,13 +573,13 @@
 - [ ] Connect multiple volumes and stripe them with RAI.
 - [ ] Use the EBS volume as a root device.
 
-### Which features can be used to restrict access to data in 53? (Choose 2 answers)
+### Which features can be used to restrict access to data in S3? (Choose 2 answers)
 
-- [ ] Set an 53 ACL on the bucket or the object.
+- [x] Set an S3 ACL on the bucket or the object.
 - [ ] Create a Cloud Front distribution for the bucket.
-- [x] Set an 53 bucket policy.
-- [x] Enable IAM Identity Federation.
-- [ ] Use 53 Virtua l Hosting.
+- [x] Set an S3 bucket policy.
+- [ ] Enable IAM Identity Federation.
+- [ ] Use S3 Virtual l Hosting.
 
 ### You are in the process of creating a Route 53 DNS failover to direct traffic to two EC2 zones. Obviously, if one fails, you would like Route 53 to direct traffic to the other region. Each region has an ELB with some instances being distributed. What is the best way for you to configure the Route 53 health check?
 
@@ -651,7 +651,7 @@
 - [ ] 15.
 - [ ] 5.
 
-### To serve Web traffic for a popular product your chief financial officer and IT director have purchased 10 ml large heavy utilization Reserved Instances (RIs) evenly spread across two availability zones: Route 53 is used to deliver the traffic to an Elastic Load Balancer (ELB). After several months, the product grows even more popular and you need additional capacity As a result, your company purchases two C3.2xlarge medium utilization RIs You register the two c3 2xlarge instances with your ELB and quickly find that the ml large instances are at 100% of capacity and the c3 2xlarge instances have significant capacity that's unused Which option is the most cost effective and uses EC2 capacity most effectively?
+### To serve Web traffic for a popular product your chief financial officer and IT director have purchased 10 ml large heavy utilization Reserved Instances (RIs) evenly spread across two Availability Zones: Route 53 is used to deliver the traffic to an Elastic Load Balancer (ELB). After several months, the product grows even more popular and you need additional capacity As a result, your company purchases two C3.2xlarge medium utilization RIs You register the two c3 2xlarge instances with your ELB and quickly find that the ml large instances are at 100% of capacity and the c3 2xlarge instances have significant capacity that's unused Which option is the most cost effective and uses EC2 capacity most effectively?
 
 - [ ] Use a separate ELB for each instance type and distribute load to ELBs with Route 53 weighted round robin.
 - [ ] Configure Autoscaning group and Launch Configuration with ELB to add up to 10 more on-demand ml large instances when triggered by Cloudwatch shut off c3 2xlarge instances.
@@ -744,7 +744,7 @@
 - [ ] ICMP.
 - [ ] IPv6.
 
-### Amazon Elastic Load Balancing is used to manage traffic on a fleet of Amazon EC2 instances, distributing traffic to instances across all availability zones within a region. Elastic Load Balancing has all the advantages of an on-premises load balancer, plus several security benefits. Which of the following is not an advantage of ELB over an on-premise load balancer?
+### Amazon Elastic Load Balancing is used to manage traffic on a fleet of Amazon EC2 instances, distributing traffic to instances across all Availability Zones within a region. Elastic Load Balancing has all the advantages of an on-premises load balancer, plus several security benefits. Which of the following is not an advantage of ELB over an on-premise load balancer?
 
 - [x] ELB uses a four-tier, key-based architecture for encryption.
 - [ ] ELB offers clients a single point of contact, and can also serve as the first line of defense against attacks on your network.
@@ -767,10 +767,10 @@
 
 ### Your company is getting ready to do a major public announcement of a social media site on AWS. The website is running on EC2 instances deployed across multiple Availability Zones with a Multi-AZ RDS MySQL Extra Large DB Instance. The site performs a high number of small reads and writes per second and relies on an eventual consistency model. After comprehensive tests you discover that there is read contention on RDS MySQL. Which are the best approaches to meet these requirements? (Choose 2 answers)
 
-- [x] Deploy ElasticCache in-memory cache running in each availability zone.
+- [x] Deploy ElasticCache in-memory cache running in each Availability Zone.
 - [ ] Implement sharding to distribute load to multiple RDS MySQL instances.
-- [x] Increase the RDS MySQL Instance size and Implement provisioned IOPS.
-- [ ] Add an RDS MySQL read replica in each availability zone.
+- [ ] Increase the RDS MySQL Instance size and Implement provisioned IOPS.
+- [x] Add an RDS MySQL read replica in each Availability Zone.
 
 ### What does a 'Domain' refer to in Amazon SWF?
 
@@ -838,10 +838,10 @@
 ### You are designing Internet connectivity for your VPC. The Web servers must be available on the Internet. The application must have a highly available architecture. Which alternatives should you consider? (Choose 2 answers)
 
 - [ ] Configure a NAT instance in your VPC Create a default route via the NAT instance and associate it with all subnets Configure a DNS A record that points to the NAT instance public IP address.
-- [ ] Configure a CloudFront distribution and configure the origin to point to the private IP addresses of your Web servers Configure a Route53 CNAME record to your Cloud Front distribution.
-- [x] Place all your web servers behind EL8 Configure a Route53 CNMIE to point to the ELB DNS name.
-- [x] Assign EIPs to all web servers. Configure a Route53 record set with all EIPs. With health checks and DNS failover.
-- [ ] Configure ELB with an EIP Place all your Web servers behind ELB Configure a Route53 A record that points to the EI.
+- [ ] Configure a CloudFront distribution and configure the origin to point to the private IP addresses of your Web servers Configure a Route 53 CNAME record to your Cloud Front distribution.
+- [x] Place all your web servers behind EL8 Configure a Route 53 CNMIE to point to the ELB DNS name.
+- [x] Assign EIPs to all web servers. Configure a Route 53 record set with all EIPs. With health checks and DNS failover.
+- [ ] Configure ELB with an EIP Place all your Web servers behind ELB Configure a Route 53 A record that points to the EIP.
 
 ### You need to configure an Amazon S3 bucket to serve static assets for your public-facing web application. Which methods ensure that all objects uploaded to the bucket are set to public read? (Choose 2 answers)
 
@@ -860,10 +860,10 @@
 
 ### You are developing a new mobile application and are considering storing user preferences in AWS.2w This would provide a more uniform cross-device experience to users using multiple mobile devices to access the application. The preference data for each user is estimated to be SOKB in size Additionally 5 million customers are expected to use the application on a regular basis. The solution needs to be cost-effective, highly available, scalable and secure, how would you design a solution to meet the above requirements?
 
-- [ ] Setup an RDS MySQL instance in 2 availability zones to store the user preference data. Deploy a public facing application on a server in front of the database to manage security and accesscredentials.
+- [ ] Setup an RDS MySQL instance in 2 Availability Zones to store the user preference data. Deploy a public facing application on a server in front of the database to manage security and accesscredentials.
 - [x] Setup a DynamoDB table with an item for each user having the necessary attributes to hold the user preferences. The mobile application will query the user preferences directly from the DynamoDB table. Utilize ST.
 - [ ] Web Identity Federation, and DynamoDB Fine Grained Access Control to authenticate and authorize access.
-- [ ] Setup an RDS MySQL instance with multiple read replicas in 2 availability zones to store the user preference data. The mobile application will query the user preferences from the read replicas. Leverage the MySQL user management and access privilege system to manage security and access credentials.
+- [ ] Setup an RDS MySQL instance with multiple read replicas in 2 Availability Zones to store the user preference data. The mobile application will query the user preferences from the read replicas. Leverage the MySQL user management and access privilege system to manage security and access credentials.
 - [ ] Store the user preference data in 53 Setup a DynamoDB table with an item for each user and an item attribute pointing to the user' 53 object. The mobile application will retrieve the 53 URL from DynamoDB and then access the 53 object directly utilize STS, Web identity Federation, and 53 ACLs to authenticate and authorize access.
 
 ### In the Amazon RDS which uses the SQL Server engine, what is the maximum size for a Microsoft SQL Server DB Instance with SQL Server Express edition?
@@ -873,13 +873,13 @@
 - [ ] 2TB per DB.
 - [ ] 1TB per DB.
 
-### You have deployed a web application targeting a global audience across multiple AWS Regions under the domain name.example.com. You decide to use Route53 Latency-Based Routing to serve web requests to users from the region closest to the user. To provide business continuity in the event of server downtime you configure weighted record sets associated with two web servers in separate Availability Zones per region. Dunning a DR test you notice that when you disable all web servers in one of the regions Route53 does not automatically direct all users to the other region. What could be happening? (Choose 2 answers)
+### You have deployed a web application targeting a global audience across multiple AWS Regions under the domain name.example.com. You decide to use Route 53 Latency-Based Routing to serve web requests to users from the region closest to the user. To provide business continuity in the event of server downtime you configure weighted record sets associated with two web servers in separate Availability Zones per region. Dunning a DR test you notice that when you disable all web servers in one of the regions Route 53 does not automatically direct all users to the other region. What could be happening? (Choose 2 answers)
 
 - [ ] Latency resource record sets cannot be used in combination with weighted resource record sets.
 - [x] You did not setup an HTTP health check tor one or more of the weighted resource record sets associated with me disabled web servers.
 - [ ] The value of the weight associated with the latency alias resource record set in the region with the disabled servers is higher than the weight for the other region.
 - [ ] One of the two working web servers in the other region did not pass its HTTP health check.
-- [ ] You did not set 'Evaluate Target Health' to 'Yes' on the latency alias resource record set associated with example com in the region where you disabled the servers.
+- [x] You did not set 'Evaluate Target Health' to 'Yes' on the latency alias resource record set associated with example com in the region where you disabled the servers.
 
 ### Amazon EBS provides the ability to create backups of any Amazon EC2 volume into what is known as [...].
 
@@ -1042,7 +1042,7 @@
 - [ ] Enable IAM cross-account access for all corporate IT administrators in each child account.
 - [ ] Create separate VPCs for each division within the corporate IT AWS account.
 - [x] Use AWS Consolidated Billing to link the divisions' accounts to a parent corporate account.
-- [ ] Write all child AWS CloudTrail and Amazon CloudWatch logs to each child account's Amazon S3 'Log' bucket.
+- [x] Write all child AWS CloudTrail and Amazon CloudWatch logs to each child account's Amazon S3 'Log' bucket.
 
 ### After creating a new IAM user which of the following must be done before they can successfully make API calls?
 
@@ -1085,13 +1085,13 @@
 - [ ] Use the query functionality of S3.
 - [x] Make your own DB system which stores the S3 metadata for the search functionality.
 
-### Which two approaches can satisfy these objectives? (Choose[???] 2 answers)
+### A corporate web application is deployed within an Amazon Virtual Private Cloud (VPC) and is connected to the corporate data center via an IPsec VPN. The application must authenticate against the on-premises LDAP server. After authentication, each logged-in user can only access an Amazon Simple Storage Space (S3) keyspace specific to that user. Which two approaches can satisfy these objectives? (Choose 2 answers)
 
-- [ ] Develop an identity broker that authenticates against IAM security Token service to assume a Lam role in order to get temporary AWS security credentials The application calls the identity broker toget AWS temporary security credentials with access to the appropriate 53 bucket.
-- [x] The application authenticates against LDAP and retrieves the name of an IAM role associated with the user. The application then ca lls the IAM Security Token Service to assume that IAM role The application can use the temporary credentials to access the appropriate 53 bucket.
-- [ ] Develop an identity broker that authenticates against LDAP and then calls IAM Security To ken Service to get IAM federated user credentials The application calls the identity broker to get IAMfederated user credentials with access to the appropriate 53 bucket.
-- [ ] The application authenticates against LDAP the application then calls the AWS identity and Access Management (IAM) Security service to log in to IAM using the LDAP credentials the application can use the IAM temporary credentials to access the appropriate 53 bucket.
-- [ ] The application authenticates against IAM Security Token Service using the LDAP credentials the application uses those temporary AWS security credentials to access the appropriate 53 bucket.
+- [ ] Develop an identity broker that authenticates against IAM security Token service to assume a Lam role in order to get temporary AWS security credentials The application calls the identity broker toget AWS temporary security credentials with access to the appropriate S3 bucket.
+- [x] The application authenticates against LDAP and retrieves the name of an IAM role associated with the user. The application then ca lls the IAM Security Token Service to assume that IAM role The application can use the temporary credentials to access the appropriate S3 bucket.
+- [x] Develop an identity broker that authenticates against LDAP and then calls IAM Security To ken Service to get IAM federated user credentials The application calls the identity broker to get IAMfederated user credentials with access to the appropriate S3 bucket.
+- [ ] The application authenticates against LDAP the application then calls the AWS identity and Access Management (IAM) Security service to log in to IAM using the LDAP credentials the application can use the IAM temporary credentials to access the appropriate S3 bucket.
+- [ ] The application authenticates against IAM Security Token Service using the LDAP credentials the application uses those temporary AWS security credentials to access the appropriate S3 bucket.
 
 ### A group can contain many users. Can a user belong to multiple groups?
 
@@ -1188,7 +1188,7 @@
 
 ### An enterprise wants to use a third-party SaaS application. The SaaS application needs to have access to issue several API commands to discover Amazon EC2 resources running within the enterprise's account The enterprise has internal security policies that require any outside access to their environment must conform to the principles of least privilege and there must be controls in place to ensure that the credentials used by the 5aa5 vendor cannot be used by any other third party. Which of the following would meet all of these conditions?
 
-- [ ] From the AW5 Management Console, navigate to the Security Credentials page and retrieve the access and secret key for your account.
+- [ ] From the AWS Management Console, navigate to the Security Credentials page and retrieve the access and secret key for your account.
 - [ ] Create an IAM user within the enterprise account assign a user policy to the IAM user that allows only the actions required by the SaaS application create a new access and secret key for the user and provide these credentials to the 5aa5 provider.
 - [x] Create an IAM role for cross-account access allows the SaaS provider's account to assume the role and assign it a policy that allows only the actions required by the SaaS application.
 - [ ] Create an IAM role for EC2 instances, assign it a policy that allows only the actions required tor the Saas application to work, provide the role ARM to the SaaS provider to use when launching their application instances.
@@ -1242,7 +1242,7 @@
 - [ ] Yes.
 - [x] No.
 
-### You have an application running on an Amazon Elastic Compute Cloud instance, that uploads 5 GB video objects to Amazon Simple Storage Service (53). Video uploads are taking longer than expected, resulting in poor application performance. Which method will help improve performance of your application?
+### You have an application running on an Amazon Elastic Compute Cloud instance, that uploads 5 GB video objects to Amazon Simple Storage Service (S3). Video uploads are taking longer than expected, resulting in poor application performance. Which method will help improve performance of your application?
 
 - [ ] Enable enhanced networking.
 - [x] Use Amazon S3 multipart upload.
@@ -1284,9 +1284,9 @@
 - [ ] IAM roles.
 - [ ] AWS Config.
 
-### A customer wants to track access to their Amazon Simple Storage Service (53) buckets and also use this information for their internal security and access audits. Which of the following will meet the Customer requirement?
+### A customer wants to track access to their Amazon Simple Storage Service (S3) buckets and also use this information for their internal security and access audits. Which of the following will meet the Customer requirement?
 
-- [x] Enable AW5 CloudTrail to audit all Amazon S3 bucket access.
+- [x] Enable AWS CloudTrail to audit all Amazon S3 bucket access.
 - [ ] Enable server access logging for all required Amazon S3 buckets.
 - [ ] Enable the Requester Pays option to track access via AWS Billing.
 - [ ] Enable Amazon S3 event notifications for Put and Post.
@@ -1305,13 +1305,13 @@
 - [ ] Configure the Auto Scaling group to send an SNS notification of the launch of a new instance to the trusted key management service. Have the Key management service generate a signed certificate and send it directly to the newly launched instance.
 - [ ] Configure the launched instances to generate a new certificate upon first boot Have the Key management service poll the AutoScaling group for associated instances and send new instances acertificate signature (hat contains the specific instance-id.
 
-### Which of the following methods can achieve this? (Choose 3 answers)
+### A company is storing data on Amazon Simple Storage Service (S3). The company’s security policy mandates that data is encrypted at rest. Which of the following methods can achieve this? (Choose 3 answers)
 
 - [x] Use Amazon S3 server-side encryption with AWS Key Management Service managed keys.
-- [ ] Use Amazon S3 server-side encryption with customer-provided keys.
+- [x] Use Amazon S3 server-side encryption with customer-provided keys.
 - [ ] Use Amazon S3 server-side encryption with EC2 key pair.
 - [ ] Use Amazon S3 bucket policies to restrict access to the data at rest.
-- [ ] Encrypt the data on the client-side before ingesting to Amazon S3 using their own master key.
+- [x] Encrypt the data on the client-side before ingesting to Amazon S3 using their own master key.
 - [ ] Use SSL to encrypt the data while in transit to Amazon S3.
 
 ### In Amazon EC2, you are billed instance-hours when [...].
@@ -1393,9 +1393,9 @@
 
 ### Your company hosts a social media site supporting users in multiple countries. You have been asked to provide a highly available design tor the application that leverages multiple regions tor the most recently accessed content and latency sensitive portions of the wet) site The most latency sensitive component of the application involves reading user preferences to support web site personalization and ad selection. In addition to running your application in multiple regions, which option will support this application's requirements?
 
-- [x] Serve user content from 53. CloudFront and use Route53 latency-based routing between ELBs in each region Retrieve user preferences from a local DynamoDB table in each region and leverage SQS to capture changes to user preferences with 505 workers for propagating updates to each table.
+- [x] Serve user content from 53. CloudFront and use Route 53 latency-based routing between ELBs in each region Retrieve user preferences from a local DynamoDB table in each region and leverage SQS to capture changes to user preferences with 505 workers for propagating updates to each table.
 - [ ] Use the 53 Copy API to copy recently accessed content to multiple regions and serve user content from 53. CloudFront with dynamic content and an ELB in each region Retrieve user preferences from an ElasticCache cluster in each region and leverage SNS notifications to propagate user preference changes to a worker node in each region.
-- [ ] Use the 53 Copy API to copy recently accessed content to multiple regions and serve user content from 53 CloudFront and Route53 latency-based routing Between ELBs in each region Retrieve user preferences from a DynamoDB table and leverage SQS to capture changes to user preferences with 505 workers for propagating DynamoDB updates.
+- [ ] Use the 53 Copy API to copy recently accessed content to multiple regions and serve user content from 53 CloudFront and Route 53 latency-based routing Between ELBs in each region Retrieve user preferences from a DynamoDB table and leverage SQS to capture changes to user preferences with 505 workers for propagating DynamoDB updates.
 - [ ] Serve user content from 53. CloudFront with dynamic content, and an ELB in each region Retrieve user preferences from an ElastiCache cluster in each region and leverage Simple Workflow (SWF) to manage the propagation of user preferences from a centralized OB to each ElastiCache cluster.
 
 ### A [...] is a document that provides a formal statement of one or more permissions.
@@ -1496,7 +1496,7 @@
 
 - [x] Verify that the private key file corresponds to the Amazon EC2 key pair assigned at launch.
 - [ ] Verify that your IAM user policy has permission to launch Amazon EC2 instances.
-- [ ] Verify that you are connecting with the appropriate user name for your AM
+- [x] Verify that you are connecting with the appropriate user name for your AMI.
 - [ ] Verify that the Amazon EC2 Instance was launched with the proper IAM role.
 - [ ] Verify that your federation trust to AWS has been established.
 
@@ -1505,10 +1505,10 @@
 - [ ] Allow at least five minutes for Windows/Linux shutdown scripts to complete, before terminating the instance.
 - [ ] Terminate the instance with the least active network connections. If multiple instances meet this criterion, one will be randomly selected.
 - [x] Send an SNS notification, if configured to do so.
-- [ ] Terminate an instance in the AZ which currently has 2 running EC2 instances.
+- [x] Terminate an instance in the AZ which currently has 2 running EC2 instances.
 - [ ] Randomly select one of the 3 AZs, and then terminate an instance in that A.
 
-### A photo-sharing service stores pictures in Amazon Simple Storage Service (53) and allows application sign-in using an OpenID Connect-compatible identity provider. Which AWS Security Token Service approach to temporary access should you use for the Amazon S3 operations?
+### A photo-sharing service stores pictures in Amazon Simple Storage Service (S3) and allows application sign-in using an OpenID Connect-compatible identity provider. Which AWS Security Token Service approach to temporary access should you use for the Amazon S3 operations?
 
 - [ ] SAML-based Identity Federation.
 - [ ] Cross-Account Access.
@@ -1570,7 +1570,7 @@
 - [ ] TIL can be set for an Alias record in Amazon Route 53.
 - [ ] An Amazon Route 53 Alias record can point to any DNS record hosted anywhere.
 
-### Amazon Route 53 resource records? (Choose 2 answers)
+### Which of the following statements are true about Amazon Route 53 resource records? (Choose 2 answers)
 
 - [x] An Alias record can map one DNS name to another Amazon Route 53 DNS name.
 - [ ] A CNAME record can be created for your zone apex.
@@ -1621,9 +1621,9 @@
 ### A 3-tier e-commerce web application is current deployed on-premises and will be migrated to AWS for greater scalability and elasticity The web server currently shares read-only data using a network distributed file system The app server tier uses a clustering mechanism for discovery and shared session state that depends on I P multicast The database tier uses shared-storage clustering to provide database fail over capability, and uses several read slaves for scaling Data on all servers and the distributed file system directory is backed up weekly to off-site tapes. Which AWS storage and database architecture meets the requirements of the application?
 
 - [ ] Web servers: store read-only data in 53, and copy from 53 to root volume at boot time. App servers: share state using a combination of DynamoDB and IP unicast. Database: use RDS with multi-AZdeployment and one or more read replicas. Backup: web servers, app servers, and database backed up weekly to Glacier using snapshots.
-- [ ] Web servers: store read-only data in an EC2 NFS server, mount to each web server at boot time. App servers: share state using a combination of DynamoDB and IP multicast. Database: use RDS with multi-AZ deployment and one or more Read Replicas. Backup: web and app servers backed up weekly via AM Is, database backed up via DB snapshots.
-- [x] Web servers: store read-only data in 53, and copy from 53 to root volume at boot time. App servers: share state using a combination of DynamoDB and IP unicast. Database: use RDS with multi-AZ deployment and one or more Read Replicas. Backup: web and app servers backed up weekly via AM Is, database backed up via DB snapshots.
-- [ ] Web servers: store read-only data in 53, and copy from 53 to root volume at boot time. App servers: share state using a combination of DynamoDB and IP unicast. Database: use RDS with multi-AZdeployment. Backup: web and app servers backed up weekly via AM Is, database backed up via DB snapshots.
+- [ ] Web servers: store read-only data in an EC2 NFS server, mount to each web server at boot time. App servers: share state using a combination of DynamoDB and IP multicast. Database: use RDS with multi-AZ deployment and one or more Read Replicas. Backup: web and app servers backed up weekly via AMIs, database backed up via DB snapshots.
+- [x] Web servers: store read-only data in 53, and copy from 53 to root volume at boot time. App servers: share state using a combination of DynamoDB and IP unicast. Database: use RDS with multi-AZ deployment and one or more Read Replicas. Backup: web and app servers backed up weekly via AMIs, database backed up via DB snapshots.
+- [ ] Web servers: store read-only data in 53, and copy from 53 to root volume at boot time. App servers: share state using a combination of DynamoDB and IP unicast. Database: use RDS with multi-AZdeployment. Backup: web and app servers backed up weekly via AMIs, database backed up via DB snapshots.
 
 ### What are the four levels of AWS Premium Support?
 
@@ -1884,7 +1884,7 @@
 - [x] Amazon Elastic Map Reduce.
 - [ ] Amazon ElastiCache.
 - [ ] Amazon DynamoDB.
-- [ ] AWS Elastic Beanstalk.
+- [x] AWS Elastic Beanstalk.
 
 ### While launching an RDS DB instance, on which page I can select the Availability Zone?
 
@@ -2032,7 +2032,7 @@
 
 - [x] The load balancer was not configured to use a public subnet with an Internet gateway configured.
 - [ ] The Amazon EC2 instances do not have a dynamically allocated private IP address.
-- [ ] The security groups or network ACLs are not property configured for web traffic.
+- [x] The security groups or network ACLs are not property configured for web traffic.
 - [ ] The load balancer is not configured in a private subnet with a NAT instance.
 - [ ] The VPC does not have a VGW configured.
 
@@ -2050,26 +2050,26 @@
 - [ ] Enterprise License and License Included.
 - [ ] Role based License and License Included.
 
-### In AWS, which security aspects are the customer's responsibility? Choose 4 answers
+### In AWS, which security aspects are the customer's responsibility? (Choose 4 answers)
 
 - [x] Security Group and ACL (Access Control List) settings.
 - [ ] Decommissioning storage devices.
-- [ ] Patch management on the EC2 instance's operating system.
-- [ ] Life-cycle management of IAM credentials.
+- [x] Patch management on the EC2 instance's operating system.
+- [x] Life-cycle management of IAM credentials.
 - [ ] Controlling physical access to compute resources.
-- [ ] Encryption of EBS (Elastic Block Storage) volumes.
+- [x] Encryption of EBS (Elastic Block Storage) volumes.
 
 ### You have a web application running on six Amazon EC2 instances, consuming about 45% of resources on each instance. You are using auto-scaling to make sure that six instances are running at all times. The number of requests this application processes is consistent and does not experience spikes. The application is critical to your business and you want high availability at all times. You want the load to be distributed evenly between all instances. You also want to use the same Amazon Machine Image (AMI) for all instances. Which of the following architectural choices should you make?
 
-- [ ] Deploy 6 EC2 instances in one availability zone and use Amazon Elastic Load Balancer.
+- [ ] Deploy 6 EC2 instances in one Availability Zone and use Amazon Elastic Load Balancer.
 - [ ] Deploy 3 EC2 instances in one region and 3 in another region and use Amazon Elastic Load Balancer.
-- [x] Deploy 3 EC2 instances in one availability zone and 3 in another availability zone and use Amazon Elastic Load Balancer.
+- [x] Deploy 3 EC2 instances in one Availability Zone and 3 in another Availability Zone and use Amazon Elastic Load Balancer.
 - [ ] Deploy 2 EC2 instances in three regions and use Amazon Elastic Load Balancer.
 
 ### An ERP application is deployed across multiple AZs in a single region. in the event of failure, the Recovery Time Objective (RTO) must be less than 3 hours, and the Recovery Point Objective (RPO) must be 15 minutes the customer realizes that data corruption occurred roughly 1.5 hours ago. What DR strategy could be used to achieve this RTO and RPO in the event of this kind of failure?
 
 - [x] Take hourly DB backups to 53, with transaction logs stored in 53 every 5 minutes.
-- [ ] Use synchronous database master-slave replication between two availability zones.
+- [ ] Use synchronous database master-slave replication between two Availability Zones.
 - [ ] Take hourly DB backups to EC2 Instance store volumes with transaction logs stored in 53 every 5 minutes.
 - [ ] Take 15 minute DB backups stored in Glacier with transaction logs stored in 53 every 5 minutes.
 
@@ -2144,7 +2144,7 @@
 
 ### Your company has an on-premises multi-tier PHP web application, which recently experienced downtime due to a large burst in web traffic due to a company announcement Over the coming days, you are expecting similar announcements to drive similar unpredictable bursts, and are looking to find ways to quickly improve your infrastructures ability to handle unexpected increases in traffic. The application currently consists of 2 tiers a web tier which consists of a load balancer and several Linux Apache web servers as well as a database tier which hosts a Linux server hosting a MySQLdatabase. Which scenario below will provide full site functionality, while helping to improve the ability of your application in the short timeframe required?
 
-- [ ] Failover environment: Create an 53 bucket and configure it for website hosting. Migrate your DNS to Route53 using zone file import, and leverage Route53 DNS failover to failover to the 53 hostedwebsite.
+- [ ] Failover environment: Create an S3 bucket and configure it for website hosting. Migrate your DNS to Route 53 using zone file import, and leverage Route 53 DNS failover to failover to the 53 hostedwebsite.
 - [ ] Hybrid environment: Create an AMI, which can be used to launch web servers in EC2. Create an Auto Scaling group, which uses the AMI to scale the web tier based on incoming traffic. LeverageElastic Load Balancing to balance traffic between on-premises web servers and those hosted in AWS.
 - [x] Offload traffic from on-premises environment: Setup a CloudFront distribution, and configure CloudFront to cache objects from a custom origin. Choose to customize your object cache behavior, andselect a TIL that objects should exist in cache.
 - [ ] Migrate to AWS: Use VM Import/Export to quickly convert an on-premises web server to an AMI.
@@ -2226,7 +2226,7 @@
 - [x] AWS Directory Service AD Connector.
 - [ ] AWS Directory Service Simple AD.
 - [ ] AWS Identity and Access Management groups.
-- [ ] AWS identity and Access Management roles.
+- [x] AWS identity and Access Management roles.
 - [ ] AWS identity and Access Management users.
 
 ### Your startup wants to implement an order fulfillment process for selling a personalized gadget that needs an average of 3-4 days to produce with some orders taking up to 6 months you expect 10orders per day on your first day. 1000 orders per day after 6 months and 10,000 orders after 12 months. Orders coming in are checked for consistency men dispatched to your manufacturing plant for production quality control packaging shipment and payment processing If the product does not meet the quality standards at any stage of the process employees may force the process to repeat a step Customers are notified via email about order status and any critical issues with their orders such as payment failure. Your case architecture includes AWS Elastic Beanstalk for your website with an RDS MySQL instance for customer data and orders. How can you implement the order fulfillment process while making sure that the emails are delivered reliably?
@@ -2396,13 +2396,13 @@
 - [ ] Not possible, cannot be connected to 2 ENIs.
 - [ ] The EC2 instance follows the rules of the newer subnet.
 
-### Which of the following could De the root caused? (Choose 2 answers)
+### You have deployed a three-tier web application in a VPC with a CIDR block of 10.0.0.0/28. You initially deploy two web servers, two application servers, two database servers and one NAT instance tor a total of seven EC2 instances. The web, application and database servers are deployed across two Availability Zones (AZs). You also deploy an ELB in front of the two web servers, and use Route 53 for DNS Web. Raffle gradually increases in the first few days following the deployment, so you attempt to double the number of instances in each tier of the application to handle the new load unfortunately some of these new instances fail to launch.Which of the following could be the root caused? (Choose 2 answers)
 
-- [ ] AW5 reserves the first and the last private IP address in each subnet's CIDR block so you do not have enough addresses left to launch all of the new EC2 instances.
+- [ ] AWS reserves the first and the last private IP address in each subnet's CIDR block so you do not have enough addresses left to launch all of the new EC2 instances.
 - [ ] The Internet Gateway (IGW) of your VPC has scaled-up, adding more instances to handle the traffic spike, reducing the number of available private IP addresses for new instance launches.
 - [x] The ELB has scaled-up, adding more instances to handle the traffic spike, reducing the number of available private IP addresses for new instance launches.
-- [ ] AW5 reserves one IP address in each subnet's CIDR block for Route53 so you do not have enough addresses left to launch all of the new EC2 instances.
-- [ ] AW5 reserves the first four and the last IP address in each subnet's CIDR block so you do not have enough addresses left to launch all of the new EC2 instances.
+- [ ] AWS reserves one IP address in each subnet's CIDR block for Route 53 so you do not have enough addresses left to launch all of the new EC2 instances.
+- [x] AWS reserves the first four and the last IP address in each subnet's CIDR block so you do not have enough addresses left to launch all of the new EC2 instances.
 
 ### Which of the following will cause an immediate DB instance reboot to occur?
 
@@ -2421,9 +2421,9 @@
 - [x] An AWS Direct Connect link between the VPC and the network housing the internal services.
 - [ ] An Internet Gateway to allow a VPN connection.
 - [ ] An Elastic IP address on the VPC instance.
-- [ ] An IP address space that does not conflict with the one on-premises.
+- [x] An IP address space that does not conflict with the one on-premises.
 - [ ] Entries in Amazon Route 53 that allow the Instance to resolve its dependencies' IP addresses.
-- [ ] A VM Import of the current virtual machine.
+- [x] A VM Import of the current virtual machine.
 
 ### A company needs to deploy services to an AWS region which they have not previously used. The company currently has an AWS identity and Access Management (IAM) role for the Amazon EC2 instances, which permits the instance to have access to Amazon DynamoDB. The company wants their EC2 instances in the new region to have the same privileges. How should the company achievethis?
 
@@ -2454,13 +2454,13 @@
 - [ ] No, Microsoft Windows Server 2008 R2 is not supported.
 - [ ] No, you need to be on the enterprise support plan.
 
-### A newspaper organization has a on-premises application which allows the public to search its back catalogue and retrieve individual newspaper pages via a website written in Java They have scanned the old newspapers into JPEGs (approx 17TB) and used Optical Character Recognition (OCR) to populate a commercial search product. The hosting platform and software are now end of life and the organization wants to migrate Its archive to AW5 and produce a cost efficient architecture and still be designed for availability and durability. Which is the most appropriate?
+### A newspaper organization has a on-premises application which allows the public to search its back catalogue and retrieve individual newspaper pages via a website written in Java They have scanned the old newspapers into JPEGs (approx 17TB) and used Optical Character Recognition (OCR) to populate a commercial search product. The hosting platform and software are now end of life and the organization wants to migrate Its archive to AWS and produce a cost efficient architecture and still be designed for availability and durability. Which is the most appropriate?
 
 - [ ] Use 53 with reduced redundancy lo store and serve the scanned files, install the commercial search application on EC2 Instances and configure with auto-scaling and an Elastic Load Balancer.
 - [ ] Model the environment using CloudFormation use an EC2 instance running Apache webserver and an open source search application, stripe multiple standard EB5 volumes together to store the JPEGs and search index.
-- [x] Use 53 with standard redundancy to store and serve the scanned files, use Cloud5earch for query processing, and use Elastic Beanstalk to host the website across multiple availability zones.
+- [x] Use 53 with standard redundancy to store and serve the scanned files, use Cloud5earch for query processing, and use Elastic Beanstalk to host the website across multiple Availability Zones.
 - [ ] Use a single-AZ RD5 My5QL instance lo store the search index 33d the JPEG images use an EC2 instance to serve the website and translate user queries into 5Q
-- [ ] Use a CloudFront download distribution to serve the JPEGs to the end users and Install the current commercial search product, along with a Java Container Tor the website on EC2 instances and use Route53 with DNS round-robin.
+- [ ] Use a CloudFront download distribution to serve the JPEGs to the end users and Install the current commercial search product, along with a Java Container Tor the website on EC2 instances and use Route 53 with DNS round-robin.
 
 ### A Provisioned IOPS volume must be at least [...] GB in size.
 
@@ -2627,14 +2627,14 @@
 - [x] Establish a hardware VPN over the internet between VPC-1 and the on-premises network.
 - [ ] Establish a new AWS Direct Connect connection and private virtual interface in the same region as VPC-2.
 - [ ] Establish a new AWS Direct Connect connection and private virtual interface in a different AWS region than VPC-1.
-- [ ] Establish a new AWS Direct Connect connection and private virtual interface in the same AWS region as VPC-1.
+- [x] Establish a new AWS Direct Connect connection and private virtual interface in the same AWS region as VPC-1.
 
 ### How would you improve page load times for your users? (Choose 3 answers)
 
-- [x] Lower the scale up trigger of your Auto Scaling group to 30% so it scales more aggressively.
-- [ ] Add an Amazon ElastiCache caching layer to your application for storing sessions and frequent DB queries.
-- [ ] Configure Amazon CloudFront dynamic content support to enable caching of re-usable content from your site.
-- [ ] Switch Amazon RDS database to the high memory extra large Instance type.
+- [ ] Lower the scale up trigger of your Auto Scaling group to 30% so it scales more aggressively.
+- [x] Add an Amazon ElastiCache caching layer to your application for storing sessions and frequent DB queries.
+- [x] Configure Amazon CloudFront dynamic content support to enable caching of re-usable content from your site.
+- [x] Switch Amazon RDS database to the high memory extra large Instance type.
 - [ ] Set up a second installation in another region, and use the Amazon Route 53 latency-based routing feature to select the right region.
 
 ### Typically, you want your application to check whether a request generated an error before you spend any time processing results. The easiest way to find out if an error occurred is to look for an [...] node in the response from the Amazon RDS API.
@@ -2722,9 +2722,9 @@
 ### You nave multiple Amazon EC2 instances running in a cluster across multiple Availability Zones within the same region. What combination of the following should be used to ensure the highest network performance (packets per second), lowest latency, and lowest jitter? (Choose 3 answers)
 
 - [x] Amazon EC2 placement groups.
-- [ ] Enhanced networking.
+- [x] Enhanced networking.
 - [ ] Amazon PV AMI.
-- [ ] Amazon HVM AMI.
+- [x] Amazon HVM AMI.
 - [ ] Amazon Linux.
 - [ ] Amazon VPC.
 
@@ -2759,16 +2759,16 @@
 
 - [x] Create an EBS backed private AMI which includes a fresh install of your application. Develop a CloudFormation template which includes your AMI and the required EC2, AutoScaling, and ELBresources to support deploying the application across Multiple- Availability-Zones. Asynchronously replicate transactions from your on-premises database to a database instance in AWS across a secure VPN connection.
 - [ ] Deploy your application on EC2 instances within an Auto Scaling group across multiple availability zones. Asynchronously replicate transactions from your on-premises database to a database instance in AWS across a secure VPN connection.
-- [ ] Create an EBS backed private AMI which includes a fresh install of your application. Setup a script in your data center to backup the local database every 1 hour and to encrypt and copy the resultingfile to an 53 bucket using multi-part upload.
+- [ ] Create an EBS backed private AMI which includes a fresh install of your application. Setup a script in your data center to backup the local database every 1 hour and to encrypt and copy the resultingfile to an S3 bucket using multi-part upload.
 - [ ] Install your application on a compute-optimized EC2 instance capable of supporting the application's average load. Synchronously replicate transactions from your on-premises database to adatabase instance in AWS across a secure Direct Connect connection.
 
 ### A customer implemented AWS Storage Gateway with a gateway-cached volume at their main office. An event takes the link between the main and branch office offline. Which methods will enable the branch office to access their data? (Choose 3 answers)
 
-- [x] Use a HTTPS GET to the Amazon S3 bucket where the files are located.
+- [ ] Use a HTTPS GET to the Amazon S3 bucket where the files are located.
 - [ ] Restore by implementing a lifecycle policy on the Amazon S3 bucket.
 - [ ] Make an Amazon Glacier Restore API ca ll to load the files into another Amazon S3 bucket within four to six hours.
 - [x] Launch a new AWS Storage Gateway instance AMI in Amazon EC2, and restore from a gateway snapshot.
-- [ ] Create an Amazon EBS volume from a gateway snapshot, and mount it to an Amazon EC2 instance.
+- [x] Create an Amazon EBS volume from a gateway snapshot, and mount it to an Amazon EC2 instance.
 - [x] Launch an AWS Storage Gateway virtual iSCSI device at the branch office, and restore from a gateway snapshot.
 
 ### Your customer is willing to consolidate their log streams (access logs application logs security logs etc.) in one single system. Once consolidated, the customer wants to analyze these logs in real time based on heuristics. From time to time, the customer needs to validate heuristics, which requires going back to data samples extracted from the last 12 hours. What is the best approach to meet your customer's requirements?
@@ -2850,7 +2850,7 @@
 ### You are designing an SSUTLS solution that requires HTTPS clients to be authenticated by the Web server using client certificate authentication. The solution must be resilient. Which of the following options would you consider for configuring the web server infrastructure? (Choose 2 answers)
 
 - [x] Configure ELB with TCP listeners on TCP/4d3. And place the Web servers behind it.
-- [x] Configure your Web servers with EIPS Place the Web servers in a Route53 Record Set and configure health checks against all Web servers.
+- [x] Configure your Web servers with EIPS Place the Web servers in a Route 53 Record Set and configure health checks against all Web servers.
 - [ ] Configure ELB with HTTPS listeners, and place the Web servers behind it.
 - [ ] Configure your web servers as the origins for a Cloud Front distribution. Use custom SSL certificates on your Cloud Front distribution.
 
@@ -2926,19 +2926,19 @@
 
 ### For which of the following use cases are Simple Workflow Service (SWF) and Amazon EC2 an appropriate solution? (Choose 2 answers)
 
-- [x] Using as an endpoint to collect thousands of data points per hour from a distributed fleet of sensors.
-- [ ] Managing a multi-step and multi-decision checkout process of an e-commerce website.
-- [ ] Orchestrating the execution of distributed and auditable business processes.
+- [ ] Using as an endpoint to collect thousands of data points per hour from a distributed fleet of sensors.
+- [x] Managing a multi-step and multi-decision checkout process of an e-commerce website.
+- [x] Orchestrating the execution of distributed and auditable business processes.
 - [ ] Using as an SNS (Simple Notification Service) endpoint to trigger execution of video transcoding jobs.
 - [ ] Using as a distributed session store for your web application.
 
 ### Which of the following instance types are available as Amazon EBS-backed only? (Choose 2 answers)
 
-- [ ] General purpose T2.
+- [x] General purpose T2.
 - [ ] General purpose M3.
 - [ ] Compute-optimized C4.
 - [x] Compute-optimized C3.
-- [x] Storage-optimized 12.
+- [ ] Storage-optimized 12.
 
 ### True or False: Without IAM, you cannot control the tasks a particular user or system can do and what AWS resources they might use.
 
@@ -3100,7 +3100,7 @@
 
 ### You are running a successful multitier web application on AWS and your marketing department has asked you to add a reporting tier to the application. The reporting tier will aggregate and publishstatus reports every 30 minutes from user-generated information that is being stored in your web application s database. You are currently running a Multi-AZ RDS MySQL instance for the databasetier. You also have implemented Elasticache as a database caching layer between the application tier and database tier. Please select the answer that will allow you to successful ly implement thereporting tier with as little impact as possible to your database.
 
-- [ ] Continually send transaction logs from your master database to an 53 bucket and generate the reports off the 53 bucket using 53 byte range requests.
+- [ ] Continually send transaction logs from your master database to an S3 bucket and generate the reports off the S3 bucket using 53 byte range requests.
 - [ ] Generate the reports by querying the synchronously replicated standby RDS MySQL instance maintained through Multi-AZ.
 - [x] Launch a RDS Read Replica connected to your Multi-AZ master database and generate reports by querying the Read Replica.
 - [ ] Generate the reports by querying the ElastiCache database caching tier.
@@ -3133,7 +3133,7 @@
 - [ ] None because the user infrastructure is in the private cloud.
 - [ ] AWS SMS.
 
-### What does Amazon Route53 provide?
+### What does Amazon Route 53 provide?
 
 - [ ] A global Content Delivery Network.
 - [ ] None of these.
@@ -3266,10 +3266,10 @@
 
 ### You currently operate a web application in the AWS US-East region The application runs on an autoscaled layer of EC2 instances and an RDS Multi-AZ database Your IT security compliance officer has tasked you to develop a reliable and durable logging solution to track changes made to your EC2.1AM And RDS resources. The solution must ensure the integrity and confidentiality of your log data. Which of these solutions would you recommend?
 
-- [x] Create a new CloudTrail trail with one new 53 bucket to store the logs and with the global services option selected Use IAM roles 53 bucket policies and Multi Factor Authentication (MFA) Delete on the 53 bucket that stores your logs.
-- [ ] Create a new CloudTrail with one new 53 bucket to store the logs Configure SNS to send log file delivery notifications to your management system Use IAM roles and 53 bucket policies on the 53bucket mat stores your logs.
-- [ ] Create a new CloudTrail trail with an existing 53 bucket to store the logs and with the global services option selected Use 53 ACLs and Multi Factor Authentication (MFA) Delete on the 53 bucket that stores your logs.
-- [ ] Create three new CloudTrail trails with three new 53 buckets to store the logs one for the AWS Management console, one for AWS 5DKs and one for command line tools Use IAM roles and 53bucket policies on the 53 buckets that store your logs.
+- [x] Create a new CloudTrail trail with one new S3 bucket to store the logs and with the global services option selected Use IAM roles S3 bucket policies and Multi Factor Authentication (MFA) Delete on the 53 bucket that stores your logs.
+- [ ] Create a new CloudTrail with one new S3 bucket to store the logs Configure SNS to send log file delivery notifications to your management system Use IAM roles and S3 bucket policies on the 53bucket mat stores your logs.
+- [ ] Create a new CloudTrail trail with an existing S3 bucket to store the logs and with the global services option selected Use 53 ACLs and Multi Factor Authentication (MFA) Delete on the S3 bucket that stores your logs.
+- [ ] Create three new CloudTrail trails with three new S3 buckets to store the logs one for the AWS Management console, one for AWS 5DKs and one for command line tools Use IAM roles and 53bucket policies on the S3 buckets that store your logs.
 
 ### Does DynamoDB support in-place atomic updates?
 
@@ -3388,9 +3388,9 @@
 
 - [ ] Amazon Dynamo DB.
 - [x] Amazon Elastic Compute Cloud (EC2).
-- [ ] Amazon Elastic Load Balancing.
+- [x] Amazon Elastic Load Balancing.
 - [ ] Amazon Simple Notification Service (SNS).
-- [ ] Amazon Simple Storage Service (53).
+- [ ] Amazon Simple Storage Service (S3).
 
 ### A customer is hosting t heir company website on a cluster of web servers that are behind a public facing load balancer. The customer also uses Amazon Route 53 to manage their public DNS. How should the customer configure the DNS zone apex record to point to the load balancer?
 
@@ -3500,11 +3500,11 @@
 
 ### Which of the following are characteristics of a reserved instance? (Choose 3 answers)
 
-- [ ] It can be migrated across Availability Zones.
+- [x] It can be migrated across Availability Zones.
 - [ ] It is specific to an Amazon Machine Image (AMI).
-- [x] It can be applied to instances launched by Auto Scaling.
-- [ ] It is specific to an instance Type.
-- [ ] It can be used to lower Total Cost of Ownership (TCO) of a system.
+- [ ] It can be applied to instances launched by Auto Scaling.
+- [x] It is specific to an instance Type.
+- [x] It can be used to lower Total Cost of Ownership (TCO) of a system.
 
 ### A user has defined an AutoScaling termination policy to first delete the instance with the nearest billing hour. AutoScaling has launched 3 instances in the US-East-1A region and 2 instances in the US-East-1B region. One of the instances in the US-East-1B region is running nearest to the billing hour. Which instance will AutoScaling terminate first while executing the termination action?
 
@@ -3646,12 +3646,12 @@
 - [x] Amazon S3 REST API.
 - [ ] AWS Elastic Beanstalk.
 
-### Company B is launching a new game app for mobile devices. Users will log into the game using their existing social media account to streamline data capture. Company B would like to directly saveplayer data and scoring information from the mobile app to a DynamoDS table named Score Data. When a user saves their game the progress data will be stored to the Game state 53 bucket. What is the best approach for storing data to DynamoDB and 53?
+### Company B is launching a new game app for mobile devices. Users will log into the game using their existing social media account to streamline data capture. Company B would like to directly saveplayer data and scoring information from the mobile app to a DynamoDS table named Score Data. When a user saves their game the progress data will be stored to the Game state S3 bucket. What is the best approach for storing data to DynamoDB and 53?
 
-- [ ] Use an EC2 Instance that is launched with an EC2 role providing access to the Score Data DynamoDB table and the GameState 53 bucket that communicates with the mobile app via web services.
-- [x] Use temporary security credentials that assume a role providing access to the Score Data DynamoDB table and the Game State 53 bucket using web identity federation.
-- [ ] Use Login with Amazon allowing users to sign in with an Amazon account providing the mobile app with access to the Score Data DynamoDB table and the Game State 53 bucket.
-- [ ] Use an IAM user with access credentials assigned a role providing access to the Score Data DynamoDB table and the Game State 53 bucket for distribution with the mobile app.
+- [ ] Use an EC2 Instance that is launched with an EC2 role providing access to the Score Data DynamoDB table and the GameState S3 bucket that communicates with the mobile app via web services.
+- [x] Use temporary security credentials that assume a role providing access to the Score Data DynamoDB table and the Game State S3 bucket using web identity federation.
+- [ ] Use Login with Amazon allowing users to sign in with an Amazon account providing the mobile app with access to the Score Data DynamoDB table and the Game State S3 bucket.
+- [ ] Use an IAM user with access credentials assigned a role providing access to the Score Data DynamoDB table and the Game State S3 bucket for distribution with the mobile app.
 
 ### If your DB instance runs out of storage space or file system resources, its status will change to [...] and your DB Instance will no longer be available.
 
@@ -3690,10 +3690,10 @@
 
 ### You are designing a connectivity solution between on-premises infrastructure and Amazon VPC. Your server's on-premises will De communicating with your VPC instances. You will De establishing IPSec tunnels over the internet You will be using VPN gateways and terminating the IPsec tunnels on AWS supported customer gateways. Which of the following objectives would you achieve by implementing an IPSec tunnel as outlined above? (Choose 4 answers)
 
-- [x] End-to-end protection of data in transit.
+- [ ] End-to-end protection of data in transit.
 - [ ] End-to-end Identity authentication.
 - [x] Data encryption across the Internet.
-- [ ] Protection of data in transit over the Internet.
+- [x] Protection of data in transit over the Internet.
 - [x] Peer identity authentication between VPN gateway and customer gateway.
 - [x] Data integrity protection across the Internet.
 
@@ -3727,9 +3727,9 @@
 
 ### You are the new IT architect in a company that operates a mobile sleep tracking application. When activated at night, the mobile app is sending collected data points of 1 kilobyte every 5 minutes to your backend. The backend takes care of authenticating the user and writing the data points into an Amazon DynamoDB table. Every morning, you scan the table to extract and aggregate last night's data on a per user basis, and store the results in Amazon S3. Users are notified via Amazon 5M5 mobile push notifications that new data is available, which is parsed and visualized by The mobile app Currently you have around lOOk users who are mostly based out of North America. You have been tasked to optimize the architecture of the backend system to lower cost what would you recommend? (Choose 2 answers)
 
-- [ ] Create a new Amazon DynamoDB able each day and drop the one for the previous day after its data is on Amazon S3.
-- [x] Have the mobile app access Amazon DynamoDB directly instead of J50N files stored on Amazon 53.
-- [ ] Introduce an Amazon SQS queue to buffer writes to the Amazon DynamoDB table and reduce provisioned write throughput.
+- [x] Create a new Amazon DynamoDB able each day and drop the one for the previous day after its data is on Amazon S3.
+- [ ] Have the mobile app access Amazon DynamoDB directly instead of J50N files stored on Amazon 53.
+- [x] Introduce an Amazon SQS queue to buffer writes to the Amazon DynamoDB table and reduce provisioned write throughput.
 - [ ] Introduce Amazon Elasticache lo cache reads from the Amazon DynamoDB table and reduce provisioned read throughput.
 - [ ] Write data directly into an Amazon Redshift cluster replacing both Amazon DynamoDB and Amazon 53.
 
@@ -3760,7 +3760,7 @@
 - [x] An IAM user assigned a bucket policy to an Amazon S3 bucket and didn't specify the root user as a principal
 - [ ] The S3 bucket is full.
 - [ ] The S3 bucket has reached the maximum number of objects allowed.
-- [ ] You are in the wrong availability zone.
+- [ ] You are in the wrong Availability Zone.
 
 ### When creation of an EBS snapshot is initiated, but not completed, the EBS volume?
 
@@ -3803,11 +3803,11 @@
 - [ ] Five: MySQL, PostgreSQL, MongoDB, Cassandra and SQLite.
 - [ ] Just one: MySQL.
 
-### Are you able to integrate a multi-factor token service with the AW5 Platform?
+### Are you able to integrate a multi-factor token service with the AWS Platform?
 
-- [ ] Yes, you can integrate private multi-factor token devices to authenticate users to the AW5 platform.
-- [ ] No, you cannot integrate multi-factor token devices with the AW5 platform.
-- [x] Yes, using the AW5 multi-factor token devices to authenticate users on the AW5 platform.
+- [ ] Yes, you can integrate private multi-factor token devices to authenticate users to the AWS platform.
+- [ ] No, you cannot integrate multi-factor token devices with the AWS platform.
+- [x] Yes, using the AWS multi-factor token devices to authenticate users on the AWS platform.
 
 ### What is the default maximum number of MFA devices in use per AWS account (at the root account level)?
 
@@ -3837,10 +3837,10 @@
 - [ ] The instance is replaced automatically by the ELB.
 - [x] The ELB stops sending traffic to the instance that failed its health check.
 
-### George has launched three EC2 instances inside the US-East-1a zone with his AWS account. Ray has launched two EC2 instances in the US-East-1a zone with his AWS account. Which of the below mentioned statements will help George and Ray understand the availability zone (AZ) concept better?
+### George has launched three EC2 instances inside the US-East-1a zone with his AWS account. Ray has launched two EC2 instances in the US-East-1a zone with his AWS account. Which of the below mentioned statements will help George and Ray understand the Availability Zone (AZ) concept better?
 
 - [ ] All the instances of George and Ray can communicate over a private IP with a minimal cost.
-- [x] The US-East-1a region of George and Ray can be different availability zones.
+- [x] The US-East-1a region of George and Ray can be different Availability Zones.
 - [ ] All the instances of George and Ray can communicate over a private IP without any cost.
 - [ ] The instances of George and Ray will be running in the same data centre.
 
@@ -3857,7 +3857,7 @@
 - [x] Each subnet maps to a single Availability Zone.
 - [ ] CIDR block mask of/25 is the smallest range supported.
 - [ ] By default, all subnets can route between each other, whether they are private or public.
-- [x] Instances in a private subnet can communicate with the Internet only if they have an Elastic I.
+- [x] Instances in a private subnet can communicate with the Internet only if they have an Elastic IP.
 
 ### Which AWS instance address has the following characteristics? 'If you stop an instance, its Elastic IP address is unmapped, and you must remap it when you restart the instance.'
 
@@ -3897,8 +3897,8 @@
 ### You would like to create a mirror image of your production environment in another region for disaster recovery purposes. Which of the following AWS resources do not need to be recreated in thesecond region? (Choose 2 answers)
 
 - [x] Route 53 Record Sets.
-- [ ] IMl Roles.
-- [x] Elastic IP Addresses (EIP).
+- [x] IAM Roles.
+- [ ] Elastic IP Addresses (EIP).
 - [ ] EC2 Key Pairs.
 - [ ] Launch configurations.
 - [ ] Security Groups.
@@ -3932,7 +3932,7 @@
 - [ ] Access Control Lists (ACLs), bucket policies, and query string authentication.
 - [ ] (IAM) policies, Access Control Lists (ACLs), bucket policies, query string authentication and encryption.
 
-### You are implementing AWS Direct Connect. You intend to use AWS public service end points such as Amazon S3, across the AWS Direct Connect link. You want other Internet traffic to use your existing link to an Internet Service Provider. What is the correct way to configure AW5 Direct connect for access to services such as Amazon S3?
+### You are implementing AWS Direct Connect. You intend to use AWS public service end points such as Amazon S3, across the AWS Direct Connect link. You want other Internet traffic to use your existing link to an Internet Service Provider. What is the correct way to configure AWS Direct connect for access to services such as Amazon S3?
 
 - [ ] Configure a public Interface on your AWS Direct Connect link. Configure a static route via your AWS Direct Connect link that points to Amazon S3 Advertise a default route to AWS using BGP.
 - [ ] Create a private interface on your AWS Direct Connect link. Configure a static route via your AWS Direct connect link that points to Amazon S3 Configure specific routes to your network in your VPC.
@@ -3985,10 +3985,10 @@
 - [ ] Only in VPC.
 - [ ] Only in certain regions.
 
-### Which of the following items are required to allow an application deployed on an EC2 instance to write data to a DynamoDB table? Assume that no security keys are allowed to be stored on the EC2 instance. (Choose 2 answers)
+### Which of the following items are required to allow an application deployed on an EC2 instance to write data to a DynamoDB table? Assume that no security keys are allowed to be stored on the EC2 instance. (Choose 3 answers)
 
 - [x] Create an IAM Role that allows write access to the DynamoDB table.
-- [ ] Add an IAM Role to a running EC2 instance.
+- [x] Add an IAM Role to a running EC2 instance.
 - [ ] Create an IAM User that al lows write access to the Dynamo DB table.
 - [ ] Add an IAM User to a running EC2 instance.
 - [x] Launch an EC2 Instance with the IAM Role included in the launch configuration.
@@ -4047,7 +4047,7 @@
 - [x] Email.
 - [ ] Cloud Front distribution.
 - [ ] File Transfer Protocol.
-- [ ] Short Message Service.
+- [x] Short Message Service.
 - [ ] Simple Network Management Protocol.
 
 ### AWS Identity and Access Management is a web service that enables Amazon Web Services (AWS) customers to manage users and user permissions in AWS. In addition to supporting IAM user policies, some services support resource-based permissions. Which of the following services are supported by resource-based permissions?
@@ -4176,7 +4176,7 @@
 - [ ] Yes.
 - [ ] Only if they are moving to US East from another region.
 
-### A user has created an ELB with the availability zone US-East-1A. The user wants to add more zones to ELB to achieve High Availability. How can the user add more zones to the existing ELB?
+### A user has created an ELB with the Availability Zone US-East-1A. The user wants to add more zones to ELB to achieve High Availability. How can the user add more zones to the existing ELB?
 
 - [ ] The user should stop the ELB and add zones and instances as required.
 - [ ] The only option is to launch instances in different zones and add to ELB.
@@ -4205,7 +4205,7 @@
 - [x] AWS Direct Connect.
 - [ ] Amazon VPC virtual private gateway.
 
-### A customer wants to leverage Amazon Simple Storage Service (53) and Amazon Glacier as part of their backup and archive infrastructure. The customer plans to use third-party software to support this integration. Which approach will limit the access of the third party software to only the Amazon 53 bucket named 'company-backup'?
+### A customer wants to leverage Amazon Simple Storage Service (S3) and Amazon Glacier as part of their backup and archive infrastructure. The customer plans to use third-party software to support this integration. Which approach will limit the access of the third party software to only the Amazon S3 bucket named 'company-backup'?
 
 - [ ] A custom bucket policy limited to the Amazon S3 API in the Amazon Glacier archive 'company backup'.
 - [ ] A custom bucket policy limited to the Amazon S3 API in 'company-backup'.
@@ -4369,10 +4369,10 @@
 
 ### A web design company currently runs several FTP servers that their 250 customers use to upload and download large graphic files They wish to move this system to AWS to make it more scalable, butthey wish to maintain customer privacy and Keep costs to a minimum. What AWS architecture would you recommend?
 
-- [x] ASK their customers to use an 53 client instead of an FTP client. Create a single 53 bucket Create an IAM user for each customer Put the IAM Users in a Group that has an IAM policy that permits access to sub-directories within the bucket via use of the 'username' Policy variable.
-- [ ] Create a single 53 bucket with Reduced Redundancy Storage turned on and ask their customers to use an 53 client instead of an FTP client Create a bucket for each customer with a Bucket Policy that permits access only to that one customer.
+- [x] ASK their customers to use an 53 client instead of an FTP client. Create a single S3 bucket Create an IAM user for each customer Put the IAM Users in a Group that has an IAM policy that permits access to sub-directories within the bucket via use of the 'username' Policy variable.
+- [ ] Create a single S3 bucket with Reduced Redundancy Storage turned on and ask their customers to use an 53 client instead of an FTP client Create a bucket for each customer with a Bucket Policy that permits access only to that one customer.
 - [ ] Create an auto-scaling group of FTP servers with a scaling policy to automatically scale-in when minimum network traffic on the auto-scaling group is below a given threshold. Load a central list of ftpusers from 53 as part of the user Data startup script on each Instance.
-- [ ] Create a single 53 bucket with Requester Pays turned on and ask their customers to use an 53 client instead of an FTP client Create a bucket tor each customer with a Bucket Policy that permits access only to that one customer.
+- [ ] Create a single S3 bucket with Requester Pays turned on and ask their customers to use an 53 client instead of an FTP client Create a bucket tor each customer with a Bucket Policy that permits access only to that one customer.
 
 ### Amazon RDS DB snapshots and automated backups are stored in:
 
@@ -4409,7 +4409,7 @@
 - [ ] Only default thresholds can be set you can't choose your own thresholds.
 - [ ] Set a target value and choose whether the alarm will trigger when the value hits this threshold.
 
-### You are designing a web application that stores static assets in an Amazon Simple Storage Service (53) bucket. You expect this bucket to immediately receive over 150 PUT requests per second. What should you do to ensure optimal performance?
+### You are designing a web application that stores static assets in an Amazon Simple Storage Service (S3) bucket. You expect this bucket to immediately receive over 150 PUT requests per second. What should you do to ensure optimal performance?
 
 - [x] Use multi-part upload.
 - [ ] Add a random prefix to the key names.
@@ -4495,9 +4495,9 @@
 
 - [ ] Amazon S3 allows you to store objects of virtually unlimited size.
 - [ ] Amazon S3 offers Provisioned IOP.
-- [ ] Amazon S3 allows you to store unlimited amounts of data.
-- [x] Amazon S3 should be used to host a relational database.
-- [ ] Objects are directly accessible via a URL.
+- [x] Amazon S3 allows you to store unlimited amounts of data.
+- [ ] Amazon S3 should be used to host a relational database.
+- [x] Objects are directly accessible via a URL.
 
 ### You need to set up a complex network infrastructure for your organization that will be reasonably easy to deploy, replicate, control, and track changes on. Which AWS service would be best to use to help you accomplish this?
 
@@ -4506,12 +4506,12 @@
 - [ ] Amazon Route 53.
 - [ ] Amazon CloudWatch.
 
-### How should the application use AWS credentials to access the 53 bucket securely?
+### How should the application use AWS credentials to access the S3 bucket securely?
 
 - [ ] Use the AWS account access Keys the application retrieves the credentials from the source code of the application.
-- [ ] Create an IAM user for the application with permissions that allow list access to the 53 bucket launch the instance as the IAM user and retrieve the IAM user's credentials from the EC2 instance user data.
-- [x] Create an IAM role for EC2 that allows list access to objects in the 53 bucket. Launch the instance with the role, and retrieve the role's credentials from the EC2 Instance metadata.
-- [ ] Create an IAM user for the application with permissions that allow list access to the 53 bucket. The application retrieves the IAM user credentials from a temporary directory with permissions that allow read access only to the application user.
+- [ ] Create an IAM user for the application with permissions that allow list access to the S3 bucket launch the instance as the IAM user and retrieve the IAM user's credentials from the EC2 instance user data.
+- [x] Create an IAM role for EC2 that allows list access to objects in the S3 bucket. Launch the instance with the role, and retrieve the role's credentials from the EC2 Instance metadata.
+- [ ] Create an IAM user for the application with permissions that allow list access to the S3 bucket. The application retrieves the IAM user credentials from a temporary directory with permissions that allow read access only to the application user.
 
 ### You are setting up a VPC and you need to set up a public subnet within that VPC. Which following requirement must be met for this subnet to be considered a public subnet?
 
@@ -4542,10 +4542,10 @@
 
 ### You are using an m1.small EC2 Instance with one 300GB EBS volume to host a relational database. You determined that write throughput to the database needs to be increased. Which of the following approaches can help achieve this? (Choose 2 answers)
 
-- [ ] Use an array of EBS volumes.
+- [x] Use an array of EBS volumes.
 - [ ] Enable Multi-AZ mode.
 - [ ] Place the instance in an Auto Scaling Groups.
-- [x] Add an EBS volume and place into RAID 5.
+- [ ] Add an EBS volume and place into RAID 5.
 - [x] Increase the size of the EC2 Instance.
 - [ ] Put the database behind an Elastic Load Balancer.
 
@@ -4603,7 +4603,7 @@
 - [x] Depends on the type of connection.
 - [ ] Yes.
 - [ ] No.
-- [ ] Only when there's just one availability zone in a region. If there are more than one, only one availability zone can be accessed directly.
+- [ ] Only when there's just one Availability Zone in a region. If there are more than one, only one availability zone can be accessed directly.
 
 ### What is the durability of S3 RRS?
 
@@ -4786,12 +4786,12 @@
 - [ ] A hosted zone is a selection of specific resource record sets hosted by CloudFront for distribution to Route 53.
 - [ ] A hosted zone is the Edge Location that hosts the Route 53 records for a user.
 
-### A user is launching an EC2 instance in the US East region. Which of the below mentioned options is recommended by AWS with respect to the selection of the availability zone?
+### A user is launching an EC2 instance in the US East region. Which of the below mentioned options is recommended by AWS with respect to the selection of the Availability Zone?
 
 - [ ] Always select the AZ while launching an instance.
 - [ ] Always select the US-East-1-a zone for HA.
 - [x] Do not select the AZ; instead let AWS select the AZ.
-- [ ] The user can never select the availability zone while launching an instance.
+- [ ] The user can never select the Availability Zone while launching an instance.
 
 ### ec2-revoke RevokeSecurityGroup Ingress
 
@@ -4822,7 +4822,7 @@
 - [ ] EC2 instances will retrieve the re levant others from DynamoDB AWS Mobile Push will be used to send offers to the mobile application to push alerts back to the mobile application.
 - [ ] The mobile application will send device location using AWS Mobile Push EC2 instances will retrieve the relevant offers from DynamoDB EC2 instances will communicate with mobile carriers/device providers to push alerts back to the mobile application.
 
-### You are running PostgreSQL on Amazon RDS and it seems to be all running smoothly deployed in one availability zone. A database administrator asks you if DB instances running PostgreSQL support Multi-AZ deployments. What would be a correct response to this question?
+### You are running PostgreSQL on Amazon RDS and it seems to be all running smoothly deployed in one Availability Zone. A database administrator asks you if DB instances running PostgreSQL support Multi-AZ deployments. What would be a correct response to this question?
 
 - [x] Yes.
 - [ ] Yes but only for small db instances.
