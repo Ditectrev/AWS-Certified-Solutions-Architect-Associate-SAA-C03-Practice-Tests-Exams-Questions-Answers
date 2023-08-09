@@ -313,8 +313,8 @@
 - [ ] Elastic Transcoder to transcode original high-resolution MP4 videos to HL.
 - [x] EBS volumes to host videos and EBS snapshots to incrementally backup original files after a few days. CloudFront to serve HLS transcoded videos from EC2.
 - [ ] Elastic Transcoder to transcode original high-resolution MP4 videos to HL.
-- [ ] Amazon S3 to host videos with Lifecycle Management to archive original files to Glacier after a few days. CloudFront to serve HLStranscoded videos from 53. [???]
-- [ ] A video transcoding pipeline running on EC2 using SQS to distribute tasks and Auto Scaling to adjust the number of nodes depending on the length of the queue. 53 to host videos with Lifecycle Management to archive all files to Glacier after a few days. CloudFront to serve HLS transcoded videos from Glacier.
+- [ ] Amazon S3 to host videos with Lifecycle Management to archive original files to Glacier after a few days. CloudFront to serve HLStranscoded videos from S3.
+- [ ] A video transcoding pipeline running on EC2 using SQS to distribute tasks and Auto Scaling to adjust the number of nodes depending on the length of the queue. S3 to host videos with Lifecycle Management to archive all files to Glacier after a few days. CloudFront to serve HLS transcoded videos from Glacier.
 
 ### You are designing an intrusion detection prevention (IDS/IPS) solution for a customer web application in a single VPC. You are considering the options for implementing lOS IPS protection for traffic coming from the Internet. Which of the following options would you consider? (Choose 2 answers)
 
@@ -346,8 +346,8 @@
 
 ### Your department creates regular analytics reports from your company's log files All log data is collected in Amazon S3 and processed by daily Amazon Elastic Map Reduce (EMR) jobs that generate daily PDF reports and aggregated tables in CSV format for an Amazon Redshift data warehouse. Which of the following alternatives will lower costs without compromising average performance of the system or data integrity for the raw data?
 
-- [ ] Use reduced redundancy storage (RRS) for all data in 53. Use a combination of Spot Instances and Reserved Instances for Amazon EMR jobs. Use Reserved Instances for Amazon Redshift.
-- [ ] Use reduced redundancy storage (RRS) for PDF and .csv data in 53. Add Spot Instances to EMR jobs. Use Spot Instances for Amazon Redshift.
+- [ ] Use reduced redundancy storage (RRS) for all data in S3. Use a combination of Spot Instances and Reserved Instances for Amazon EMR jobs. Use Reserved Instances for Amazon Redshift.
+- [ ] Use reduced redundancy storage (RRS) for PDF and .csv data in S3. Add Spot Instances to EMR jobs. Use Spot Instances for Amazon Redshift.
 - [x] Use reduced redundancy storage (RRS) for PDF and .csv data in Amazon S3. Add Spot Instances to Amazon EMR jobs. Use Reserved Instances for Amazon Redshift.
 - [ ] Use reduced redundancy storage (RRS) for all data in Amazon S3. Add Spot Instances to Amazon EMR jobs. Use Reserved Instances for Amazon Redshift.
 
@@ -730,7 +730,7 @@
 - [x] Private IP address.
 - [ ] Elastic IP Address.
 
-### When an EC2 instance that is backed by an 53-based AMI is terminated, what happens to the data on the root volume?
+### When an EC2 instance that is backed by an S3-based AMI is terminated, what happens to the data on the root volume?
 
 - [ ] Data is automatically saved as an EBS snapshot.
 - [ ] Data is automatically saved as an EBS volume.
@@ -839,7 +839,7 @@
 
 - [ ] Configure a NAT instance in your VPC Create a default route via the NAT instance and associate it with all subnets Configure a DNS A record that points to the NAT instance public IP address.
 - [ ] Configure a CloudFront distribution and configure the origin to point to the private IP addresses of your Web servers Configure a Route 53 CNAME record to your Cloud Front distribution.
-- [x] Place all your web servers behind EL8 Configure a Route 53 CNMIE to point to the ELB DNS name.
+- [x] Place all your web servers behind EL8 Configure a Route 53 CNAME to point to the ELB DNS name.
 - [x] Assign EIPs to all web servers. Configure a Route 53 record set with all EIPs. With health checks and DNS failover.
 - [ ] Configure ELB with an EIP Place all your Web servers behind ELB Configure a Route 53 A record that points to the EIP.
 
@@ -864,7 +864,7 @@
 - [x] Setup a DynamoDB table with an item for each user having the necessary attributes to hold the user preferences. The mobile application will query the user preferences directly from the DynamoDB table. Utilize ST.
 - [ ] Web Identity Federation, and DynamoDB Fine Grained Access Control to authenticate and authorize access.
 - [ ] Setup an RDS MySQL instance with multiple read replicas in 2 Availability Zones to store the user preference data. The mobile application will query the user preferences from the read replicas. Leverage the MySQL user management and access privilege system to manage security and access credentials.
-- [ ] Store the user preference data in 53 Setup a DynamoDB table with an item for each user and an item attribute pointing to the user' 53 object. The mobile application will retrieve the 53 URL from DynamoDB and then access the 53 object directly utilize STS, Web identity Federation, and 53 ACLs to authenticate and authorize access.
+- [ ] Store the user preference data in S3 Setup a DynamoDB table with an item for each user and an item attribute pointing to the user' S3 object. The mobile application will retrieve the S3 URL from DynamoDB and then access the S3 object directly utilize STS, Web identity Federation, and S3 ACLs to authenticate and authorize access.
 
 ### In the Amazon RDS which uses the SQL Server engine, what is the maximum size for a Microsoft SQL Server DB Instance with SQL Server Express edition?
 
@@ -888,7 +888,7 @@
 - [ ] instance backups.
 - [ ] mirrors.
 
-### You've been hired to enhance the overall security posture for a very large e-commerce site They have a well architected multi-tier application running in a VPC that uses ELBs in front of both the web and the app tier with static assets served directly from 53 They are using a combination of RDS and DynamoOB for their dynamic data and then archiving nightly into 53 for further processing with EMR They are concerned because they found questionable log entries and suspect someone is attempting to gain unauthorized access. Which approach provides a cost effective scalable mitigation to this kind of attack?
+### You've been hired to enhance the overall security posture for a very large e-commerce site They have a well architected multi-tier application running in a VPC that uses ELBs in front of both the web and the app tier with static assets served directly from S3 They are using a combination of RDS and DynamoOB for their dynamic data and then archiving nightly into S3 for further processing with EMR They are concerned because they found questionable log entries and suspect someone is attempting to gain unauthorized access. Which approach provides a cost effective scalable mitigation to this kind of attack?
 
 - [ ] Recommend that they lease space at a DirectConnect partner location and establish a lG DirectConnect connection to their vPC they would then establish Internet connectivity into their space, filter the traffic in hardware Web Application Firewall (WAF). And then pass the traffic through the DirectConnect connection into their application running in their VPC,
 - [ ] Add previously identified hostile source IPs as an explicit INBOUND DENY NACL to the web tier sub net.
@@ -969,7 +969,7 @@
 ### Can the string value of 'Key' be prefixed with :aws:'?
 
 - [ ] Only in GovCloud.
-- [ ] Only for 53 not EC2.
+- [ ] Only for S3 not EC2.
 - [ ] Yes.
 - [x] No.
 
@@ -1364,7 +1364,7 @@
 ### A company is building a voting system for a popular TV show, viewers win watch the performances then visit the show's website to vote for their favorite performer. It is expected that in a short period of time after the show has finished the site will receive millions of visitors. The visitors will first login to the site using their Amazon.com credentials and then submit their vote. After the voting is completed the page will display the vote totals. The company needs to build the site such that can handle the rapid influx of traffic while maintaining good performance but also wants to keep costs to a minimum. Which of the design patterns below should they use?
 
 - [ ] Use Cloud Front and an Elastic Load balancer in front of an auto-scaled set of web servers, the web servers will first can the Login With Amazon service to authenticate the user then process the users vote and store the result into a multi-AZ Relational Database Service instance.
-- [ ] Use CloudFront and the static website hosting feature of 53 with the Javascript SDK to call the Login With Amazon service to authenticate the user, use IAM Roles to gain permissions to a DynamoDB table to store the users vote.
+- [ ] Use CloudFront and the static website hosting feature of S3 with the Javascript SDK to call the Login With Amazon service to authenticate the user, use IAM Roles to gain permissions to a DynamoDB table to store the users vote.
 - [ ] Use Cloud Front and an Elastic Load Balancer in front of an auto-scaled set of web servers, the web servers will first call the Login with Amazon service to authenticate the user, the web servers will process the users vote and store the result into a DynamoDB table using IAM Roles for EC2 instances to gain permissions to the DynamoDB table.
 - [x] Use Cloud Front and an Elastic Load Balancer in front of an auto-scaled set of web servers, the web servers will first call the Login. With Amazon service to authenticate the user, the web servers win process the users vote and store the result into an SQS queue using IAM Roles for EC2 Instances to gain permissions to the SQS queue. A set of application servers will then retrieve the items from the queue and store the result into a DynamoDB table.
 
@@ -1393,10 +1393,10 @@
 
 ### Your company hosts a social media site supporting users in multiple countries. You have been asked to provide a highly available design tor the application that leverages multiple regions tor the most recently accessed content and latency sensitive portions of the wet) site The most latency sensitive component of the application involves reading user preferences to support web site personalization and ad selection. In addition to running your application in multiple regions, which option will support this application's requirements?
 
-- [x] Serve user content from 53. CloudFront and use Route 53 latency-based routing between ELBs in each region Retrieve user preferences from a local DynamoDB table in each region and leverage SQS to capture changes to user preferences with 505 workers for propagating updates to each table.
-- [ ] Use the 53 Copy API to copy recently accessed content to multiple regions and serve user content from 53. CloudFront with dynamic content and an ELB in each region Retrieve user preferences from an ElasticCache cluster in each region and leverage SNS notifications to propagate user preference changes to a worker node in each region.
-- [ ] Use the 53 Copy API to copy recently accessed content to multiple regions and serve user content from 53 CloudFront and Route 53 latency-based routing Between ELBs in each region Retrieve user preferences from a DynamoDB table and leverage SQS to capture changes to user preferences with 505 workers for propagating DynamoDB updates.
-- [ ] Serve user content from 53. CloudFront with dynamic content, and an ELB in each region Retrieve user preferences from an ElastiCache cluster in each region and leverage Simple Workflow (SWF) to manage the propagation of user preferences from a centralized OB to each ElastiCache cluster.
+- [x] Serve user content from S3. CloudFront and use Route 53 latency-based routing between ELBs in each region Retrieve user preferences from a local DynamoDB table in each region and leverage SQS to capture changes to user preferences with 505 workers for propagating updates to each table.
+- [ ] Use the 53 Copy API to copy recently accessed content to multiple regions and serve user content from S3. CloudFront with dynamic content and an ELB in each region Retrieve user preferences from an ElasticCache cluster in each region and leverage SNS notifications to propagate user preference changes to a worker node in each region.
+- [ ] Use the 53 Copy API to copy recently accessed content to multiple regions and serve user content from S3 CloudFront and Route 53 latency-based routing Between ELBs in each region Retrieve user preferences from a DynamoDB table and leverage SQS to capture changes to user preferences with 505 workers for propagating DynamoDB updates.
+- [ ] Serve user content from S3. CloudFront with dynamic content, and an ELB in each region Retrieve user preferences from an ElastiCache cluster in each region and leverage Simple Workflow (SWF) to manage the propagation of user preferences from a centralized OB to each ElastiCache cluster.
 
 ### A [...] is a document that provides a formal statement of one or more permissions.
 
@@ -1562,14 +1562,6 @@
 - [ ] Enterprise License.
 - [ ] License Included.
 
-### Which of the following statements are true about Amazon Route 53 resource records?
-
-- [x] An Alias record can map one DNS name to another Amazon Route 53 DNS name.
-- [ ] A CNAME record can be created for your zone apex.
-- [x] An Amazon Route 53 CNAME record can point to any DNS record hosted anywhere.
-- [ ] TIL can be set for an Alias record in Amazon Route 53.
-- [ ] An Amazon Route 53 Alias record can point to any DNS record hosted anywhere.
-
 ### Which of the following statements are true about Amazon Route 53 resource records? (Choose 2 answers)
 
 - [x] An Alias record can map one DNS name to another Amazon Route 53 DNS name.
@@ -1620,10 +1612,10 @@
 
 ### A 3-tier e-commerce web application is current deployed on-premises and will be migrated to AWS for greater scalability and elasticity The web server currently shares read-only data using a network distributed file system The app server tier uses a clustering mechanism for discovery and shared session state that depends on I P multicast The database tier uses shared-storage clustering to provide database fail over capability, and uses several read slaves for scaling Data on all servers and the distributed file system directory is backed up weekly to off-site tapes. Which AWS storage and database architecture meets the requirements of the application?
 
-- [ ] Web servers: store read-only data in 53, and copy from 53 to root volume at boot time. App servers: share state using a combination of DynamoDB and IP unicast. Database: use RDS with multi-AZdeployment and one or more read replicas. Backup: web servers, app servers, and database backed up weekly to Glacier using snapshots.
+- [ ] Web servers: store read-only data in S3, and copy from S3 to root volume at boot time. App servers: share state using a combination of DynamoDB and IP unicast. Database: use RDS with multi-AZdeployment and one or more read replicas. Backup: web servers, app servers, and database backed up weekly to Glacier using snapshots.
 - [ ] Web servers: store read-only data in an EC2 NFS server, mount to each web server at boot time. App servers: share state using a combination of DynamoDB and IP multicast. Database: use RDS with multi-AZ deployment and one or more Read Replicas. Backup: web and app servers backed up weekly via AMIs, database backed up via DB snapshots.
-- [x] Web servers: store read-only data in 53, and copy from 53 to root volume at boot time. App servers: share state using a combination of DynamoDB and IP unicast. Database: use RDS with multi-AZ deployment and one or more Read Replicas. Backup: web and app servers backed up weekly via AMIs, database backed up via DB snapshots.
-- [ ] Web servers: store read-only data in 53, and copy from 53 to root volume at boot time. App servers: share state using a combination of DynamoDB and IP unicast. Database: use RDS with multi-AZdeployment. Backup: web and app servers backed up weekly via AMIs, database backed up via DB snapshots.
+- [x] Web servers: store read-only data in S3, and copy from S3 to root volume at boot time. App servers: share state using a combination of DynamoDB and IP unicast. Database: use RDS with multi-AZ deployment and one or more Read Replicas. Backup: web and app servers backed up weekly via AMIs, database backed up via DB snapshots.
+- [ ] Web servers: store read-only data in S3, and copy from S3 to root volume at boot time. App servers: share state using a combination of DynamoDB and IP unicast. Database: use RDS with multi-AZdeployment. Backup: web and app servers backed up weekly via AMIs, database backed up via DB snapshots.
 
 ### What are the four levels of AWS Premium Support?
 
@@ -1862,7 +1854,7 @@
 
 - [ ] Attach the volume to an instance using EC2's SSL interface.
 - [ ] Write the data randomly instead of sequentially.
-- [ ] Encrypt the volume using the 53 server-side encryption service.
+- [ ] Encrypt the volume using the S3 server-side encryption service.
 - [ ] Create an IAM policy that restricts read and write access to the volume.
 - [x] Use an encrypted file system on top of the EBS volume.
 
@@ -1897,7 +1889,7 @@
 
 - [x] Use the EC2 VM Import Connector for vCenter to import the VM into EC2.
 - [ ] Use Import/Export to import the VM as an ESS snapshot and attach to EC2.
-- [ ] Use 53 to create a backup of the VM and restore the data into EC2.
+- [ ] Use S3 to create a backup of the VM and restore the data into EC2.
 - [ ] Use me ec2-bundle-instance API to Import an Image of the VM into EC2.
 
 ### You are setting up some EBS volumes for a customer who has requested a setup which includes a RAID (redundant array of inexpensive disks). AWS has some recommendations for RAID setups. Which RAID setup is not recommended for Amazon EBS?
@@ -1969,11 +1961,11 @@
 - [x] Performance, cost optimization, security, and fault tolerance.
 - [ ] Performance, cost optimization, access control, and connectivity.
 
-### An AWS customer runs a public blogging website. The site users upload two million blog entries a month. The average blog entry size is 200 KB. The access rate to blog entries drops to negligible 6months after publication and users rarely access a blog entry 1 year after publication. Additionally, blog entries have a high update rate during the first 3 months following publication, this drops to noupdates after 6 months. The customer wants to use CloudFront to improve his user's load times. Which of the following recommendations would you make to the customer?
+### An AWS customer runs a public blogging website. The site users upload two million blog entries a month. The average blog entry size is 200 KB. The access rate to blog entries drops to negligible 6 months after publication and users rarely access a blog entry 1 year after publication. Additionally, blog entries have a high update rate during the first 3 months following publication, this drops to noupdates after 6 months. The customer wants to use CloudFront to improve his user's load times. Which of the following recommendations would you make to the customer?
 
-- [ ] Duplicate entries into two different buckets and create two separate CloudFront distributions where 53 access is restricted only to Cloud Front identity.
+- [ ] Duplicate entries into two different buckets and create two separate CloudFront distributions where S3 access is restricted only to Cloud Front identity.
 - [ ] Create a CloudFront distribution with 'US' Europe price class for US/ Europe users and a different CloudFront distribution with Al l Edge Locations' for the remaining users.
-- [x] Create a CloudFront distribution with 53 access restricted only to the CloudFront identity and partition the blog entry's location in 53 according to the month it was uploaded to be used withCloudFront behaviors.
+- [x] Create a CloudFront distribution with S3 access restricted only to the CloudFront identity and partition the blog entry's location in S3 according to the month it was uploaded to be used withCloudFront behaviors.
 - [ ] Create a CloudFronl distribution with Restrict Viewer Access Forward Query string set to true and minimum TTL of 0.
 
 ### Your supervisor has asked you to build a simple file synchronization service for your department. He doesn't want to spend too much money and he wants to be notified of any changes to files by email. What do you think would be the best Amazon service to use for the email solution?
@@ -1992,10 +1984,10 @@
 
 ### Your customer wishes to deploy an enterprise application to AWS which will consist of several web servers, several application servers and a small (50GB) Oracle database information is stored, both in the database and the file systems of the various servers. The backup system must support database recovery whole server and whole disk restores, and individual file restores with a recovery time of no more than two hours. They have chosen to use RDS Oracle as the database. Which backup architecture will meet these requirements?
 
-- [x] Backup RDS using automated daily DB backups Backup the EC2 instances using AMIs and supplement with file-level backup to 53 using traditional enterprise backup software to provide file level restore.
-- [ ] Backup RDS using a Multi-AZ Deployment Backup the EC2 instances using Amis, and supplement by copying file system data to 53 to provide file-level restore.
+- [x] Backup RDS using automated daily DB backups Backup the EC2 instances using AMIs and supplement with file-level backup to S3 using traditional enterprise backup software to provide file level restore.
+- [ ] Backup RDS using a Multi-AZ Deployment Backup the EC2 instances using Amis, and supplement by copying file system data to S3 to provide file-level restore.
 - [ ] Backup RDS using automated daily DB backups Backup the EC2 instances using EBS snapshots and supplement with file-level backups to Amazon Glacier using traditional enterprise backup software to provide file-level restore.
-- [ ] Backup RDS database to 53 using Oracle RMAN Backup the EC2 instances using Amis, and supplement with EBS snapshots for individual volume restore.
+- [ ] Backup RDS database to S3 using Oracle RMAN Backup the EC2 instances using Amis, and supplement with EBS snapshots for individual volume restore.
 
 ### You are architecting a highly-scalable and reliable web application which will have a huge amount of content. You have decided to use Cloudfront as you know it will speed up distribution of your static and dynamic web content and know that Amazon CloudFront integrates with Amazon CloudWatch metrics so that you can monitor your web application. Because you live in Sydney you have chosen the the Asia Pacific (Sydney) region in the AWS console. However you have set up this up but no CloudFront metrics seem to be appearing in the CloudWatch console. What is the most likely reason from the possible choices below for this?
 
@@ -2068,10 +2060,10 @@
 
 ### An ERP application is deployed across multiple AZs in a single region. in the event of failure, the Recovery Time Objective (RTO) must be less than 3 hours, and the Recovery Point Objective (RPO) must be 15 minutes the customer realizes that data corruption occurred roughly 1.5 hours ago. What DR strategy could be used to achieve this RTO and RPO in the event of this kind of failure?
 
-- [x] Take hourly DB backups to 53, with transaction logs stored in 53 every 5 minutes.
+- [x] Take hourly DB backups to S3, with transaction logs stored in S3 every 5 minutes.
 - [ ] Use synchronous database master-slave replication between two Availability Zones.
-- [ ] Take hourly DB backups to EC2 Instance store volumes with transaction logs stored in 53 every 5 minutes.
-- [ ] Take 15 minute DB backups stored in Glacier with transaction logs stored in 53 every 5 minutes.
+- [ ] Take hourly DB backups to EC2 Instance store volumes with transaction logs stored in S3 every 5 minutes.
+- [ ] Take 15 minute DB backups stored in Glacier with transaction logs stored in S3 every 5 minutes.
 
 ### You have been setting up an Amazon Virtual Private Cloud (Amazon VPC) for your company, including setting up subnets. Security is a concern, and you are not sure which is the best security practice for securing subnets in your VPC. Which statement below is correct in describing the protection of AWS resources in each subnet?
 
@@ -2144,7 +2136,7 @@
 
 ### Your company has an on-premises multi-tier PHP web application, which recently experienced downtime due to a large burst in web traffic due to a company announcement Over the coming days, you are expecting similar announcements to drive similar unpredictable bursts, and are looking to find ways to quickly improve your infrastructures ability to handle unexpected increases in traffic. The application currently consists of 2 tiers a web tier which consists of a load balancer and several Linux Apache web servers as well as a database tier which hosts a Linux server hosting a MySQLdatabase. Which scenario below will provide full site functionality, while helping to improve the ability of your application in the short timeframe required?
 
-- [ ] Failover environment: Create an S3 bucket and configure it for website hosting. Migrate your DNS to Route 53 using zone file import, and leverage Route 53 DNS failover to failover to the 53 hostedwebsite.
+- [ ] Failover environment: Create an S3 bucket and configure it for website hosting. Migrate your DNS to Route 53 using zone file import, and leverage Route 53 DNS failover to failover to the S3 hosted website.
 - [ ] Hybrid environment: Create an AMI, which can be used to launch web servers in EC2. Create an Auto Scaling group, which uses the AMI to scale the web tier based on incoming traffic. LeverageElastic Load Balancing to balance traffic between on-premises web servers and those hosted in AWS.
 - [x] Offload traffic from on-premises environment: Setup a CloudFront distribution, and configure CloudFront to cache objects from a custom origin. Choose to customize your object cache behavior, andselect a TIL that objects should exist in cache.
 - [ ] Migrate to AWS: Use VM Import/Export to quickly convert an on-premises web server to an AMI.
@@ -2192,12 +2184,12 @@
 - [ ] Availability Zone.
 - [ ] Instance size.
 
-### Your firm has uploaded a large amount of aerial image data to 53 in the past, in your on-premises environment, you used a dedicated group of servers to oaten process this data and used Rabbit MQAnopen source messaging system to get job information to the servers. Once processed the data would go to tape and be shipped offsite. Your manager told you to stay with the current design, and leverage AWS archival storage and messaging services to minimize cost. Which is correct?
+### Your firm has uploaded a large amount of aerial image data to S3 in the past, in your on-premises environment, you used a dedicated group of servers to oaten process this data and used Rabbit MQAnopen source messaging system to get job information to the servers. Once processed the data would go to tape and be shipped offsite. Your manager told you to stay with the current design, and leverage AWS archival storage and messaging services to minimize cost. Which is correct?
 
-- [ ] Use SQS for passing job messages use Cloud Watch alarms to terminate EC2 worker instances when they become idle. Once data is processed, change the storage class of the 53 objects to Reduced Redundancy Storage.
+- [ ] Use SQS for passing job messages use Cloud Watch alarms to terminate EC2 worker instances when they become idle. Once data is processed, change the storage class of the S3 objects to Reduced Redundancy Storage.
 - [ ] Setup Auto-Scaled workers triggered by queue depth that use spot instances to process messages in SOS Once data is processed,
-- [ ] Change the storage class of the 53 objects to Reduced Redundancy Storage. Setup Auto-Scaled workers triggered by queue depth that use spot instances to process messages in SQS Once data is processed, change the storage class of the 53 objects to Glacier.
-- [x] Use SNS to pass job messages use Cloud Watch alarms to terminate spot worker instances when they become idle. Once data is processed, change the storage class of the 53 object to Glacier.
+- [ ] Change the storage class of the S3 objects to Reduced Redundancy Storage. Setup Auto-Scaled workers triggered by queue depth that use spot instances to process messages in SQS Once data is processed, change the storage class of the S3 objects to Glacier.
+- [x] Use SNS to pass job messages use Cloud Watch alarms to terminate spot worker instances when they become idle. Once data is processed, change the storage class of the S3 object to Glacier.
 
 ### A user has launched 10 EC2 instances inside a placement group. Which of the below mentioned statements is true with respect to the placement group?
 
@@ -2346,7 +2338,7 @@
 - [x] For each regional deployment, use RDS MySQL with a master in the region and a read replica in the HQ region.
 - [ ] For each regional deployment, use MySQL on EC2 with a master in the region and send hourly EBS snapshots to the HQ region.
 - [ ] For each regional deployment, use RDS MySQL with a master in the region and send hourly RDS snapshots to the HQ region.
-- [ ] For each regional deployment, use MySQL on EC2 with a master in the region and use 53 to copy data files hourly to the HQ region.
+- [ ] For each regional deployment, use MySQL on EC2 with a master in the region and use S3 to copy data files hourly to the HQ region.
 - [ ] Use Direct Connect to connect all regional MySQL deployments to the HQ region and reduce network latency for the batch process.
 
 ### What is the average IOPS that the user will get for most of the year as per EC2 SLA if the instance is attached to the EBS optimized instance?
@@ -2456,10 +2448,10 @@
 
 ### A newspaper organization has a on-premises application which allows the public to search its back catalogue and retrieve individual newspaper pages via a website written in Java They have scanned the old newspapers into JPEGs (approx 17TB) and used Optical Character Recognition (OCR) to populate a commercial search product. The hosting platform and software are now end of life and the organization wants to migrate Its archive to AWS and produce a cost efficient architecture and still be designed for availability and durability. Which is the most appropriate?
 
-- [ ] Use 53 with reduced redundancy lo store and serve the scanned files, install the commercial search application on EC2 Instances and configure with auto-scaling and an Elastic Load Balancer.
+- [ ] Use S3 with reduced redundancy to store and serve the scanned files, install the commercial search application on EC2 Instances and configure with auto-scaling and an Elastic Load Balancer.
 - [ ] Model the environment using CloudFormation use an EC2 instance running Apache webserver and an open source search application, stripe multiple standard EB5 volumes together to store the JPEGs and search index.
-- [x] Use 53 with standard redundancy to store and serve the scanned files, use Cloud5earch for query processing, and use Elastic Beanstalk to host the website across multiple Availability Zones.
-- [ ] Use a single-AZ RD5 My5QL instance lo store the search index 33d the JPEG images use an EC2 instance to serve the website and translate user queries into 5Q
+- [x] Use S3 with standard redundancy to store and serve the scanned files, use Cloud5earch for query processing, and use Elastic Beanstalk to host the website across multiple Availability Zones.
+- [ ] Use a single-AZ RD5 My5QL instance to store the search index 33d the JPEG images use an EC2 instance to serve the website and translate user queries into 5Q
 - [ ] Use a CloudFront download distribution to serve the JPEGs to the end users and Install the current commercial search product, along with a Java Container Tor the website on EC2 instances and use Route 53 with DNS round-robin.
 
 ### A Provisioned IOPS volume must be at least [...] GB in size.
@@ -2776,14 +2768,14 @@
 - [ ] Send all the log events to Amazon SQS, setup an Auto Scaling group of EC2 servers to consume the logs and apply the heuristics.
 - [x] Send all the log events to Amazon Kinesis develop a client process to apply heuristics on the logs.
 - [ ] Configure Amazon Cloud Trail to receive custom logs, use EMR to apply heuristics the logs.
-- [ ] Setup an Auto Scaling group of EC2 syslogd servers, store the logs on 53 use EMR to apply heuristics on the logs.
+- [ ] Setup an Auto Scaling group of EC2 syslogd servers, store the logs on S3 use EMR to apply heuristics on the logs.
 
 ### Can the string value of 'Key' be prefixed with laws?
 
 - [x] No.
-- [ ] Only for EC2 not 53.
+- [ ] Only for EC2 not S3.
 - [ ] Yes.
-- [ ] Only for 53 not EC.
+- [ ] Only for S3 not EC.
 
 ### You are configuring your company's application to use Auto Scaling and need to move user state information. Which of the following AWS services provides a shared data store with durability and lowlatency?
 
@@ -2812,10 +2804,10 @@
 - [x] All of the items listed will track the performance and health of a database.
 - [ ] View, download, or watch database log files using the Amazon RDS console or Amazon RDS APIs. You can also query some database log files that are loaded into database tables.
 
-### You deployed your company website using Elastic Beanstalk and you enabled log file rotation to 53. An Elastic Map Reduce job is periodically analyzing the logs on 53 to build a usage dashboard that you share with your CIO. You recently improved overall performance of the website using Cloud Front for dynamic content delivery and your website as the origin. After this architectural change, the usage dashboard shows that the traffic on your website dropped by an order of magnitude. How do you fix your usage dashboard?
+### You deployed your company website using Elastic Beanstalk and you enabled log file rotation to S3. An Elastic Map Reduce job is periodically analyzing the logs on S3 to build a usage dashboard that you share with your CIO. You recently improved overall performance of the website using Cloud Front for dynamic content delivery and your website as the origin. After this architectural change, the usage dashboard shows that the traffic on your website dropped by an order of magnitude. How do you fix your usage dashboard?
 
-- [x] Enable Cloud Front to deliver access logs to 53 and use them as input of the Elastic Map Reduce job.
-- [ ] Turn on Cloud Trail and use trail log tiles on 53 as input of the Elastic Map Reduce job.
+- [x] Enable Cloud Front to deliver access logs to S3 and use them as input of the Elastic Map Reduce job.
+- [ ] Turn on Cloud Trail and use trail log tiles on S3 as input of the Elastic Map Reduce job.
 - [ ] Change your log collection process to use Cloud Watch ELB metrics as input of the Elastic Map Reduce job.
 - [ ] Use Elastic Beanstalk 'Rebuild Environment' option to update log delivery to the Elastic Map Reduce job.
 - [ ] Use Elastic Beanstalk 'Restart App server(s)' option to update log delivery to the Elastic Map Reduce job.
@@ -2996,7 +2988,7 @@
 
 ### Your company is in the process of developing a next generation pet collar that collects biometric information to assist families with promoting healthy lifestyles for their pets Each collar will push 30kb of biometric data in JSON format every 2 seconds to a collection platform that will process and analyze the data providing health trending information back to the pet owners and veterinarians via a web portal Management has tasked you to architect the collection platform ensuring the following requirements are met. Provide the ability for real-time analytics of the inbound biometric data. Ensure processing of the biometric data is highly durable. Elastic and parallel. The results of the analytic processing should be persisted for data mining. Which architecture outlined below win meet the initial requirements for the collection platform?
 
-- [ ] Utilize 53 to collect the inbound sensor data analyze the data from 53 with a daily scheduled Data Pipeline and save the results to a Redshift Cluster.
+- [ ] Utilize S3 to collect the inbound sensor data analyze the data from S3 with a daily scheduled Data Pipeline and save the results to a Redshift Cluster.
 - [x] Utilize Amazon Kinesis to collect the inbound sensor data, analyze the data with Kinesis clients and save the results to a Red shift cluster using EMR.
 - [ ] Utilize SQS to collect the inbound sensor data analyze the data from SQS with Amazon Kinesis and save the results to a Microsoft SQL Server RDS instance.
 - [ ] Utilize EMR to collect the inbound sensor data, analyze the data from EUR with Amazon Kinesis and save me results to Dynamo D
@@ -3100,7 +3092,7 @@
 
 ### You are running a successful multitier web application on AWS and your marketing department has asked you to add a reporting tier to the application. The reporting tier will aggregate and publishstatus reports every 30 minutes from user-generated information that is being stored in your web application s database. You are currently running a Multi-AZ RDS MySQL instance for the databasetier. You also have implemented Elasticache as a database caching layer between the application tier and database tier. Please select the answer that will allow you to successful ly implement thereporting tier with as little impact as possible to your database.
 
-- [ ] Continually send transaction logs from your master database to an S3 bucket and generate the reports off the S3 bucket using 53 byte range requests.
+- [ ] Continually send transaction logs from your master database to an S3 bucket and generate the reports off the S3 bucket using S3 byte range requests.
 - [ ] Generate the reports by querying the synchronously replicated standby RDS MySQL instance maintained through Multi-AZ.
 - [x] Launch a RDS Read Replica connected to your Multi-AZ master database and generate reports by querying the Read Replica.
 - [ ] Generate the reports by querying the ElastiCache database caching tier.
@@ -3247,7 +3239,7 @@
 
 - [x] Use AWS data Pipeline to schedule a DynamoDB cross region copy once a day. create a Last updated' attribute in your DynamoDB table that would represent the timestamp of the last update and use it as a filter.
 - [ ] Use EMR and write a custom script to retrieve data from DynamoDB in the current region using a SCAN operation and push it to Dynamo DB in the second region.
-- [ ] Use AWS data Pipeline to schedule an export of the DynamoDB table to 53 in the current region once a day then schedule another task immediately after it that will import data from 53 to DynamoDB in the other region.
+- [ ] Use AWS data Pipeline to schedule an export of the DynamoDB table to S3 in the current region once a day then schedule another task immediately after it that will import data from S3 to DynamoDB in the other region.
 - [ ] Send also each Ante into an SQS queue in me second region; use an auto-scaling group behind the SQS queue to replay the write in the second region.
 
 ### An Elastic IP address (EIP) is a static IP address designed for dynamic cloud computing. With an EIP, you can mask the failure of an instance or software by rapidly remapping the address to another instance in your account. Your EIP is associated with your AWS account, not a particular EC2 instance, and it remains associated with your account until you choose to explicitly release it. By default how many EIPs is each AWS account limited to on a per region basis?
@@ -3266,10 +3258,10 @@
 
 ### You currently operate a web application in the AWS US-East region The application runs on an autoscaled layer of EC2 instances and an RDS Multi-AZ database Your IT security compliance officer has tasked you to develop a reliable and durable logging solution to track changes made to your EC2.1AM And RDS resources. The solution must ensure the integrity and confidentiality of your log data. Which of these solutions would you recommend?
 
-- [x] Create a new CloudTrail trail with one new S3 bucket to store the logs and with the global services option selected Use IAM roles S3 bucket policies and Multi Factor Authentication (MFA) Delete on the 53 bucket that stores your logs.
-- [ ] Create a new CloudTrail with one new S3 bucket to store the logs Configure SNS to send log file delivery notifications to your management system Use IAM roles and S3 bucket policies on the 53bucket mat stores your logs.
-- [ ] Create a new CloudTrail trail with an existing S3 bucket to store the logs and with the global services option selected Use 53 ACLs and Multi Factor Authentication (MFA) Delete on the S3 bucket that stores your logs.
-- [ ] Create three new CloudTrail trails with three new S3 buckets to store the logs one for the AWS Management console, one for AWS 5DKs and one for command line tools Use IAM roles and 53bucket policies on the S3 buckets that store your logs.
+- [x] Create a new CloudTrail trail with one new S3 bucket to store the logs and with the global services option selected Use IAM roles S3 bucket policies and Multi Factor Authentication (MFA) Delete on the S3 bucket that stores your logs.
+- [ ] Create a new CloudTrail with one new S3 bucket to store the logs Configure SNS to send log file delivery notifications to your management system Use IAM roles and S3 bucket policies on the S3 bucket mat stores your logs.
+- [ ] Create a new CloudTrail trail with an existing S3 bucket to store the logs and with the global services option selected Use S3 ACLs and Multi Factor Authentication (MFA) Delete on the S3 bucket that stores your logs.
+- [ ] Create three new CloudTrail trails with three new S3 buckets to store the logs one for the AWS Management console, one for AWS SDKs and one for command line tools Use IAM roles and S3 bucket policies on the S3 buckets that store your logs.
 
 ### Does DynamoDB support in-place atomic updates?
 
@@ -3646,7 +3638,7 @@
 - [x] Amazon S3 REST API.
 - [ ] AWS Elastic Beanstalk.
 
-### Company B is launching a new game app for mobile devices. Users will log into the game using their existing social media account to streamline data capture. Company B would like to directly saveplayer data and scoring information from the mobile app to a DynamoDS table named Score Data. When a user saves their game the progress data will be stored to the Game state S3 bucket. What is the best approach for storing data to DynamoDB and 53?
+### Company B is launching a new game app for mobile devices. Users will log into the game using their existing social media account to streamline data capture. Company B would like to directly saveplayer data and scoring information from the mobile app to a DynamoDS table named Score Data. When a user saves their game the progress data will be stored to the Game state S3 bucket. What is the best approach for storing data to DynamoDB and S3?
 
 - [ ] Use an EC2 Instance that is launched with an EC2 role providing access to the Score Data DynamoDB table and the GameState S3 bucket that communicates with the mobile app via web services.
 - [x] Use temporary security credentials that assume a role providing access to the Score Data DynamoDB table and the Game State S3 bucket using web identity federation.
@@ -3728,10 +3720,10 @@
 ### You are the new IT architect in a company that operates a mobile sleep tracking application. When activated at night, the mobile app is sending collected data points of 1 kilobyte every 5 minutes to your backend. The backend takes care of authenticating the user and writing the data points into an Amazon DynamoDB table. Every morning, you scan the table to extract and aggregate last night's data on a per user basis, and store the results in Amazon S3. Users are notified via Amazon 5M5 mobile push notifications that new data is available, which is parsed and visualized by The mobile app Currently you have around lOOk users who are mostly based out of North America. You have been tasked to optimize the architecture of the backend system to lower cost what would you recommend? (Choose 2 answers)
 
 - [x] Create a new Amazon DynamoDB able each day and drop the one for the previous day after its data is on Amazon S3.
-- [ ] Have the mobile app access Amazon DynamoDB directly instead of J50N files stored on Amazon 53.
+- [ ] Have the mobile app access Amazon DynamoDB directly instead of J50N files stored on Amazon S3.
 - [x] Introduce an Amazon SQS queue to buffer writes to the Amazon DynamoDB table and reduce provisioned write throughput.
-- [ ] Introduce Amazon Elasticache lo cache reads from the Amazon DynamoDB table and reduce provisioned read throughput.
-- [ ] Write data directly into an Amazon Redshift cluster replacing both Amazon DynamoDB and Amazon 53.
+- [ ] Introduce Amazon Elasticache to cache reads from the Amazon DynamoDB table and reduce provisioned read throughput.
+- [ ] Write data directly into an Amazon Redshift cluster replacing both Amazon DynamoDB and Amazon S3.
 
 ### You are implementing a URL whitelisting system for a company that wants to restrict outbound HTTP'S connections to specific domains from their EC2-hosted applications you deploy a single EC2 instance running proxy software and configure It to accept traffic from all subnets and EC2 instances in the VPC. You configure the proxy to only pass through traffic to domains that you define in its whitelist configuration You have a nightly maintenance window or 10 minutes where all instances fetch new software updates. Each update Is about 200MB in size and there are 500 instances in theVPC that routinely fetch updates After a few days you notice that some machines are failing to successfully download some, but not all of their updates within the maintenance window. The download URLs used for these updates are correctly listed in the proxy's whitelist configuration and you are able to access them manually using a web browser on the instances. What might be happening? (Choose 2 answers)
 
@@ -4014,7 +4006,7 @@
 - [ ] AWS Cloud Formation Read Only Access.
 - [x] Administrator Access.
 
-### What does RRS stand for when talking about 53?
+### What does RRS stand for when talking about S3?
 
 - [ ] Redundancy Removal System.
 - [ ] Relational Rights Storage.
@@ -4229,7 +4221,7 @@
 ### Refer to the architecture diagram above of a batch processing solution using Simple Queue Service (SQS) to set up a message queue between EC2 instances which are used as batch processors Cloud Watch monitors the number of Job requests (queued messages) and an Auto Scaling group adds or deletes batch servers automatically based on parameters set in Cloud Watch alarms. You can use this architecture to implement which of the following features in a cost effective and efficient manner?
 
 - [ ] Reduce the overall lime for executing jobs through parallel processing by allowing a busy EC2 instance that receives a message to pass it to the next instance in a daisy-chain setup.
-- [ ] Implement fault tolerance against EC2 instance failure since messages would remain in SQS and worn can continue with recovery of EC2 instances implement fault tolerance against SQS failure by backing up messages to 53.
+- [ ] Implement fault tolerance against EC2 instance failure since messages would remain in SQS and worn can continue with recovery of EC2 instances implement fault tolerance against SQS failure by backing up messages to S3.
 - [x] Implement message passing between EC2 instances within a batch by exchanging messages through SQS.
 - [ ] Coordinate number of EC2 instances with number of job requests automatically thus Improving cost effectiveness.
 - [ ] Handle high priority jobs before lower priority jobs by assigning a priority metadata fie ld to SQS messages.
@@ -4307,7 +4299,7 @@
 ### You're running an application on-premises due to its dependency on non-x86 hardware and want to use AWS for data backup. Your backup application is only able to write to POSIX-compatible block based storage. You have 140TB of data and would like to mount it as a single folder on your file server Users must be able to access portions of this data while the backups are taking place. What backup solution would be most appropriate for this use case?
 
 - [x] Use Storage Gateway and configure it to use Gateway Cached volumes.
-- [ ] Configure your backup software to use 53 as the target for your data backups.
+- [ ] Configure your backup software to use S3 as the target for your data backups.
 - [ ] Configure your backup software to use Glacier as the target for your data backups.
 - [ ] Use Storage Gateway and configure it to use Gateway Stored volumes.
 
@@ -4369,10 +4361,10 @@
 
 ### A web design company currently runs several FTP servers that their 250 customers use to upload and download large graphic files They wish to move this system to AWS to make it more scalable, butthey wish to maintain customer privacy and Keep costs to a minimum. What AWS architecture would you recommend?
 
-- [x] ASK their customers to use an 53 client instead of an FTP client. Create a single S3 bucket Create an IAM user for each customer Put the IAM Users in a Group that has an IAM policy that permits access to sub-directories within the bucket via use of the 'username' Policy variable.
-- [ ] Create a single S3 bucket with Reduced Redundancy Storage turned on and ask their customers to use an 53 client instead of an FTP client Create a bucket for each customer with a Bucket Policy that permits access only to that one customer.
-- [ ] Create an auto-scaling group of FTP servers with a scaling policy to automatically scale-in when minimum network traffic on the auto-scaling group is below a given threshold. Load a central list of ftpusers from 53 as part of the user Data startup script on each Instance.
-- [ ] Create a single S3 bucket with Requester Pays turned on and ask their customers to use an 53 client instead of an FTP client Create a bucket tor each customer with a Bucket Policy that permits access only to that one customer.
+- [x] Ask their customers to use an S3 client instead of an FTP client. Create a single S3 bucket Create an IAM user for each customer Put the IAM Users in a Group that has an IAM policy that permits access to sub-directories within the bucket via use of the 'username' Policy variable.
+- [ ] Create a single S3 bucket with Reduced Redundancy Storage turned on and ask their customers to use an S3 client instead of an FTP client Create a bucket for each customer with a Bucket Policy that permits access only to that one customer.
+- [ ] Create an auto-scaling group of FTP servers with a scaling policy to automatically scale-in when minimum network traffic on the auto-scaling group is below a given threshold. Load a central list of ftp users from S3 as part of the user Data startup script on each Instance.
+- [ ] Create a single S3 bucket with Requester Pays turned on and ask their customers to use an S3 client instead of an FTP client Create a bucket tor each customer with a Bucket Policy that permits access only to that one customer.
 
 ### Amazon RDS DB snapshots and automated backups are stored in:
 
