@@ -57,12 +57,12 @@
 
 ## 🙋‍♀️ & 🙋‍♂️ Contribution
 
-We are so thankful for every contribution, which makes sure we can deliver top-notch content. Whenever you find a missing resource, broken link in a [Table of Contents](#table-of-contents), the wrong answer, please submit an [issue](/issues). Even better would be a [Pull Request (PR)](/pulls).
+We are so thankful for every contribution, which makes sure we can deliver top-notch content. Whenever you find a missing resource, broken link in a [Table of Contents](#table-of-contents), the wrong answer, please submit an [issue](../../issues). Even better would be a [Pull Request (PR)](../../pulls).
 
 ## Who this course is for:
 
 - 👨‍🎓 Students preparing for the Amazon Web Services Certified (AWS Certified) Solutions Architect Associate (SAA-C03) Exam;
-- 👨‍🎓 Amazwon Web Services (AWS) Engineers;
+- 👨‍🎓 Amazon Web Services (AWS) Engineers;
 - 👨‍🎓 Azure Engineers;
 - 👨‍🎓 Cloud Architects;
 - 👨‍🎓 Cloud Engineers;
