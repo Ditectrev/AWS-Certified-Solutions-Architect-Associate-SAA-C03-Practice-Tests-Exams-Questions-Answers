@@ -2,6 +2,88 @@
 
 ![Promotional image](images/promotional.png)
 
+## Udemy & Etsy
+
+❣️ Please support us by purchasing this course on Udemy in an interactive version with the [discounted link](https://www.udemy.com/). If you're working for a company, you could most probably easily claim this expense during preparation for your exam. For us, it's to be, or not to be, in the game.
+
+🛍️ Alternatively, you can buy the PDF with those questions on [Etsy](https://www.etsy.com/).
+
+## ✨ This course is unlike any Amazon Web Services Certified (AWS Certified) Solutions Architect Associate (SAA-C03) course you will find online.
+
+✋ Join a live online community and a course taught by industry experts and pass the Amazon Web Services Certified (AWS Certified) Solutions Architect Associate (SAA-C03) confidently. We aim to build an ecosystem of Information Technology (IT) certifications and online courses in cooperation with the technology industry. We believe it will give our students 100% confidence in the pacing market in an open-source environment. We are just at the beginning of our way, so it's even better for you to join now!
+
+[![Join our Discord](images/discord.png 'Join our Discord')](https://discord.gg/RFjtXKfJy3)
+
+## ⌛️ Short and to the point; why should you take the course:
+
+1. Always happy to answer your questions on Udemy's Q&A's and outside :)
+2. Failed? Please submit a screenshot of your exam result and request a refund (via our upcoming platform, not possible on Udemy); we'll always accept it.
+3. Learn about topics, such as:
+   - Access Control;
+   - Amazon CloudFront;
+   - Amazon CloudWatch;
+   - Amazon DynamoDB;
+   - Amazon Elastic Block Store (Amazon EBS);
+   - Amazon Elastic Compute Cloud (Amazon EC2);
+   - Amazon Elastic MapReduce (Amazon EMR);
+   - Amazon Relational Database Service (Amazon RDS);
+   - Amazon Resource Names (ARN);
+   - Amazon Route 53;
+   - Amazon Simple Storage Service (Amazon S3);
+   - Authentication & Authorization;
+   - Availability Zones;
+   - AWS Direct Connect;
+   - AWS Identity and Access Management (AWS IAM);
+   - Cloud Concepts;
+   - Compliancy, Governance, Identity & Privacy;
+   - Elastic IP (EIP);
+   - Inbound Data Traffic & Outbound Data Traffic;
+   - Input/Output operations Per Second (IOPS)
+   - Public & Private Cloud;
+   - Service Level Agreement (SLA);
+   - Software as a Service (SaaS);
+   - Virtual Private Clouds (VPC);
+   - **Much More!**
+4. Questions are similar to the actual exam, without duplications (like in other courses ;-)).
+5. The Practice Tests Exams simulate the actual exam's content, timing, and percentage required to pass the exam.
+6. This course is **not** a Amazon Web Services Certified (AWS Certified) Solutions Architect Associate (SAA-C03) Exam Dump. Some people use brain dumps or exam dumps, but that's absurd, which we don't practice.
+7. 650 **unique** questions.
+
+## ☝️ Course Updates
+
+**[v1.0.0](/releases/tag/v1.0.0): August x, 2023.**
+
+- Launch of the course.
+
+## 🙋‍♀️ & 🙋‍♂️ Contribution
+
+We are so thankful for every contribution, which makes sure we can deliver top-notch content. Whenever you find a missing resource, broken link in a [Table of Contents](#table-of-contents), the wrong answer, please submit an [issue](/issues). Even better would be a [Pull Request (PR)](/pulls).
+
+## Who this course is for:
+
+- 👨‍🎓 Students preparing for the Amazon Web Services Certified (AWS Certified) Solutions Architect Associate (SAA-C03) Exam;
+- 👨‍🎓 Amazwon Web Services (AWS) Engineers;
+- 👨‍🎓 Azure Engineers;
+- 👨‍🎓 Cloud Architects;
+- 👨‍🎓 Cloud Engineers;
+- 👨‍🎓 DevOps Engineers;
+- 👨‍🎓 Enterprise Architects;
+- 👨‍🎓 Google Cloud Platform (GCP) Engineers;
+- 👨‍🎓 Infrastructure Engineers;
+- 👨‍🎓 Lead Engineers;
+- 👨‍🎓 Product Architects;
+- 👨‍🎓 Security Engineers;
+- 👨‍🎓 Site Reliability Engineers;
+- 👨‍🎓 Software Developers/Engineers;
+- 👨‍🎓 Solution Architects;
+- 👨‍🎓 Team Leaders.
+
+## Requirements
+
+- 🤩 Excitement to learn!
+- 0️⃣ Prior knowledge is required;
+- ✅ You can pass the Amazon Web Services Certified (AWS Certified) Solutions Architect Associate (SAA-C03) Exam solely based on our Practice Tests Exams.
+
 ## Table of Contents
 
 | No. | Questions |
@@ -10,11 +92,11 @@
 | 2   | [What is the minimum time Interval for the data that Amazon CloudWatch receives and aggregates?](#what-is-the-minimum-time-interval-for-the-data-that-amazon-cloudwatch-receives-and-aggregates)
 | 3   | [A user has launched an EC2 instance. The instance got terminated as soon as it was launched. Which of the below mentioned options is not a possible reason for this?](#a-user-has-launched-an-ec2-instance-the-instance-got-terminated-as-soon-as-it-was-launched-which-ofthe-below-mentioned-options-is-not-a-possible-reason-for-this)
 | 4   | [Your website is serving on-demand training videos a-user-has-launched-an-ec2-instance-the-instance-got-terminated-as-soon-as-it-was-launched-which-ofthe-below-mentioned-options-is-not-a-possible-reason-for-thisto your workforce. Videos are uploaded monthly in high resolution MP4 format. Your workforce is distributed globally often on the move and using company-provided tablets that require the HTTP Live Streaming (HLS) protocol to watch a video. Your company has no video transcoding expertise and it required you may need to pay for a consultant. How do you implement the most cost-efficient architecture without compromising high availability and quality of video delivery'?](#your-website-is-serving-on-demand-training-videos-to-your-workforce-videos-are-uploaded-monthly-in-high-resolution-mp4-format-your-workforce-is-distributed-globally-often-on-the-move-and-using-company-provided-tablets-that-require-the-http-live-streaming-hls-protocol-to-watch-a-video-your-company-has-no-video-transcoding-expertise-and-it-required-you-may-need-to-pay-for-a-consultant-how-do-you-implement-the-most-cost-efficient-architecture-withoutcompromising-high-availabilityandquality-of-video-delivery)
-| 5   | [You are designing an intrusion detection prevention (IDS/IPS) solution for a customer web application in a single VPC. You are considering the options for implementing lOS IPS protection for traffic coming from the Internet. Which of the following options would you consider? (Choose 2 answers)](#you-are-designing-an-intrusion-detection-prevention-idsips-solution-for-a-customer-web-application-in-a-single-vpc-you-are-considering-the-options-for-implementing-los-ips-protection-for-traffic-coming-from-the-internet-which-of-the-following-options-would-you-consider-choose-2-answers)
+| 5   | [You are designing an intrusion detection prevention (IDS/IPS) solution for a customer web application in a single VPC. You are considering the options for implementing IOS IPS protection for traffic coming from the Internet. Which of the following options would you consider? (Choose 2 answers)](#you-are-designing-an-intrusion-detection-prevention-idsips-solution-for-a-customer-web-application-in-a-single-vpc-you-are-considering-the-options-for-implementing-ios-ips-protection-for-traffic-coming-from-the-internet-which-of-the-following-options-would-you-consider-choose-2-answers)
 | 6   | [Which of the following are valid statements about Amazon S3? (Choose 2 answers)](#which-of-the-following-are-valid-statements-about-amazon-s3-choose-2-answers)
 | 7   | [How can the domain's zone apex, for example, 'myzoneapexdomain.com', be pointed towards an Elastic Load Balancer?](#how-can-the-domains-zone-apex-for-example-myzoneapexdomaincom-be-pointed-towards-anelasticload-balancer)
 | 8   | [When should I choose Provisioned IOPS over Standard RDS storage?](#when-should-i-choose-provisioned-iops-over-standard-rds-storage)
-| 9   | [Your department creates regular analytics reports from your company's log files All log data is collected in Amazon S3 and processed by daily Amazon Elastic Map Reduce (EMR) jobs that generate daily PDF reports and aggregated tables in CSV format for an Amazon Redshift data warehouse. Which of the following alternatives will lower costs without compromising average performance of the system or data integrity for the raw data?](#your-department-creates-regular-analytics-reports-from-your-companys-log-files-all-log-data-is-collected-in-amazon-s3-and-processed-by-daily-amazon-elastic-map-reduce-emr-jobs-that-generate-daily-pdf-reports-and-aggregated-tables-in-csv-format-for-an-amazon-redshift-data-warehouse-which-of-the-following-alternatives-will-lower-costs-without-compromising-average-performance-of-the-system-or-data-integrity-for-the-raw-data)
+| 9   | [Your department creates regular analytics reports from your company's log files All log data is collected in Amazon S3 and processed by daily Amazon Elastic MapReduce (EMR) jobs that generate daily PDF reports and aggregated tables in CSV format for an Amazon Redshift data warehouse. Which of the following alternatives will lower costs without compromising average performance of the system or data integrity for the raw data?](#your-department-creates-regular-analytics-reports-from-your-companys-log-files-all-log-data-is-collected-in-amazon-s3-and-processed-by-daily-amazon-elastic-mapreduce-emr-jobs-that-generate-daily-pdf-reports-and-aggregated-tables-in-csv-format-for-an-amazon-redshift-data-warehouse-which-of-the-following-alternatives-will-lower-costs-without-compromising-average-performance-of-the-system-or-data-integrity-for-the-raw-data)
 | 10  | [Because of the extensibility limitations of striped storage attached to Windows Server, Amazon RDS does not currently support increasing storage on a [...] DB Instance.](#because-of-the-extensibility-limitations-of-striped-storage-attached-to-windows-server-amazon-rdsdoesnot-currently-support-increasing-storage-on-a--db-instance)
 | 11  | [In regards to IAM you can edit user properties later, but you cannot use the console to change the [...].](#in-regards-to-iam-you-can-edit-user-properties-later-but-you-cannot-use-the-console-to-change-the-)
 | 12  | [In Amazon EC2 Container Service, are other container types supported?](#in-amazon-ec2-container-service-are-other-container-types-supported)
@@ -186,7 +268,7 @@
 | 178 | [A user wants to achieve High Availability with PostgreSQL DB. Which of the below mentioned functionalities helps achieve HA?](#a-user-wants-to-achieve-high-availability-with-postgresql-db-which-of-the-below-mentionedfunctionalities-helps-achieve-ha)
 | 179 | [Are penetration tests allowed as long as they are limited to the customer's instances?](#are-penetration-tests-allowed-as-long-as-they-are-limited-to-the-customers-instances)
 | 180 | [You are building a system to distribute confidential documents to employees. Using CloudFront, what method could be used to serve content that is stored in S3, but not publically accessible from S3 directly?](#you-are-building-a-system-to-distribute-confidentialdocuments-to-employees-using-cloudfront-whatmethod-could-be-used-to-serve-content-that-is-stored-in-s3-but-not-publically-accessible-from-s3-directly)
-| 181 | [You require the ability to analyze a large amount of data, which is stored on Amazon S3 using Amazon Elastic Map Reduce. You are using the cc2 8x large Instance type, whose CPUs are mostly idle during processing. Which of the below would be the most cost efficient way to reduce the runtime of the job?](#you-require-the-ability-to-analyze-a-large-amount-of-data-which-is-stored-on-amazon-s3-using-amazon-elastic-map-reduce-you-are-using-the-cc2-8x-large-instance-type-whose-cpus-are-mostly-idle-during-processing-which-of-the-below-would-be-the-most-cost-efficient-way-to-reduce-theruntime-ofthe-job)
+| 181 | [You require the ability to analyze a large amount of data, which is stored on Amazon S3 using Amazon Elastic MapReduce. You are using the cc2 8x large Instance type, whose CPUs are mostly idle during processing. Which of the below would be the most cost efficient way to reduce the runtime of the job?](#you-require-the-ability-to-analyze-a-large-amount-of-data-which-is-stored-on-amazon-s3-using-amazon-elastic-mapreduce-you-are-using-the-cc2-8x-large-instance-type-whose-cpus-are-mostly-idle-during-processing-which-of-the-below-would-be-the-most-cost-efficient-way-to-reduce-theruntime-ofthe-job)
 | 182 | [What is the name of licensing model in which I can use your existing Oracle Database licenses to run Oracle deployments on Amazon RDS?](#what-is-the-name-of-licensingmodel-in-which-i-can-use-your-existing-oracle-database-licenses-to-runoracle-deployments-on-amazon-rds)
 | 183 | [Which of the following statements are true about Amazon Route 53 resource records? (Choose 2 answers)](#which-of-the-following-statements-are-true-about-amazon-route-53-resource-records-choose-2answers)
 | 184 | [Do you need to shutdown your EC2 instance when you create a snapshot of EBS volumes that serve as root devices?](#do-you-need-to-shutdown-your-ec2-instance-when-you-create-a-snapshot-of-ebs-volumes-that-serve-asroot-devices)
@@ -344,7 +426,7 @@
 | 336  | [Typically, you want your application to check whether a request generated an error before you spend any time processing results. The easiest way to find out if an error occurred is to look for an [...] node in the response from the Amazon RDS API.](#typically-you-want-your-application-to-check-whether-a-request-generated-an-error-before-you-spendanytime-processing-results-the-easiest-way-to-find-out-if-an-error-occurred-is-to-look-for-an-node-in-theresponse-from-the-amazon-rds-api)
 | 337  | [Through which of the following interfaces is AWS Identity and Access Management available? A. AWS Management Console. B. Command line interface (CLI). C. IAM Query API. D. Existing libraries.](#through-which-of-the-following-interfaces-is-aws-identity-and-access-management-available-a-aws-management-console-b-command-line-interface-cli-c-iam-query-api-d-existing-libraries)
 | 338  | [A [...] is a storage device that moves data in sequences of bytes or bits (blocks).](#a--is-a-storage-device-that-moves-data-in-sequences-of-bytes-or-bits-blocks)
-| 339  | [You have just finshed setting up an advertisement server in which one of the obvious choices for a service was Amazon Elastic Map Reduce( EMR) and are now troubleshooting some weird cluster states that you are seeing. Which of the below is not an Amazon EMR cluster state?](#you-have-just-finshed-setting-up-an-advertisement-server-in-which-one-of-the-obvious-choices-for-a-service-was-amazon-elastic-map-reduce-emr-and-are-now-troubleshooting-some-weird-cluster-states-that-you-are-seeing-which-of-the-below-is-not-an-amazon-emr-cluster-state)
+| 339  | [You have just finshed setting up an advertisement server in which one of the obvious choices for a service was Amazon Elastic MapReduce( EMR) and are now troubleshooting some weird cluster states that you are seeing. Which of the below is not an Amazon EMR cluster state?](#you-have-just-finshed-setting-up-an-advertisement-server-in-which-one-of-the-obvious-choices-for-a-service-was-amazon-elastic-mapreduce-emr-and-are-now-troubleshooting-some-weird-cluster-states-that-you-are-seeing-which-of-the-below-is-not-an-amazon-emr-cluster-state)
 | 340  | [A US-based company is expanding their web presence into Europe. The company wants to extend their AWS infrastructure from Northern Virginia (us-east-1) into the Dublin (eu-west-1) region. Which of the following options would enable an equivalent experience for users on both continents?](#a-us-based-company-is-expanding-their-web-presence-into-europe-the-company-wants-to-extend-their-aws-infrastructure-from-northern-virginia-us-east-1-into-the-dublin-eu-west-1-region-which-of-thefollowingoptions-would-enable-an-equivalent-experience-for-users-on-both-continents)
 | 341  | [You are building infrastructure for a data warehousing solution and an extra request has come through that there will be a lot of business reporting queries running all the time and you are not sure if your current DB instance will be able to handle it. What would be the best solution for this?](#you-are-building-infrastructure-for-a-data-warehousing-solution-and-an-extra-request-has-come-through-that-there-will-be-a-lot-of-business-reporting-queries-running-all-the-time-and-you-are-not-sure-if-your-current-db-instance-will-be-able-to-handle-it-what-would-be-the-best-solution-for-this)
 | 342  | [One of the criteria for a new deployment is that the customer wants to use AWS Storage Gateway. However you are not sure whether you should use gateway-cached volumes or gateway-stored volumes or even what the differences are. Which statement below best describes those differences?](#one-of-the-criteria-for-a-new-deployment-is-that-the-customer-wants-to-use-aws-storage-gateway-however-you-are-not-sure-whether-you-should-use-gateway-cached-volumes-or-gateway-stored-volumes-or-even-what-the-differences-are-which-statement-below-best-describes-those-differences)
@@ -366,7 +448,7 @@
 | 358  | [Your company previously configured a heavily used, dynamically routed VPN connection between your on-premises data center and AWS. You recently provisioned a DirectConnect connection and would like to start using the new connection. After configuring DirectConnect settings in the AWS Console, which of the following options win provide the most seamless transition for your users?](#your-company-previously-configured-a-heavily-used-dynamically-routed-vpn-connection-betweenyouron-premises-data-center-and-aws-you-recently-provisioned-a-directconnect-connection-and-would-liketo-start-using-the-new-connection-after-configuring-directconnect-settings-in-the-awsconsole-which-ofthe-following-options-win-provide-the-most-seamless-transition-for-your-users)
 | 359  | [If I modify a DB Instance or the DB parameter group associated with the instance, should I reboot the instance for the changes to take effect?](#if-i-modify-a-db-instance-or-the-db-parameter-group-associated-with-the-instance-should-i-reboot-theinstance-for-the-changes-to-take-effect)
 | 360  | [After setting up several database instances in Amazon Relational Database Service (Amazon RDS) you decide that you need to track the performance and health of your databases. How can you do this?](#after-setting-up-several-database-instances-in-amazon-relational-database-service-amazon-rds-you-decide-that-you-need-to-track-the-performance-and-health-of-your-databases-how-can-you-do-this)
-| 361  | [You deployed your company website using Elastic Beanstalk and you enabled log file rotation to S3. An Elastic Map Reduce job is periodically analyzing the logs on S3 to build a usage dashboard that you share with your CIO. You recently improved overall performance of the website using Cloud Front for dynamic content delivery and your website as the origin. After this architectural change, the usage dashboard shows that the traffic on your website dropped by an order of magnitude. How do you fix your usage dashboard?](#you-deployed-your-company-website-using-elastic-beanstalk-and-you-enabled-log-file-rotation-to-s3-an-elastic-map-reduce-job-is-periodically-analyzing-the-logs-on-s3-to-build-a-usage-dashboard-that-you-share-with-your-cio-you-recently-improved-overall-performance-of-the-website-using-cloud-front-for-dynamic-content-delivery-and-your-website-as-the-origin-after-this-architectural-change-the-usage-dashboard-shows-that-the-traffic-on-your-website-dropped-by-an-order-of-magnitude-how-do-you-fix-your-usage-dashboard)
+| 361  | [You deployed your company website using Elastic Beanstalk and you enabled log file rotation to S3. An Elastic MapReduce job is periodically analyzing the logs on S3 to build a usage dashboard that you share with your CIO. You recently improved overall performance of the website using CloudFront for dynamic content delivery and your website as the origin. After this architectural change, the usage dashboard shows that the traffic on your website dropped by an order of magnitude. How do you fix your usage dashboard?](#you-deployed-your-company-website-using-elastic-beanstalk-and-you-enabled-log-file-rotation-to-s3-an-elastic-mapreduce-job-is-periodically-analyzing-the-logs-on-s3-to-build-a-usage-dashboard-that-you-share-with-your-cio-you-recently-improved-overall-performance-of-the-website-using-cloud-front-for-dynamic-content-delivery-and-your-website-as-the-origin-after-this-architectural-change-the-usage-dashboard-shows-that-the-traffic-on-your-website-dropped-by-an-order-of-magnitude-how-do-you-fix-your-usage-dashboard)
 | 362  | [A customer has a 10 GB AWS Direct Connect connection to an AWS region where they have a web application hosted on Amazon Elastic Computer Cloud (EC2). The application has dependencies on an on-premises mainframe database that uses a BASE (Basic Available. Sort stale Eventual consistency) rather than an ACID (Atomicity. Consistency isolation. Durability) consistency model. The application is exhibiting undesirable behavior because the database is not able to handle the volume of writes. How can you reduce the load on your on-premises database resources in the most cost-effective way?](#a-customer-has-a-10-gb-aws-direct-connect-connection-to-an-aws-region-where-they-have-a-web-application-hosted-on-amazon-elastic-computer-cloud-ec2-the-application-has-dependencies-on-an-on-premises-mainframe-database-that-uses-a-base-basic-available-sort-stale-eventual-consistency-rather-than-an-acid-atomicity-consistency-isolation-durability-consistency-model-the-application-is-exhibiting-undesirable-behavior-because-the-database-is-not-able-to-handle-the-volume-of-writes-how-can-you-reduce-the-load-on-your-on-premises-database-resources-in-the-most-cost-effective-way)
 | 363  | [You are very concerned about security on your network because you have multiple programmers testing APIs and SDKs and you have no idea what is happening. You think CloudTrail may help but arenot sure what it does. Which of the following statements best describes the AWS service CloudTrail?](#you-are-very-concerned-about-security-on-your-network-because-you-have-multiple-programmers-testing-apis-and-sdks-and-you-have-no-idea-what-is-happening-you-think-cloudtrail-may-help-but-arenot-sure-what-it-does-which-of-the-following-statements-best-describes-the-aws-service-cloudtrail)
 | 364  | [Every user you create in the IAM system starts with [...].](#every-user-you-create-in-the-iam-system-starts-with-)
@@ -458,7 +540,7 @@
 | 450  | [Do the system resources on the Micro instance meet the recommended configuration for Oracle?](#do-the-system-resources-on-the-micro-instance-meet-the-recommended-configuration-for-oracle)
 | 451  | [Which of the following are t rue regarding AWS CloudTrail? (Choose 3 answers)](#which-of-the-following-are-t-rue-regarding-aws-cloudtrail-choose-3-answers)
 | 452  | [If you're unable to connect via SSH to your EC2 instance, which of the following should you check and possibly correct to restore connectivity?](#if-youre-unable-to-connect-via-ssh-to-your-ec2-instance-which-of-thefollowing-should-you-check-andpossibly-correct-to-restore-connectivity)
-| 453  | [A major finance organisation has engaged your company to set up a large data mining application. Using AWS you decide the best service for this is Amazon Elastic Map Reduce (EMR) which you know uses Hadoop. Which of the following statements best describes Hadoop?](#a-major-finance-organisation-has-engaged-your-company-to-set-up-a-large-data-mining-application-using-aws-you-decide-the-best-service-for-this-is-amazon-elastic-map-reduce-emr-which-you-know-uses-hadoop-which-of-the-following-statements-best-describes-hadoop)
+| 453  | [A major finance organisation has engaged your company to set up a large data mining application. Using AWS you decide the best service for this is Amazon Elastic MapReduce (EMR) which you know uses Hadoop. Which of the following statements best describes Hadoop?](#a-major-finance-organisation-has-engaged-your-company-to-set-up-a-large-data-mining-application-using-aws-you-decide-the-best-service-for-this-is-amazon-elastic-mapreduce-emr-which-you-know-uses-hadoop-which-of-the-following-statements-best-describes-hadoop)
 | 454  | [A customer has established an AWS Direct Connect connection to AWS. The link is up and routes are being advertised from the customer's end, however the customer is unable to connect from EC2 instances inside its VPC to servers residing in its datacenter. Which of the following options provide a viable solution to remedy this situation? (Choose 2 answers)](#a-customer-has-established-an-aws-direct-connect-connection-to-aws-the-link-is-up-and-routes-are-being-advertised-from-the-customers-end-however-the-customer-is-unable-to-connect-from-ec2-instances-inside-its-vpc-to-servers-residing-in-its-datacenter-which-of-the-following-options-provide-a-viable-solution-to-remedy-this-situation-choose-2answers)
 | 455  | [While creating a network in the VPC, which of the following is true of a NAT device?](#while-creating-a-network-in-the-vpc-which-of-the-following-is-true-of-a-nat-device)
 | 456  | [Which of the following statements is NOT true about using Elastic IP Address (EIP) in EC2-Classic and EC2-VPC platforms?](#which-of-the-following-statements-is-not-true-about-using-elastic-ip-address-eip-in-ec2-classic-andec2-vpc-platforms)
@@ -488,7 +570,7 @@
 | 480  | [Which of the following would you use to list your AWS Import/Export jobs?](#which-of-the-following-wouldyou-use-to-list-your-aws-importexport-jobs)
 | 481  | [Company B is launching a new game app for mobile devices. Users will log into the game using their existing social media account to streamline data capture. Company B would like to directly saveplayer data and scoring information from the mobile app to a DynamoDS table named Score Data. When a user saves their game the progress data will be stored to the Game state S3 bucket. What is the best approach for storing data to DynamoDB and S3?](#company-b-is-launching-a-new-game-app-for-mobile-devices-users-will-log-into-the-game-using-their-existing-social-media-account-to-streamline-data-capture-company-b-would-like-to-directly-saveplayer-data-and-scoring-information-from-the-mobile-app-to-a-dynamods-table-named-score-data-when-a-user-saves-their-game-the-progress-data-will-be-stored-to-the-game-state-s3-bucket-what-isthe-best-approach-for-storing-data-to-dynamodb-and-s3)
 | 482  | [If your DB instance runs out of storage space or file system resources, its status will change to [...] and your DB Instance will no longer be available.](#ifyour-db-instance-runs-out-of-storage-space-or-file-system-resources-its-status-will-change-to-and-yourdbinstance-will-no-longer-be-available)
-| 483  | [Your application is using an ELB in front of an Auto Scaling group of web/application servers deployed across two AZs and a Multi-AZ RDS Instance for data persistence. The database CPU is often above 80% usage and 90% of 1/0 operations on the database are reads. To improve performance you recently added a single-node Memcached ElastiCache Cluster to cache frequent DB query results. in the next weeks the overall workload is expected to grow by 30%. Do you need to change anything in the architecture to maintain the high availability or the application with the anticipated additional load? Why?](#your-application-is-using-an-elb-in-front-of-an-auto-scaling-group-of-webapplication-servers-deployed-across-two-azs-and-a-multi-az-rds-instance-for-data-persistence-the-database-cpu-is-often-above-80%25-usage-and-90%25-of-10-operations-on-the-database-are-reads-to-improve-performance-you-recently-added-a-single-node-memcached-elasticache-cluster-to-cache-frequent-db-query-results-in-the-next-weeks-the-overall-workload-is-expected-to-grow-by-30%25-do-you-need-to-change-anything-in-the-architecture-to-maintain-the-high-availability-or-theapplication-withthe-anticipated-additional-load-why)
+| 483  | [Your application is using an ELB in front of an Auto Scaling group of web/application servers deployed across two AZs and a Multi-AZ RDS Instance for data persistence. The database CPU is often above 80% usage and 90% of 1/0 operations on the database are reads. To improve performance you recently added a single-node Memcached ElastiCache Cluster to cache frequent DB query results. in the next weeks the overall workload is expected to grow by 30%. Do you need to change anything in the architecture to maintain the high availability or the application with the anticipated additional load? Why?](#your-application-is-using-an-elb-in-front-of-an-auto-scaling-group-of-webapplication-servers-deployed-across-two-azs-and-a-multi-az-rds-instance-for-data-persistence-the-database-cpu-is-often-above-80-usage-and-90-of-10-operations-on-the-database-are-reads-to-improve-performance-you-recently-added-a-single-node-memcached-elasticache-cluster-to-cache-frequent-db-query-results-in-the-next-weeks-the-overall-workload-is-expected-to-grow-by-30-do-you-need-to-change-anything-in-the-architecture-to-maintain-the-high-availability-or-theapplication-withthe-anticipated-additional-load-why)
 | 484  | [How many Elastic IP by default in Amazon Account?](#how-many-elastic-ip-by-default-in-amazon-account)
 | 485  | [What would be the best way to retrieve the public IP address of your EC2 instance using the CLI?](#what-would-be-the-best-way-to-retrieve-the-public-ip-address-of-your-ec2-instance-using-the-cli)
 | 486  | [A company is building a two-tier web application to serve dynamic transaction-based content. The data tier is leveraging an Online Transactional Processing (OLTP) database. What services should youleverage to enable an elastic and scalable web tier?](#a-company-is-building-a-two-tier-web-application-to-serve-dynamic-transaction-based-content-the-data-tier-is-leveraging-an-online-transactional-processing-oltp-database-what-services-should-youleverage-to-enable-an-elastic-and-scalable-web-tier)
@@ -584,7 +666,7 @@
 | 576  | [You require the ability to analyze a customer's clickstream data on a website so they can do behavioral analysis. Your customer needs to know what sequence of pages and ads their customer clicked on. This data will be used in real time to modify the page layouts as customers click through the site to increase stickiness and advertising click-through. Which option meets the requirements for captioning and analyzing this data?](#you-require-the-ability-to-analyze-a-customers-clickstream-data-on-a-website-so-they-can-do-behavioral-analysis-your-customer-needs-to-know-what-sequence-of-pages-and-ads-their-customer-clicked-on-this-data-will-be-used-in-real-time-to-modify-the-page-layouts-as-customers-click-through-the-site-to-increase-stickiness-and-advertising-click-through-which-option-meets-the-requirementsfor-captioning-andanalyzing-this-data)
 | 577  | [What happens when you create a topic on Amazon SNS?](#what-happens-when-you-create-atopic-on-amazon-sns)
 | 578  | [A company needs to deploy virtual desktops to its customers in a virtual private cloud, leveraging existing security controls. Which set of AWS services and features will meet the company's requirements?](#a-company-needs-to-deploy-virtual-desktops-to-its-customers-in-a-virtual-private-cloud-leveraging-existing-security-controls-which-set-of-aws-services-and-features-will-meet-the-companys-requirements)
-| 579  | [You are designing a multi-platform web application for AWS The application will run on EC2 instances and will be accessed from PCs. tablets and smart phones Supported accessing platforms are Windows. MACOS. lOS and Android Separate sticky session and SSL certificate setups are required for different platform types which of the following describes the most cost effective and performance efficient architecture setup?](#you-are-designing-a-multi-platform-web-application-for-aws-the-application-will-run-on-ec2-instancesand-will-beaccessed-from-pcs-tablets-and-smart-phones-supported-accessing-platforms-are-windowsmacos-los-and-android-separate-sticky-session-and-ssl-certificate-setups-are-required-fordifferentplatform-types-which-of-the-following-describes-the-most-cost-effective-and-performanceefficientarchitecture-setup)
+| 579  | [You are designing a multi-platform web application for AWS The application will run on EC2 instances and will be accessed from PCs. tablets and smart phones Supported accessing platforms are Windows, macOS, iOS and Android Separate sticky session and SSL certificate setups are required for different platform types which of the following describes the most cost effective and performance efficient architecture setup?](#you-are-designing-a-multi-platform-web-application-for-aws-the-application-will-run-on-ec2-instancesand-will-beaccessed-from-pcs-tablets-and-smart-phones-supported-accessing-platforms-are-windows-macos-ios-and-android-separate-sticky-session-and-ssl-certificate-setups-are-required-fordifferentplatform-types-which-of-the-following-describes-the-most-cost-effective-and-performanceefficientarchitecture-setup)
 | 580  | [A company is deploying a two-tier, highly available web application to AWS. Which service provides durable storage for static content while utilizing lower Overall CPU resources for the web tier?](#a-company-is-deploying-a-two-tier-highly-available-web-application-to-aws-which-service-providesdurable-storage-for-static-content-while-utilizing-lower-overallcpu-resources-for-the-web-tier)
 | 581  | [Select the incorrect statement.](#select-the-incorrect-statement)
 | 582  | [An organization has a statutory requirement to protect the data at rest for data stored in EBS volumes. Which of the below mentioned options can the organization use to achieve data protection?](#an-organization-has-a-statutory-requirement-to-protect-the-data-at-rest-for-data-stored-in-ebs-volumes-which-of-the-below-mentioned-options-can-the-organization-use-to-achieve-data-protection)
@@ -698,7 +780,7 @@
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### You are designing an intrusion detection prevention (IDS/IPS) solution for a customer web application in a single VPC. You are considering the options for implementing lOS IPS protection for traffic coming from the Internet. Which of the following options would you consider? (Choose 2 answers)
+### You are designing an intrusion detection prevention (IDS/IPS) solution for a customer web application in a single VPC. You are considering the options for implementing IOS IPS protection for traffic coming from the Internet. Which of the following options would you consider? (Choose 2 answers)
 
 - [x] Implement IDS/IPS agents on each Instance running in VPC.
 - [ ] Configure an instance in each subnet to switch its network interface card to promiscuous mode and analyze network traffic.
@@ -734,7 +816,7 @@
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### Your department creates regular analytics reports from your company's log files All log data is collected in Amazon S3 and processed by daily Amazon Elastic Map Reduce (EMR) jobs that generate daily PDF reports and aggregated tables in CSV format for an Amazon Redshift data warehouse. Which of the following alternatives will lower costs without compromising average performance of the system or data integrity for the raw data?
+### Your department creates regular analytics reports from your company's log files All log data is collected in Amazon S3 and processed by daily Amazon Elastic MapReduce (EMR) jobs that generate daily PDF reports and aggregated tables in CSV format for an Amazon Redshift data warehouse. Which of the following alternatives will lower costs without compromising average performance of the system or data integrity for the raw data?
 
 - [ ] Use reduced redundancy storage (RRS) for all data in S3. Use a combination of Spot Instances and Reserved Instances for Amazon EMR jobs. Use Reserved Instances for Amazon Redshift.
 - [ ] Use reduced redundancy storage (RRS) for PDF and .csv data in S3. Add Spot Instances to EMR jobs. Use Spot Instances for Amazon Redshift.
@@ -1032,7 +1114,7 @@
 ### Which features can be used to restrict access to data in S3? (Choose 2 answers)
 
 - [x] Set an S3 ACL on the bucket or the object.
-- [ ] Create a Cloud Front distribution for the bucket.
+- [ ] Create a CloudFront distribution for the bucket.
 - [x] Set an S3 bucket policy.
 - [ ] Enable IAM Identity Federation.
 - [ ] Use S3 Virtual l Hosting.
@@ -1368,7 +1450,7 @@
 ### You are designing Internet connectivity for your VPC. The Web servers must be available on the Internet. The application must have a highly available architecture. Which alternatives should you consider? (Choose 2 answers)
 
 - [ ] Configure a NAT instance in your VPC Create a default route via the NAT instance and associate it with all subnets Configure a DNS A record that points to the NAT instance public IP address.
-- [ ] Configure a CloudFront distribution and configure the origin to point to the private IP addresses of your Web servers Configure a Route 53 CNAME record to your Cloud Front distribution.
+- [ ] Configure a CloudFront distribution and configure the origin to point to the private IP addresses of your Web servers Configure a Route 53 CNAME record to your CloudFront distribution.
 - [x] Place all your web servers behind EL8 Configure a Route 53 CNAME to point to the ELB DNS name.
 - [x] Assign EIPs to all web servers. Configure a Route 53 record set with all EIPs. With health checks and DNS failover.
 - [ ] Configure ELB with an EIP Place all your Web servers behind ELB Configure a Route 53 A record that points to the EIP.
@@ -2043,10 +2125,10 @@
 
 ### A company is building a voting system for a popular TV show, viewers win watch the performances then visit the show's website to vote for their favorite performer. It is expected that in a short period of time after the show has finished the site will receive millions of visitors. The visitors will first login to the site using their Amazon.com credentials and then submit their vote. After the voting is completed the page will display the vote totals. The company needs to build the site such that can handle the rapid influx of traffic while maintaining good performance but also wants to keep costs to a minimum. Which of the design patterns below should they use?
 
-- [ ] Use Cloud Front and an Elastic Load balancer in front of an auto-scaled set of web servers, the web servers will first can the Login With Amazon service to authenticate the user then process the users vote and store the result into a multi-AZ Relational Database Service instance.
+- [ ] Use CloudFront and an Elastic Load balancer in front of an auto-scaled set of web servers, the web servers will first can the Login With Amazon service to authenticate the user then process the users vote and store the result into a multi-AZ Relational Database Service instance.
 - [ ] Use CloudFront and the static website hosting feature of S3 with the Javascript SDK to call the Login With Amazon service to authenticate the user, use IAM Roles to gain permissions to a DynamoDB table to store the users vote.
-- [ ] Use Cloud Front and an Elastic Load Balancer in front of an auto-scaled set of web servers, the web servers will first call the Login with Amazon service to authenticate the user, the web servers will process the users vote and store the result into a DynamoDB table using IAM Roles for EC2 instances to gain permissions to the DynamoDB table.
-- [x] Use Cloud Front and an Elastic Load Balancer in front of an auto-scaled set of web servers, the web servers will first call the Login. With Amazon service to authenticate the user, the web servers win process the users vote and store the result into an SQS queue using IAM Roles for EC2 Instances to gain permissions to the SQS queue. A set of application servers will then retrieve the items from the queue and store the result into a DynamoDB table.
+- [ ] Use CloudFront and an Elastic Load Balancer in front of an auto-scaled set of web servers, the web servers will first call the Login with Amazon service to authenticate the user, the web servers will process the users vote and store the result into a DynamoDB table using IAM Roles for EC2 instances to gain permissions to the DynamoDB table.
+- [x] Use CloudFront and an Elastic Load Balancer in front of an auto-scaled set of web servers, the web servers will first call the Login. With Amazon service to authenticate the user, the web servers win process the users vote and store the result into an SQS queue using IAM Roles for EC2 Instances to gain permissions to the SQS queue. A set of application servers will then retrieve the items from the queue and store the result into a DynamoDB table.
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -2282,7 +2364,7 @@
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### You require the ability to analyze a large amount of data, which is stored on Amazon S3 using Amazon Elastic Map Reduce. You are using the cc2 8x large Instance type, whose CPUs are mostly idle during processing. Which of the below would be the most cost efficient way to reduce the runtime of the job?
+### You require the ability to analyze a large amount of data, which is stored on Amazon S3 using Amazon Elastic MapReduce. You are using the cc2 8x large Instance type, whose CPUs are mostly idle during processing. Which of the below would be the most cost efficient way to reduce the runtime of the job?
 
 - [ ] Create more smaller flies on Amazon S3.
 - [ ] Add additional cc2 8x large instances by introducing a task group.
@@ -2533,7 +2615,7 @@
 ### What is an effective method to mitigate this?
 
 - [x] Remove public read access and use signed URLs with expiry dates.
-- [ ] Use Cloud Front distributions for static content.
+- [ ] Use CloudFront distributions for static content.
 - [ ] Block the IPs of the offending websites in Security Groups.
 - [ ] Store photos on an EBS volume of the web server.
 
@@ -2701,7 +2783,7 @@
 ### Which services allow the customer to retain full administrative privileges of the underlying EC2 instances? (Choose 2 answers)
 
 - [ ] Amazon Relational Database Service.
-- [x] Amazon Elastic Map Reduce.
+- [x] Amazon Elastic MapReduce.
 - [ ] Amazon ElastiCache.
 - [ ] Amazon DynamoDB.
 - [x] AWS Elastic Beanstalk.
@@ -2817,7 +2899,7 @@
 
 ### An AWS customer runs a public blogging website. The site users upload two million blog entries a month. The average blog entry size is 200 KB. The access rate to blog entries drops to negligible 6 months after publication and users rarely access a blog entry 1 year after publication. Additionally, blog entries have a high update rate during the first 3 months following publication, this drops to noupdates after 6 months. The customer wants to use CloudFront to improve his user's load times. Which of the following recommendations would you make to the customer?
 
-- [ ] Duplicate entries into two different buckets and create two separate CloudFront distributions where S3 access is restricted only to Cloud Front identity.
+- [ ] Duplicate entries into two different buckets and create two separate CloudFront distributions where S3 access is restricted only to CloudFront identity.
 - [ ] Create a CloudFront distribution with 'US' Europe price class for US/ Europe users and a different CloudFront distribution with Al l Edge Locations' for the remaining users.
 - [x] Create a CloudFront distribution with S3 access restricted only to the CloudFront identity and partition the blog entry's location in S3 according to the month it was uploaded to be used withCloudFront behaviors.
 - [ ] Create a CloudFronl distribution with Restrict Viewer Access Forward Query string set to true and minimum TTL of 0.
@@ -3197,7 +3279,7 @@
 ### You have a content management system running on an Amazon EC2 instance that is approaching 100% CPU utilization. Which option will reduce load on the Amazon EC2 instance?
 
 - [ ] Create a load balancer, and register the Amazon EC2 instance with it.
-- [x] Create a Cloud Front distribution, and configure the Amazon EC2 instance as the origin.
+- [x] Create a CloudFront distribution, and configure the Amazon EC2 instance as the origin.
 - [ ] Create an Auto Scaling group from the instance using the Create AutoScaling Group action.
 - [ ] Create a launch configuration from the instance using the Create launch Configuration action.
 
@@ -3698,7 +3780,7 @@
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### You have just finshed setting up an advertisement server in which one of the obvious choices for a service was Amazon Elastic Map Reduce( EMR) and are now troubleshooting some weird cluster states that you are seeing. Which of the below is not an Amazon EMR cluster state?
+### You have just finshed setting up an advertisement server in which one of the obvious choices for a service was Amazon Elastic MapReduce( EMR) and are now troubleshooting some weird cluster states that you are seeing. Which of the below is not an Amazon EMR cluster state?
 
 - [ ] STARTING.
 - [x] STOPPED.
@@ -3898,10 +3980,10 @@
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### You deployed your company website using Elastic Beanstalk and you enabled log file rotation to S3. An Elastic Map Reduce job is periodically analyzing the logs on S3 to build a usage dashboard that you share with your CIO. You recently improved overall performance of the website using Cloud Front for dynamic content delivery and your website as the origin. After this architectural change, the usage dashboard shows that the traffic on your website dropped by an order of magnitude. How do you fix your usage dashboard?
+### You deployed your company website using Elastic Beanstalk and you enabled log file rotation to S3. An Elastic MapReduce job is periodically analyzing the logs on S3 to build a usage dashboard that you share with your CIO. You recently improved overall performance of the website using CloudFront for dynamic content delivery and your website as the origin. After this architectural change, the usage dashboard shows that the traffic on your website dropped by an order of magnitude. How do you fix your usage dashboard?
 
-- [x] Enable Cloud Front to deliver access logs to S3 and use them as input of the Elastic Map Reduce job.
-- [ ] Turn on Cloud Trail and use trail log tiles on S3 as input of the Elastic Map Reduce job.
+- [x] Enable CloudFront to deliver access logs to S3 and use them as input of the Elastic MapReduce job.
+- [ ] Turn on Cloud Trail and use trail log tiles on S3 as input of the Elastic MapReduce job.
 - [ ] Change your log collection process to use Cloud Watch ELB metrics as input of the Elastic Map Reduce job.
 - [ ] Use Elastic Beanstalk 'Rebuild Environment' option to update log delivery to the Elastic Map Reduce job.
 - [ ] Use Elastic Beanstalk 'Restart App server(s)' option to update log delivery to the Elastic Map Reduce job.
@@ -3910,7 +3992,7 @@
 
 ### A customer has a 10 GB AWS Direct Connect connection to an AWS region where they have a web application hosted on Amazon Elastic Computer Cloud (EC2). The application has dependencies on an on-premises mainframe database that uses a BASE (Basic Available. Sort stale Eventual consistency) rather than an ACID (Atomicity. Consistency isolation. Durability) consistency model. The application is exhibiting undesirable behavior because the database is not able to handle the volume of writes. How can you reduce the load on your on-premises database resources in the most cost-effective way?
 
-- [x] Use an Amazon Elastic Map Reduce (EMR) S3DistCp as a synchronization mechanism between the on-premises database and a Hadoop cluster on AWS.
+- [x] Use an Amazon Elastic MapReduce (EMR) S3DistCp as a synchronization mechanism between the on-premises database and a Hadoop cluster on AWS.
 - [ ] Modify the application to write to an Amazon SQS queue and develop a worker process to flush the queue to the on-premises database.
 - [ ] Modify the application to use DynamoDB to feed an EMR cluster which uses a map function to write to the on-premises database.
 - [ ] Provision an RDS read-replica database on AWS to handle the writes and synchronize the two databases using Data Pipeline.
@@ -3948,7 +4030,7 @@
 - [x] Configure ELB with TCP listeners on TCP/4d3. And place the Web servers behind it.
 - [x] Configure your Web servers with EIPS Place the Web servers in a Route 53 Record Set and configure health checks against all Web servers.
 - [ ] Configure ELB with HTTPS listeners, and place the Web servers behind it.
-- [ ] Configure your web servers as the origins for a Cloud Front distribution. Use custom SSL certificates on your Cloud Front distribution.
+- [ ] Configure your web servers as the origins for a CloudFront distribution. Use custom SSL certificates on your CloudFront distribution.
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -4718,7 +4800,7 @@
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### A major finance organisation has engaged your company to set up a large data mining application. Using AWS you decide the best service for this is Amazon Elastic Map Reduce (EMR) which you know uses Hadoop. Which of the following statements best describes Hadoop?
+### A major finance organisation has engaged your company to set up a large data mining application. Using AWS you decide the best service for this is Amazon Elastic MapReduce (EMR) which you know uses Hadoop. Which of the following statements best describes Hadoop?
 
 - [ ] Hadoop is 3rd Party software which can be installed using AMI.
 - [ ] Hadoop is an open source python web framework.
@@ -5483,7 +5565,7 @@
 ### Which of the following notification endpoints or clients are supported by Amazon Simple Notification Service? (Choose 2 answers)
 
 - [x] Email.
-- [ ] Cloud Front distribution.
+- [ ] CloudFront distribution.
 - [ ] File Transfer Protocol.
 - [x] Short Message Service.
 - [ ] Simple Network Management Protocol.
@@ -5861,7 +5943,7 @@
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### You are designing a multi-platform web application for AWS The application will run on EC2 instances and will be accessed from PCs. tablets and smart phones Supported accessing platforms are Windows. MACOS. lOS and Android Separate sticky session and SSL certificate setups are required for different platform types which of the following describes the most cost effective and performance efficient architecture setup?
+### You are designing a multi-platform web application for AWS The application will run on EC2 instances and will be accessed from PCs. tablets and smart phones Supported accessing platforms are Windows, macOS, iOS and Android Separate sticky session and SSL certificate setups are required for different platform types which of the following describes the most cost effective and performance efficient architecture setup?
 
 - [ ] Setup a hybrid architecture to handle session state and SSL certificates on-prem and separate EC2 Instance groups running web applications for different platform types running in a VPC.
 - [ ] Set up one ELB for all platforms to distribute load among multiple instance under it Each EC2 instance implements ail functionality for a particular platform.
