@@ -1787,7 +1787,6 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 ### Does Dynamic DB support in-place atomic updates?
 
 - [ ] It is not defined.
-
 - [x] Yes.
 - [ ] It does support in-place non-atomic updates.
 
@@ -3176,7 +3175,7 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 ### A user is planning to launch a scalable web application. Which of the below mentioned options will not affect the latency of the application?
 
 - [ ] Region.
-- [ ] Provisioned IOPS.
+- [x] Provisioned IOPS.
 - [ ] Availability Zone.
 - [ ] Instance size.
 
