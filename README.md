@@ -739,8 +739,6 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 | 649  | [What is the data model of DynamoDB?](#what-is-thedata-model-of-dynamodb)
 | 650  | [What is a placement group in Amazon EC2?](#what-is-a-placement-group-in-amazon-ec2)
 
-**[⬆ Back to Top](#table-of-contents)**
-
 ### Which set of Amazon S3 features helps to prevent and recover from accidental data loss?
 
 - [ ] Object lifecycle and service access logging.
@@ -6590,3 +6588,5 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 - [ ] It the edge location of your web content.
 - [ ] It is the AWS region where you run the EC2 instance of your web content.
 - [ ] It is a group used to span multiple Availability Zones.
+
+**[⬆ Back to Top](#table-of-contents)**
