@@ -1140,9 +1140,9 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 ### A user is planning a highly available application deployment with EC2. Which of the below mentioned options will not help to achieve HA?
 
 - [ ] Elastic IP address.
-- [x] PIOPS.
+- [x] PIOPS.
 - [ ] AMI.
-- [ ] Availability Zones.
+- [ ] Availability Zones.
 
 **[⬆ Back to Top](#table-of-contents)**
 
