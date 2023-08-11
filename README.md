@@ -1139,9 +1139,9 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 ### A user is planning a highly available application deployment with EC2. Which of the below mentioned options will not help to achieve HA?
 
-- [ ] Elastic IP address.
+- [ ] Elastic IP address.
 - [x] PIOPS.
-- [ ] AMI.
+- [ ] AMI.
 - [ ] Availability Zones.
 
 **[⬆ Back to Top](#table-of-contents)**
@@ -1873,7 +1873,8 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 ### If I modify a DB Instance or the DB parameter group associated with the instance, should I reboot the instance for the changes to take effect?
 
-- [x] Yes.- [ ] No.
+- [x] Yes.
+- [ ] No.
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -2552,7 +2553,8 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 ### Making your snapshot public shares all snapshot data with everyone. Can the snapshots with AWS Market place product codes be made public?
 
-- [x] Yes.- [ ] No.
+- [x] Yes.
+- [ ] No.
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -3174,10 +3176,10 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 ### A user is planning to launch a scalable web application. Which of the below mentioned options will not affect the latency of the application?
 
-- [ ] Region.
-- [x] Provisioned IOPS.
-- [ ] Availability Zone.
-- [ ] Instance size.
+- [ ] Region.
+- [x] Provisioned IOPS.
+- [ ] Availability Zone.
+- [ ] Instance size.
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -5733,10 +5735,10 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 ### A user has created an ELB with the Availability Zone US-East-1A. The user wants to add more zones to ELB to achieve High Availability. How can the user add more zones to the existing ELB?
 
-- [ ] The user should stop the ELB and add zones and instances as required.
-- [ ] The only option is to launch instances in different zones and add to ELB.
-- [ ] It is not possible to add more zones to the existing ELB.
-- [x] The user can add zones on the fly from the AWS console.
+- [ ] The user should stop the ELB and add zones and instances as required.
+- [ ] The only option is to launch instances in different zones and add to ELB.
+- [ ] It is not possible to add more zones to the existing ELB.
+- [x] The user can add zones on the fly from the AWS console.
 
 **[⬆ Back to Top](#table-of-contents)**
 
