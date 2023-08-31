@@ -87,7 +87,7 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 ## Table of Contents
 
 | No. | Questions |
-| --- | --------------------------- |
+| --- | --------- |
 | 1   | [Which set of Amazon S3 features helps to prevent and recover from accidental data loss?](#which-set-of-amazon-s3-features-helps-to-prevent-and-recover-from-accidental-data-loss)
 | 2   | [What is the minimum time Interval for the data that Amazon CloudWatch receives and aggregates?](#what-is-the-minimum-time-interval-for-the-data-that-amazon-cloudwatch-receives-and-aggregates)
 | 3   | [A user has launched an EC2 instance. The instance got terminated as soon as it was launched. Which of the below mentioned options is not a possible reason for this?](#a-user-has-launched-an-ec2-instance-the-instance-got-terminated-as-soon-as-it-was-launched-which-ofthe-below-mentioned-options-is-not-a-possible-reason-for-this)
