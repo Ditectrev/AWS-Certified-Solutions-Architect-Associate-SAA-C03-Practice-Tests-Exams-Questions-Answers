@@ -32,6 +32,7 @@
    - Amazon Simple Storage Service (Amazon S3);
    - Authentication & Authorization;
    - Availability Zones;
+   - AWS CloudFormation;
    - AWS Direct Connect;
    - AWS Identity and Access Management (AWS IAM);
    - Cloud Concepts;
