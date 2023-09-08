@@ -30,11 +30,16 @@
    - Amazon Resource Names (ARN);
    - Amazon Route 53;
    - Amazon Simple Storage Service (Amazon S3);
+   - Amazon Simple Queue Service (Amazon SQS);
    - Authentication & Authorization;
    - Availability Zones;
    - AWS CloudFormation;
+   - AWS CodeCommit;
+   - AWS CodeDeploy;
    - AWS Direct Connect;
    - AWS Identity and Access Management (AWS IAM);
+   - AWS Key Management Service (AWS KMS);
+   - AWS Storage Gateway;
    - Cloud Concepts;
    - Compliancy, Governance, Identity & Privacy;
    - Elastic IP (EIP);
