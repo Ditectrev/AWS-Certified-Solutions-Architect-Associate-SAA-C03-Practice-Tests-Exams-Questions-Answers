@@ -34,6 +34,7 @@
    - Authentication & Authorization;
    - Availability Zones;
    - AWS CloudFormation;
+   - AWS CloudTrail;
    - AWS CodeCommit;
    - AWS CodeDeploy;
    - AWS Direct Connect;
