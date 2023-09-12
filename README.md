@@ -26,6 +26,7 @@
    - Amazon Elastic Block Store (Amazon EBS);
    - Amazon Elastic Compute Cloud (Amazon EC2);
    - Amazon Elastic MapReduce (Amazon EMR);
+   - Amazon Redshift;
    - Amazon Relational Database Service (Amazon RDS);
    - Amazon Resource Names (ARN);
    - Amazon Route 53;
