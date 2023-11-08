@@ -1897,10 +1897,10 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 ### To specify a resource in a policy statement, in Amazon EC2, can you use its Amazon Resource Name (ARN)?
 
-- [x]  Yes, you can.
-- [ ]  No, you can't because EC2 is not related to AR
-- [ ]  No, you can't because you can't specify a particular Amazon EC2 resource in an IAM policy.
-- [ ]  Yes, you can but only for the resources that are not affected by the action.
+- [x] Yes, you can.
+- [ ] No, you can't because EC2 is not related to AR
+- [ ] No, you can't because you can't specify a particular Amazon EC2 resource in an IAM policy.
+- [ ] Yes, you can but only for the resources that are not affected by the action.
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -3040,10 +3040,10 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 ### You have been setting up an Amazon Virtual Private Cloud (Amazon VPC) for your company, including setting up subnets. Security is a concern, and you are not sure which is the best security practice for securing subnets in your VPC. Which statement below is correct in describing the protection of AWS resources in each subnet?
 
-- [x]  You can use multiple layers of security, including security groups and network access control lists (ACL).
-- [ ]  You can only use access control lists (ACL).
-- [ ]  You don't need any security in subnets.
-- [ ]  You can use multiple layers of security, including security groups, network access control lists (ACL) and CloudHS.
+- [x] You can use multiple layers of security, including security groups and network access control lists (ACL).
+- [ ] You can only use access control lists (ACL).
+- [ ] You don't need any security in subnets.
+- [ ] You can use multiple layers of security, including security groups, network access control lists (ACL) and CloudHS.
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -4072,10 +4072,10 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 ### An organization has developed a mobile application which allows end users to capture a photo on their mobile device, and store it inside an application. The application internally uploads the data to AWS S3. The organization wants each user to be able to directly upload data to S3 using their Google ID. How will the mobile app allow this?
 
-- [x]  Use the AWS Web identity federation for mobile applications, and use it to generate temporary security credentials for each user.
-- [ ]  It is not possible to connect to AWS S3 with a Google I
-- [ ]  Create an IAM user every time a user registers with their Google ID and use IAM to upload files to S3.
-- [ ]  Create a bucket policy with a condition which allows everyone to upload if the login ID has a Google part to it.
+- [x] Use the AWS Web identity federation for mobile applications, and use it to generate temporary security credentials for each user.
+- [ ] It is not possible to connect to AWS S3 with a Google I
+- [ ] Create an IAM user every time a user registers with their Google ID and use IAM to upload files to S3.
+- [ ] Create a bucket policy with a condition which allows everyone to upload if the login ID has a Google part to it.
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -4205,10 +4205,10 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 ### In AWS CloudHSM, in addition to the AWS recommendation that you use two or more HSM appliances in a high-availability configuration to prevent the loss of keys and data, you can also perform a remote backup/restore of a Luna SA partition if you have purchased a:
 
-- [ ]  Luna Restore HS.
-- [x]  Luna Backup HS.
-- [ ]  Luna HS.
-- [ ]  Luna SA HS.
+- [ ] Luna Restore HS.
+- [x] Luna Backup HS.
+- [ ] Luna HS.
+- [ ] Luna SA HS.
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -4268,10 +4268,10 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 ### After a major security breach your manager has requested a report of all users and their credentials in AWS. You discover that in IAM you can generate and download a credential report that lists all users in your account and the status of their various credentials, including passwords, access keys, MFA devices, and signing certificates. Which following statement is incorrect in regards to the use of credential reports?
 
-- [x]  Credential reports are downloaded XML files.
-- [ ]  You can get a credential report using the AWS Management Console, the AWS CLI, or the IAM API.
-- [ ]  You can use the report to audit the effects of credential lifecycle requirements, such as password rotation.
-- [ ]  You can generate a credential report as often as once every four hours.
+- [x] Credential reports are downloaded XML files.
+- [ ] You can get a credential report using the AWS Management Console, the AWS CLI, or the IAM API.
+- [ ] You can use the report to audit the effects of credential lifecycle requirements, such as password rotation.
+- [ ] You can generate a credential report as often as once every four hours.
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -4675,10 +4675,10 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 ### Can you encrypt EBS volumes?
 
-- [x]  Yes, you can enable encryption when you create a new EBS volume using the AWS Management Console, API, or CLI.
-- [ ]  No, you should use a third-party software to perform raw block-level encryption of an EBS volume.
-- [ ]  Yes, but you must use a third-party API for encrypting data before it's loaded on EBS.
-- [ ]  Yes, you can encrypt with the special 'ebs_encrypt' command through Amazon APIs.
+- [x] Yes, you can enable encryption when you create a new EBS volume using the AWS Management Console, API, or CLI.
+- [ ] No, you should use a third-party software to perform raw block-level encryption of an EBS volume.
+- [ ] Yes, but you must use a third-party API for encrypting data before it's loaded on EBS.
+- [ ] Yes, you can encrypt with the special 'ebs_encrypt' command through Amazon APIs.
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -4799,7 +4799,7 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 ### If you're unable to connect via SSH to your EC2 instance, which of the following should you check and possibly correct to restore connectivity?
 
-- [ ]  Adjust Security Group to permit egress traffic over TCP port 443 from your IP.
+- [ ] Adjust Security Group to permit egress traffic over TCP port 443 from your IP.
 - [ ] Configure the JAM role to permit changes to security group settings.
 - [ ] Modify the instance security group to allow ingress of ICMP packets from your IP.
 - [x] Adjust the instance's Security Group to permit ingress traffic over port 22 from your IP.
@@ -4828,10 +4828,10 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 ### While creating a network in the VPC, which of the following is true of a NAT device?
 
-- [ ]  You have to administer the NAT Gateway Service provided by AW
-- [x]  You can choose to use any of the three kinds of NAT devices offered by AWS for special purposes.
-- [ ]  You can use a NAT device to enable instances in a private subnet to connect to the Internet.
-- [ ]  You are recommended to use AWS NAT instances over NAT gateways, as the instances provide better availability and bandwidth.
+- [ ] You have to administer the NAT Gateway Service provided by AW
+- [x] You can choose to use any of the three kinds of NAT devices offered by AWS for special purposes.
+- [ ] You can use a NAT device to enable instances in a private subnet to connect to the Internet.
+- [ ] You are recommended to use AWS NAT instances over NAT gateways, as the instances provide better availability and bandwidth.
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -5635,10 +5635,10 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 ### You need to create an Amazon Machine Image (AMI) for a customer for an application which does not appear to be part of the standard AWS AMI template that you can see in the AWS console. What are the alternative possibilities for creating an AMI on AWS?
 
-- [ ]  You can purchase an AMIs from a third party but cannot create your own AMI.
-- [x]  You can purchase an AMIs from a third party or can create your own AMI.
-- [ ]  Only AWS can create AMIs and you need to wait till it becomes available.
-- [ ]  Only AWS can create AMIs and you need to request them to create one for you.
+- [ ] You can purchase an AMIs from a third party but cannot create your own AMI.
+- [x] You can purchase an AMIs from a third party or can create your own AMI.
+- [ ] Only AWS can create AMIs and you need to wait till it becomes available.
+- [ ] Only AWS can create AMIs and you need to request them to create one for you.
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -5900,10 +5900,10 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 ### A user is running a webserver on EC2. The user wants to receive the SMS when the EC2 instance utilization is above the threshold limit. Which AWS services should the user configure in this case?
 
-- [ ]  AWS CloudWatch + AWS SQS.
-- [x]  AWS CloudWatch + AWS SNS.
-- [ ]  AWS CloudWatch + AWS SES.
-- [ ]  AWS EC2 + AWS Cloudwatch.
+- [ ] AWS CloudWatch + AWS SQS.
+- [x] AWS CloudWatch + AWS SNS.
+- [ ] AWS CloudWatch + AWS SES.
+- [ ] AWS EC2 + AWS Cloudwatch.
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -5918,10 +5918,10 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 ### What happens to Amazon EBS root device volumes, by default, when an instance terminates?
 
-- [ ]  Amazon EBS root device volumes are moved to IA
-- [x]  Amazon EBS root device volumes are copied into Amazon RD
-- [ ]  Amazon EBS root device volumes are automatically deleted.
-- [ ]  Amazon EBS root device volumes remain in the database until you delete them.
+- [ ] Amazon EBS root device volumes are moved to IA
+- [x] Amazon EBS root device volumes are copied into Amazon RD
+- [ ] Amazon EBS root device volumes are automatically deleted.
+- [ ] Amazon EBS root device volumes remain in the database until you delete them.
 
 **[⬆ Back to Top](#table-of-contents)**
 
