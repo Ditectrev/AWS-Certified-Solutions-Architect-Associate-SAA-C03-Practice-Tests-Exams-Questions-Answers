@@ -63,6 +63,10 @@
 
 - Launch of the course.
 
+**[v1.0.1](../../releases/tag/v1.0.1): November 8, 2023.**
+
+- Fix all remaining typos with support of automated proofreading software.
+
 ## 🙋‍♀️ & 🙋‍♂️ Contribution
 
 We are so thankful for every contribution, which makes sure we can deliver top-notch content. Whenever you find a missing resource, broken link in a [Table of Contents](#table-of-contents), the wrong answer, please submit an [issue](../../issues). Even better would be a [Pull Request (PR)](../../pulls).
