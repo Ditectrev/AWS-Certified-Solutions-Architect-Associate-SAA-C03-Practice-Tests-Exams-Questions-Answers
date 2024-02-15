@@ -329,7 +329,7 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 | 223  | [[...] is a fast, flexible, fully managed push messaging service.](#-is-a-fast-flexible-fully-managed-push-messaging-service)
 | 224  | [You are tasked with setting up a Linux bastion host for access to Amazon EC2 instances running in your VPC. Only clients connecting from the corporate external public IP address 72.34.51.100 should have SSH access to the host. Which option will meet the customer requirement?](#you-are-tasked-with-setting-up-a-linux-bastion-host-for-access-to-amazon-ec2-instances-running-in-your-vpc-only-clients-connecting-from-the-corporate-external-public-ip-address-723451100-should-have-ssh-access-to-the-host-which-option-will-meet-the-customer-requirement)
 | 225  | [How can you secure data at rest on an EBS volume?](#how-can-you-secure-data-at-rest-on-an-ebs-volume)
-| 226  | [Is there a method in the IAM system to al low or deny access to a specific instance?](#is-there-a-method-in-the-iam-system-to-al-low-or-deny-access-to-a-specific-instance)
+| 226  | [Is there a method in the IAM system to allow or deny access to a specific instance?](#is-there-a-method-in-the-iam-system-to-allow-or-deny-access-to-a-specific-instance)
 | 227  | [Using Amazon IAM, can I give permission based on organizational groups?](#using-amazon-iam-can-i-give-permission-based-on-organizational-groups)
 | 228  | [Which services allow the customer to retain full administrative privileges of the underlying EC2 instances? (Choose 2 answers)](#which-services-allow-the-customer-to-retain-full-administrative-privileges-of-the-underlying-ec2instanceschoose-2-answers)
 | 229  | [While launching an RDS DB instance, on which page I can select the Availability Zone?](#while-launching-an-rds-db-instance-on-which-page-i-can-select-the-availability-zone)
@@ -2779,11 +2779,11 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### Is there a method in the IAM system to al low or deny access to a specific instance?
+### Is there a method in the IAM system to allow or deny access to a specific instance?
 
 - [ ] Only for VPC based instances.
-- [ ] Yes.
-- [x] No.
+- [x] Yes.
+- [ ] No.
 
 **[⬆ Back to Top](#table-of-contents)**
 
