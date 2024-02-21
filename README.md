@@ -71,6 +71,10 @@
 
 - Fix 1 wrong answer.
 
+**[v1.0.3](../../releases/tag/v1.0.3): February 21, 2024.**
+
+- Improve 1 question & fix its wrong answer.
+
 ## 🙋‍♀️ & 🙋‍♂️ Contribution
 
 We are so thankful for every contribution, which makes sure we can deliver top-notch content. Whenever you find a missing resource, broken link in a [Table of Contents](#table-of-contents), the wrong answer, please submit an [issue](../../issues). Even better would be a [Pull Request (PR)](../../pulls).
