@@ -1490,7 +1490,7 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 - [ ] Create and maintain AMIs of key servers where fast recovery is required.
 - [ ] Regularly run your servers, test them, and apply any software updates and configuration changes.
 - [x] All items listed here are important when thinking about disaster recovery.
-- [ ] Ensure that you have all supporting custom software packages available in AW.
+- [ ] Ensure that you have all supporting custom software packages available in AWS.
 
 **[⬆ Back to Top](#table-of-contents)**
 
