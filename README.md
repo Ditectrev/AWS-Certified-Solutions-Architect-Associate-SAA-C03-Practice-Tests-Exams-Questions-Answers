@@ -2200,9 +2200,9 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 ### A company wants to implement their website in a virtual private cloud (VPC). The web tier will use an Auto Scaling group across multiple Availability Zones (AZs). The database will use Multi-AZ RDSMySQL and should not be publicly accessible. What is the minimum number of subnets that need to be configured in the VPC?
 
 - [ ] 1.
-- [x] 2.
+- [ ] 2.
 - [ ] 3.
-- [ ] 4.
+- [x] 4.
 
 **[⬆ Back to Top](#table-of-contents)**
 
