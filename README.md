@@ -2613,7 +2613,8 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### Which of the following is correct in regards to those security groups?
+### A government client needs you to set up secure cryptographic key storage for some of their extremely confidential data. You decide that the AWS CloudHSM is the best service for this.
+However, there seem to be a few pre-requisites before this can happen, one of those being a security group that has certain ports open. Which of the following is correct in regards to those security groups?
 
 - [x] A security group that has port 22 (for SSH) or port 3389 (for RDP) open to your network.
 - [ ] A security group that has no ports open to your network.
