@@ -818,7 +818,10 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
     - [A development team runs monthly resource-intensive tests on its general purpose Amazon RDS for MySQL DB instance with Performance Insights enabled. The testing lasts for 48 hours once a month and is the only process that uses the database. The team wants to reduce the cost of running the tests without reducing the compute and memory attributes of the DB instance. Which solution meets these requirements MOST cost-effectively?](#a-development-team-runs-monthly-resource-intensive-tests-on-its-general-purpose-amazon-rds-for-mysql-db-instance-with-performance-insights-enabled-the-testing-lasts-for-48-hours-once-a-month-and-is-the-only-process-that-uses-the-database-the-team-wants-to-reduce-the-cost-of-running-the-tests-without-reducing-the-compute-and-memory-attributes-of-the-db-instance-which-solution-meets-these-requirements-most-cost-effectively)
     - [A company that hosts its web application on AWS wants to ensure all Amazon EC2 instances, Amazon RDS DB instances, and Amazon Redshift clusters are configured with tags. The company wants to minimize the effort of configuring and operating this check.](#a-company-that-hosts-its-web-application-on-aws-wants-to-ensure-all-amazon-ec2-instances-amazon-rds-db-instances-and-amazon-redshift-clusters-are-configured-with-tags-the-company-wants-to-minimize-the-effort-of-configuring-and-operating-this-check)
     - [A development team needs to host a website that will be accessed by other teams. The website contents consist of HTML, CSS, client-side JavaScript, and images.](#a-development-team-needs-to-host-a-website-that-will-be-accessed-by-other-teams-the-website-contents-consist-of-html-css-client-side-javascript-and-images)
-    - [A company runs an online marketplace web application on AWS. The application serves hundreds of thousands of users during peak hours. The company needs a scalable, near-real-time solution to share the details of millions of financial transactions with several other internal applications. Transactions also need to be processed to remove sensitive data before being stored in a document database for low-latency retrieval.](#a-company-runs-an-online-marketplace-web-application-on-aws-the-application-serves-hundreds-of-thousands-of-users-during-peak-hours-the-company-needs-a-scalable-near-real-time-solution-to-share-the-details-of-millions-of-financial-transactions-with-several-other-internal-applications-transactions-also-need-to-be-processed-to-remove-sensitive-data-before-being-stored-in-a-document-database-for-low-latency-retrieval)
+    - [A company runs an online marketplace web application on AWS. The application serves hundreds of thousands of users during peak hours. The company needs a scalable, near-real-time solution to share the details of millions of financial transactions with several other internal applications. Transactions also need to be processed to remove sensitive data before being stored in a document database for low-latency retrieval. What should a solutions architect recommend to meet these requirements?](#a-company-runs-an-online-marketplace-web-application-on-aws-the-application-serves-hundreds-of-thousands-of-users-during-peak-hours-the-company-needs-a-scalable-near-real-time-solution-to-share-the-details-of-millions-of-financial-transactions-with-several-other-internal-applications-transactions-also-need-to-be-processed-to-remove-sensitive-data-before-being-stored-in-a-document-database-for-low-latency-retrieval-what-should-a-solutions-architect-recommend-to-meet-these-requirements)
+    - [A company is preparing to launch a public-facing web application in the AWS Cloud. The architecture consists of Amazon EC2 instances within a VPC behind an Elastic Load Balancer (ELB). A third-party service is used for the DNS. The company's solutions architect must recommend a solution to detect and protect against large-scale DDoS attacks.](#a-company-is-preparing-to-launch-a-public-facing-web-application-in-the-aws-cloud-the-architecture-consists-of-amazon-ec2-instances-within-a-vpc-behind-an-elastic-load-balancer-elb-a-third-party-service-is-used-for-the-dns-the-companys-solutions-architect-must-recommend-a-solution-to-detect-and-protect-against-large-scale-ddos-attacks)
+    - [A company is building an application in the AWS Cloud. The application will store data in Amazon S3 buckets in two AWS Regions. The company must use an AWS Key Management Service (AWS KMS) customer managed key to encrypt all data that is stored in the S3 buckets. The data in both S3 buckets must be encrypted and decrypted with the same KMS key. The data and the key must be stored in each of the two Regions. Which solution will meet these requirements with the LEAST operational overhead?](#a-company-is-building-an-application-in-the-aws-cloud-the-application-will-store-data-in-amazon-s3-buckets-in-two-aws-regions-the-company-must-use-an-aws-key-management-service-aws-kms-customer-managed-key-to-encrypt-all-data-that-is-stored-in-the-s3-buckets-the-data-in-both-s3-buckets-must-be-encrypted-and-decrypted-with-the-same-kms-key-the-data-and-the-key-must-be-stored-in-each-of-the-two-regions-which-solution-will-meet-these-requirements-with-the-least-operational-overhead)
+    - [A company recently launched a variety of new workloads on Amazon EC2 instances in its AWS account. The company needs to create a strategy to access and administer the instances remotely and securely. The company needs to implement a repeatable process that works with native AWS services and follows the AWS Well-Architected Framework. Which solution will meet these requirements with the LEAST operational overhead?](#a-company-recently-launched-a-variety-of-new-workloads-on-amazon-ec2-instances-in-its-aws-account-the-company-needs-to-create-a-strategy-to-access-and-administer-the-instances-remotely-and-securely-the-company-needs-to-implement-a-repeatable-process-that-works-with-native-aws-services-and-follows-the-aws-well-architected-framework-which-solution-will-meet-these-requirements-with-the-least-operational-overhead)
 
 
 ### Which set of Amazon S3 features helps to prevent and recover from accidental data loss?
@@ -3079,15 +3082,15 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 - [ ] Amazon Resource Number.
 - [ ] Amazon Resource Nametag.
-- [ ] Amazon Resource Name.
+- [x] Amazon Resource Name.
 - [ ] Amazon Resource Namespace.
 
 **[⬆ Back to Top](#table-of-contents)**
 
 ### What are the two types of licensing options available for using Amazon RDS for Oracle?
 
-- [ ] BYOL and Enterprise License.
-- [ ] BYOL and License Included.
+- [] BYOL and Enterprise License.
+- [x] BYOL and License Included.
 - [ ] Enterprise License and License Included.
 - [ ] Role based License and License Included.
 
@@ -3095,20 +3098,20 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 ### In AWS, which security aspects are the customer's responsibility? (Choose 4 answers)
 
-- [ ] Security Group and ACL (Access Control List) settings.
+- [x] Security Group and ACL (Access Control List) settings.
 - [ ] Decommissioning storage devices.
-- [ ] Patch management on the EC2 instance's operating system.
-- [ ] Life-cycle management of IAM credentials.
+- [x] Patch management on the EC2 instance's operating system.
+- [x] Life-cycle management of IAM credentials.
 - [ ] Controlling physical access to compute resources.
-- [ ] Encryption of EBS (Elastic Block Storage) volumes.
+- [x] Encryption of EBS (Elastic Block Storage) volumes.
 
 **[⬆ Back to Top](#table-of-contents)**
 
 ### You have a web application running on six Amazon EC2 instances, consuming about 45% of resources on each instance. You are using auto-scaling to make sure that six instances are running at all times. The number of requests this application processes is consistent and does not experience spikes. The application is critical to your business and you want high availability at all times. You want the load to be distributed evenly between all instances. You also want to use the same Amazon Machine Image (AMI) for all instances. Which of the following architectural choices should you make?
 
-- [ ] Deploy 6 EC2 instances in one Availability Zone and use Amazon Elastic Load Balancer.
+- [x] Deploy 6 EC2 instances in one Availability Zone and use Amazon Elastic Load Balancer.
 - [ ] Deploy 3 EC2 instances in one region and 3 in another region and use Amazon Elastic Load Balancer.
-- [ ] Deploy 3 EC2 instances in one Availability Zone and 3 in another Availability Zone and use Amazon Elastic Load Balancer.
+- [x] Deploy 3 EC2 instances in one Availability Zone and 3 in another Availability Zone and use Amazon Elastic Load Balancer.
 - [ ] Deploy 2 EC2 instances in three regions and use Amazon Elastic Load Balancer.
 
 **[⬆ Back to Top](#table-of-contents)**
@@ -7181,6 +7184,8 @@ What should a solutions architect do to accomplish this?
 - [ ] Use Cost Explorer to display resources that are not properly tagged. Tag those resources manually.
 - [ ] Write API calls to check all resources for proper tag allocation. Periodically run the code on an EC2 instance.
 - [ ] Write API calls to check all resources for proper tag allocation. Schedule an AWS Lambda function through Amazon CloudWatch to periodically run the code.
+- [ ] 
+**[⬆ Back to Top](#table-of-contents)**
 
 ### A development team needs to host a website that will be accessed by other teams. The website contents consist of HTML, CSS, client-side JavaScript, and images.
 Which method is the MOST cost-effective for hosting the website?
@@ -7192,10 +7197,38 @@ Which method is the MOST cost-effective for hosting the website?
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### A company runs an online marketplace web application on AWS. The application serves hundreds of thousands of users during peak hours. The company needs a scalable, near-real-time solution to share the details of millions of financial transactions with several other internal applications. Transactions also need to be processed to remove sensitive data before being stored in a document database for low-latency retrieval.
-What should a solutions architect recommend to meet these requirements?
+### A company runs an online marketplace web application on AWS. The application serves hundreds of thousands of users during peak hours. The company needs a scalable, near-real-time solution to share the details of millions of financial transactions with several other internal applications. Transactions also need to be processed to remove sensitive data before being stored in a document database for low-latency retrieval. What should a solutions architect recommend to meet these requirements?
 
 - [ ] Store the transactions data into Amazon DynamoDB. Set up a rule in DynamoDB to remove sensitive data from every transaction upon write. Use DynamoDB Streams to share the transactions data with other applications.
 - [ ] Stream the transactions data into Amazon Kinesis Data Firehose to store data in Amazon DynamoDB and Amazon S3. Use AWS Lambda integration with Kinesis Data Firehose to remove sensitive data. Other applications can consume the data stored in Amazon S3.
 - [x] Stream the transactions data into Amazon Kinesis Data Streams. Use AWS Lambda integration to remove sensitive data from every transaction and then store the transactions data in AmazonDynamoDB. Other applications can consume the transactions data off the Kinesis data stream.
 - [ ] Store the batched transactions data in Amazon S3 as files. Use AWS Lambda to process every file and remove sensitive data before updating the files in Amazon S3. The Lambda function then stores the data in Amazon DynamoDB. Other applications can consume transaction files stored in Amazon S3.
+
+**[⬆ Back to Top](#table-of-contents)**
+
+### A company is preparing to launch a public-facing web application in the AWS Cloud. The architecture consists of Amazon EC2 instances within a VPC behind an Elastic Load Balancer (ELB). A third-party service is used for the DNS. The company's solutions architect must recommend a solution to detect and protect against large-scale DDoS attacks.
+Which solution meets these requirements?
+
+- [ ] Enable Amazon GuardDuty on the account.
+- [ ] Enable Amazon Inspector on the EC2 instances.
+- [ ] Enable AWS Shield and assign Amazon Route 53 to it.
+- [x] Enable AWS Shield Advanced and assign the ELB to it.
+
+**[⬆ Back to Top](#table-of-contents)**
+
+### A company is building an application in the AWS Cloud. The application will store data in Amazon S3 buckets in two AWS Regions. The company must use an AWS Key Management Service (AWS KMS) customer managed key to encrypt all data that is stored in the S3 buckets. The data in both S3 buckets must be encrypted and decrypted with the same KMS key. The data and the key must be stored in each of the two Regions. Which solution will meet these requirements with the LEAST operational overhead?
+
+- [ ]  Create an S3 bucket in each Region. Configure the S3 buckets to use server-side encryption with Amazon S3 managed encryption keys (SSE-S3). Configure replication between the S3 buckets.
+- [x]  Create a customer managed multi-Region KMS key. Create an S3 bucket in each Region. Configure replication between the S3 buckets. Configure the application to use the KMS key with client-side encryption.
+- [ ]  Create a customer managed KMS key and an S3 bucket in each Region. Configure the S3 buckets to use server-side encryption with Amazon S3 managed encryption keys (SSE-S3). Configure replication between the S3 buckets.
+- [ ] Create a customer managed KMS key and an S3 bucket in each Region. Configure the S3 buckets to use server-side encryption with AWS KMS keys (SSE-KMS). Configure replication between the S3 buckets.
+
+
+**[⬆ Back to Top](#table-of-contents)**
+
+### A company recently launched a variety of new workloads on Amazon EC2 instances in its AWS account. The company needs to create a strategy to access and administer the instances remotely and securely. The company needs to implement a repeatable process that works with native AWS services and follows the AWS Well-Architected Framework. Which solution will meet these requirements with the LEAST operational overhead?
+
+- [ ] Use the EC2 serial console to directly access the terminal interface of each instance for administration.
+- [x] Attach the appropriate IAM role to each existing instance and new instance. Use AWS Systems Manager Session Manager to establish a remote SSH session.
+- [ ] Create an administrative SSH key pair. Load the public key into each EC2 instance. Deploy a bastion host in a public subnet to provide a tunnel for administration of each instance.
+- [ ] Establish an AWS Site-to-Site VPN connection. Instruct administrators to use their local on-premises machines to connect directly to the instances by using SSH keys across the VPN tunnel.
