@@ -1490,11 +1490,11 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 - [ ] Create and maintain AMIs of key servers where fast recovery is required.
 - [ ] Regularly run your servers, test them, and apply any software updates and configuration changes.
 - [x] All items listed here are important when thinking about disaster recovery.
-- [ ] Ensure that you have all supporting custom software packages available in AW.
+- [ ] Ensure that you have all supporting custom software packages available in AWS.
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### You are developing a new mobile application and are considering storing user preferences in AWS.2w This would provide a more uniform cross-device experience to users using multiple mobile devices to access the application. The preference data for each user is estimated to be SOKB in size Additionally 5 million customers are expected to use the application on a regular basis. The solution needs to be cost-effective, highly available, scalable and secure, how would you design a solution to meet the above requirements?
+### You are developing a new mobile application and are considering storing user preferences in AWS. This would provide a more uniform cross-device experience to users using multiple mobile devices to access the application. The preference data for each user is estimated to be SOKB in size Additionally 5 million customers are expected to use the application on a regular basis. The solution needs to be cost-effective, highly available, scalable and secure, how would you design a solution to meet the above requirements?
 
 - [ ] Setup an RDS MySQL instance in 2 Availability Zones to store the user preference data. Deploy a public facing application on a server in front of the database to manage security and access credentials.
 - [x] Setup a DynamoDB table with an item for each user having the necessary attributes to hold the user preferences. The mobile application will query the user preferences directly from the DynamoDB table. Utilize ST.
@@ -2200,9 +2200,9 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 ### A company wants to implement their website in a virtual private cloud (VPC). The web tier will use an Auto Scaling group across multiple Availability Zones (AZs). The database will use Multi-AZ RDSMySQL and should not be publicly accessible. What is the minimum number of subnets that need to be configured in the VPC?
 
 - [ ] 1.
-- [x] 2.
+- [ ] 2.
 - [ ] 3.
-- [ ] 4.
+- [x] 4.
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -2613,7 +2613,8 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### Which of the following is correct in regards to those security groups?
+### A government client needs you to set up secure cryptographic key storage for some of their extremely confidential data. You decide that the AWS CloudHSM is the best service for this.
+However, there seem to be a few pre-requisites before this can happen, one of those being a security group that has certain ports open. Which of the following is correct in regards to those security groups?
 
 - [x] A security group that has port 22 (for SSH) or port 3389 (for RDP) open to your network.
 - [ ] A security group that has no ports open to your network.
@@ -2622,7 +2623,7 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### How should they architect their solution to achieve these goals?
+### A web company is looking to implement an intrusion detection and prevention system into their deployed VPC. This platform should have the ability to scale to thousands of instances running inside of the VPC. How should they architect their solution to achieve these goals?
 
 - [ ] Configure an instance with monitoring software and the elastic network interface (ENI) set to promiscuous mode packet sniffing to see an traffic across the VPC. Configure servers running in the VPC using the host-based 'route' commands to send all traffic through the platform to a scalable virtualized IDS/IP.
 - [ ] Create a second VPC and route all traffic from the primary application VPC through the second VPC where the scalable virtualized IDS/IPS platform resides.
@@ -4747,7 +4748,7 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### A customer is hosting t heir company website on a cluster of web servers that are behind a public facing load balancer. The customer also uses Amazon Route 53 to manage their public DNS. How should the customer configure the DNS zone apex record to point to the load balancer?
+### A customer is hosting their company website on a cluster of web servers that are behind a public facing load balancer. The customer also uses Amazon Route 53 to manage their public DNS. How should the customer configure the DNS zone apex record to point to the load balancer?
 
 - [ ] Create an A record pointing to the IP address of the load balancer.
 - [ ] Create a CNAME record pointing to the load balancer DNS name.
