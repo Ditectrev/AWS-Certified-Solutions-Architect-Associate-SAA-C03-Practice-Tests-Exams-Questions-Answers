@@ -3109,7 +3109,7 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 ### You have a web application running on six Amazon EC2 instances, consuming about 45% of resources on each instance. You are using auto-scaling to make sure that six instances are running at all times. The number of requests this application processes is consistent and does not experience spikes. The application is critical to your business and you want high availability at all times. You want the load to be distributed evenly between all instances. You also want to use the same Amazon Machine Image (AMI) for all instances. Which of the following architectural choices should you make?
 
-- [x] Deploy 6 EC2 instances in one Availability Zone and use Amazon Elastic Load Balancer.
+- [ ] Deploy 6 EC2 instances in one Availability Zone and use Amazon Elastic Load Balancer.
 - [ ] Deploy 3 EC2 instances in one region and 3 in another region and use Amazon Elastic Load Balancer.
 - [x] Deploy 3 EC2 instances in one Availability Zone and 3 in another Availability Zone and use Amazon Elastic Load Balancer.
 - [ ] Deploy 2 EC2 instances in three regions and use Amazon Elastic Load Balancer.
@@ -3118,7 +3118,7 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 ### An ERP application is deployed across multiple AZs in a single region. in the event of failure, the Recovery Time Objective (RTO) must be less than 3 hours, and the Recovery Point Objective (RPO) must be 15 minutes the customer realizes that data corruption occurred roughly 1.5 hours ago. What DR strategy could be used to achieve this RTO and RPO in the event of this kind of failure?
 
-- [ ] Take hourly DB backups to S3, with transaction logs stored in S3 every 5 minutes.
+- [x] Take hourly DB backups to S3, with transaction logs stored in S3 every 5 minutes.
 - [ ] Use synchronous database master-slave replication between two Availability Zones.
 - [ ] Take hourly DB backups to EC2 Instance store volumes with transaction logs stored in S3 every 5 minutes.
 - [ ] Take 15 minute DB backups stored in Glacier with transaction logs stored in S3 every 5 minutes.
@@ -3127,7 +3127,7 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 ### You have been setting up an Amazon Virtual Private Cloud (Amazon VPC) for your company, including setting up subnets. Security is a concern, and you are not sure which is the best security practice for securing subnets in your VPC. Which statement below is correct in describing the protection of AWS resources in each subnet?
 
-- [ ] You can use multiple layers of security, including security groups and network access control lists (ACL).
+- [x] You can use multiple layers of security, including security groups and network access control lists (ACL).
 - [ ] You can only use access control lists (ACL).
 - [ ] You don't need any security in subnets.
 - [ ] You can use multiple layers of security, including security groups, network access control lists (ACL) and CloudHS.
@@ -3139,13 +3139,13 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 - [ ] A 1 time charge of 10$ for all the datasets.
 - [ ] 1$ per dataset per month.
 - [ ] 10$ per month for all the datasets.
-- [ ] There is no charge for using the public data sets.
+- [x] There is no charge for using the public data sets.
 
 **[⬆ Back to Top](#table-of-contents)**
 
 ### [...] embodies the 'share-nothing' architecture and essentially involves breaking a large database into several smaller databases. Common ways to split a database include: 1. Splitting tables that are not joined in the same query onto different hosts or 2. Duplicating a table across multiple hosts and then using a hashing algorithm to determine which host receives a given update.
 
-- [ ] $harding.
+- [x] sharding.
 - [ ] Fai lure recovery.
 - [ ] Federation.
 - [ ] DOL operations.
@@ -3155,7 +3155,7 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 ### After deploying a new website for a client on AWS, he asks if you can set it up so that if it fails it can be automatically redirected to a backup website that he has stored on a dedicated server elsewhere. You are wondering whether Amazon Route 53 can do this. Which statement below is correct in regards to Amazon Route 53?
 
 - [ ] Amazon Route 53 can't help detect an outage. You need to use another service.
-- [ ] Amazon Route 53 can help detect an outage of your website and redirect your end users to alternate locations.
+- [x] Amazon Route 53 can help detect an outage of your website and redirect your end users to alternate locations.
 - [ ] Amazon Route 53 can help detect an outage of your website but can't redirect your end users to alternate locations.
 - [ ] Amazon Route 53 can't help detect an outage of your website, but can redirect your end users to alternate locations.
 
@@ -3164,7 +3164,7 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 ### Your company plans to host a large donation website on Amazon Web Services (AWS). You anticipate a large and undetermined amount of traffic that will create many database writes. To be certain that you do not drop any writes to a database hosted on AWS. Which service should you use?
 
 - [ ] Amazon RDS with provisioned IOPS up to the anticipated peak write throughput.
-- [ ] Amazon Simple Queue Service (SOS) for capturing the writes and draining the queue to write to the database.
+- [x] Amazon Simple Queue Service (SOS) for capturing the writes and draining the queue to write to the database.
 - [ ] Amazon ElastiCache to store the writes until the writes are committed to the database.
 - [ ] Amazon DynamoDB with provisioned write throughput up to the anticipated peak write throughput.
 
@@ -3172,7 +3172,7 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 ### You have set up an Auto Scaling group. The cool down period for the Auto Scaling group is 7 minutes. The first instance is launched after 3 minutes, while the second instance is launched after 4 minutes. How many minutes after the first instance is launched will Auto Scaling accept another scaling activity request?
 
-- [ ] 11 minutes.
+- [x] 11 minutes.
 - [ ] 7 minutes.
 - [ ] 10 minutes.
 - [ ] 14 minutes.
@@ -3183,7 +3183,7 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 - [ ] File a change request to implement Alias Resource support in the application. Use Route 53 Alias Resource Record to distribute load on two application servers in different AZs.
 - [ ] File a change request to implement Latency Based Routing support in the application. Use Route 53 with Latency Based Routing enabled to distribute load on two application servers in different AZs.
-- [ ] File a change request to implement Cross-Zone support in the application. Use an ELB with a TCP Listener and Cross-Zone Load Balancing enabled, two application servers in different AZs.
+- [x] File a change request to implement Cross-Zone support in the application. Use an ELB with a TCP Listener and Cross-Zone Load Balancing enabled, two application servers in different AZs.
 - [ ] File a change request to implement Proxy Protocol support in the application. Use an ELB with a TCP Listener and Proxy Protocol enabled to distribute load on two application servers in different AZs.
 
 **[⬆ Back to Top](#table-of-contents)**
