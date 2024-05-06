@@ -7694,3 +7694,32 @@ Which solution meets these requirements?
 - [x] Attach the appropriate IAM role to each existing instance and new instance. Use AWS Systems Manager Session Manager to establish a remote SSH session.
 - [ ] Create an administrative SSH key pair. Load the public key into each EC2 instance. Deploy a bastion host in a public subnet to provide a tunnel for administration of each instance.
 - [ ] Establish an AWS Site-to-Site VPN connection. Instruct administrators to use their local on-premises machines to connect directly to the instances by using SSH keys across the VPN tunnel.
+
+
+**[⬆ Back to Top](#table-of-contents)**
+
+### A company has a production workload that runs on 1,000 Amazon EC2 Linux instances. The workload is powered by third-party software. The company needs to patch the third-party software on all EC2 instances as quickly as possible to remediate a critical security vulnerability. What should a solutions architect do to meet these requirements?
+
+- [ ] Create an AWS Lambda function to apply the patch to all EC2 instances.
+- [ ] Configure AWS Systems Manager Patch Manager to apply the patch to all EC2 instances.
+- [ ] Schedule an AWS Systems Manager maintenance window to apply the patch to all EC2 instances.
+- [x] Use AWS Systems Manager Run Command to run a custom command that applies the patch to all EC2 instances.
+
+
+**[⬆ Back to Top](#table-of-contents)**
+
+### A company uses Amazon RDS for PostgreSQL databases for its data tier. The company must implement password rotation for the databases. Which solution meets this requirement with the LEAST operational overhead?
+- [x]  Store the password in AWS Secrets Manager. Enable automatic rotation on the secret.
+- [ ]  Store the password in AWS Systems Manager Parameter Store. Enable automatic rotation on the parameter.
+- [ ]  Store the password in AWS Systems Manager Parameter Store. Write an AWS Lambda function that rotates the password.
+- [ ]  Store the password in AWS Key Management Service (AWS KMS). Enable automatic rotation on the customer master key (CMK).
+
+**[⬆ Back to Top](#table-of-contents)**
+
+### A company runs its application on Oracle Database Enterprise Edition. The company needs to migrate the application and the database to AWS. The company can use the Bring Your Own License (BYOL) model while migrating to AWS. The application uses third-party database features that require privileged access. A solutions architect must design a solution for the database migration. Which solution will meet these requirements MOST cost-effectively?
+
+- [ ] Migrate the database to Amazon RDS for Oracle by using native tools. Replace the third-party features with AWS Lambda.
+- [ ]  Migrate the database to Amazon RDS Custom for Oracle by using native tools. Customize the new database settings to support the third-party features.
+- [ ] Migrate the database to Amazon DynamoDB by using AWS Database Migration Service (AWS DMS). Customize the new database settings to support the third-party features.
+- [ ]  Migrate the database to Amazon RDS for PostgreSQL by using AWS Database Migration Service (AWS DMS). Rewrite the application code to remove the dependency on third-party features.
+
