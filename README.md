@@ -1305,7 +1305,7 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 ### A friend tells you he is being charged $100 a month to host his WordPress website, and you tell him you can move it to AWS for him and he will only pay a fraction of that, which makes him very happy. He then tells you he is being charged $50 a month for the domain, which is registered with the same people that set it up, and he asks if it's possible to move that to AWS as well. You tell him you aren't sure, but will look into it. Which of the following statements is true in regards to transferring domain names to AWS?
 
-- [ ] You can't transfer existing domains to AW.
+- [ ] You can't transfer existing domains to AWS.
 - [x] You can transfer existing domains into Amazon Route 53's management.
 - [ ] You can transfer existing domains via AWS Direct Connect.
 - [ ] You can transfer existing domains via AWS Import/Export.
@@ -2235,7 +2235,7 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 - [ ] Create and maintain AMIs of key servers where fast recovery is required.
 - [ ] Regularly run your servers, test them, and apply any software updates and configuration changes.
-- [ ] Ensure that you have all supporting custom software packages available in AW.
+- [ ] Ensure that you have all supporting custom software packages available in AWS.
 - [x] All items listed here are important when thinking about disaster recovery.
 
 **[⬆ Back to Top](#table-of-contents)**
@@ -2607,7 +2607,7 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 ### You're trying to delete an SSL certificate from the IAM certificate store, and you're getting the message 'Certificate: <certificate< span=''>-id> is being used by CloudFront.' Which of the following statements is probably the reason why you are getting this error?
 
 - [x] Before you can delete an SSL certificate, you need to either rotate SSL certificates or revert from using a custom SSL certificate to using the default CloudFront certificate.
-- [ ] You can't delete SSL certificates. You need to request it from AW.
+- [ ] You can't delete SSL certificates. You need to request it from AWS.
 - [ ] Before you can delete an SSL certificate, you need to set up the appropriate access level in IAM. Before you can delete an SSL certificate you need to set up https on your server.
 - [ ] Before you can delete an SSL certificate you need to set up https on your server.
 
@@ -6442,9 +6442,9 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 ### A company is deploying a new two-tier web application in AWS. The company has limited staff and requires high availability, and the application requires complex queries and table joins. Which configuration provides the solution for the company's requirements?
 
 - [ ] MySQL Installed on two Amazon EC2 Instances in a single Availability Zone.
-- [ ] Amazon RDS for MySQL with Multi-AZ.
+- [x] Amazon RDS for MySQL with Multi-AZ.
 - [ ] Amazon ElastiCache
-- [x] Amazon DynamoDB.
+- [ ] Amazon DynamoDB.
 
 **[⬆ Back to Top](#table-of-contents)**
 
