@@ -828,8 +828,8 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 ### When should I choose Provisioned IOPS over Standard RDS storage?
 
-- [x] If you have batch-oriented workloads.
-- [ ] If you use production online transaction processing (OLTP) workloads.
+- [ ] If you have batch-oriented workloads.
+- [x] If you use production online transaction processing (OLTP) workloads.
 - [ ] If you have workloads that are not sensitive to consistent performance.
 
 **[⬆ Back to Top](#table-of-contents)**
@@ -1231,10 +1231,10 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 ### To serve Web traffic for a popular product your chief financial officer and IT director have purchased 10 ml large heavy utilization Reserved Instances (RIs) evenly spread across two Availability Zones: Route 53 is used to deliver the traffic to an Elastic Load Balancer (ELB). After several months, the product grows even more popular and you need additional capacity As a result, your company purchases two C3.2xlarge medium utilization RIs You register the two c3 2xlarge instances with your ELB and quickly find that the ml large instances are at 100% of capacity and the c3 2xlarge instances have significant capacity that's unused Which option is the most cost effective and uses EC2 capacity most effectively?
 
-- [ ] Use a separate ELB for each instance type and distribute load to ELBs with Route 53 weighted round robin.
+- [x] Use a separate ELB for each instance type and distribute load to ELBs with Route 53 weighted round robin.
 - [ ] Configure Autoscaning group and Launch Configuration with ELB to add up to 10 more on-demand ml large instances when triggered by Cloudwatch shut off c3 2xlarge instances.
 - [ ] Route traffic to EC2 ml large and c3 2xlarge instances directly using Route 53 latency based routing and health checks shut off ELB.
-- [x] Configure ELB with two c3 2xiarge Instances and use on-demand Autoscaling group for up to two additional c3.2xlarge instances Shut on mi .large instances.
+- [ ] Configure ELB with two c3 2xiarge Instances and use on-demand Autoscaling group for up to two additional c3.2xlarge instances Shut on mi .large instances.
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -1359,10 +1359,10 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 ### A web company is looking to implement an external payment service into their highly available application deployed in a VPC Their application EC2 instances are behind a public lacing ELB Auto scaling is used to add additional instances as traffic increases under normal load the application runs 2 instances in the Auto Scaling group but at peak it can scale 3x in size. The application instances need to communicate with the payment service over the Internet which requires whitelisting of all public IP addresses used to communicate with it. A maximum of 4 whitelisting IP addresses are allowed at a time and can be added through an API. How should they architect their solution?
 
-- [ ] Route payment requests through two NAT instances setup for High Availability and whitelist the Elastic IP addresses attached to the MAT instances.
+- [x] Route payment requests through two NAT instances setup for High Availability and whitelist the Elastic IP addresses attached to the MAT instances.
 - [ ] Whitelist the VPC Internet Gateway Public IP and route payment requests through the Internet Gateway.
 - [ ] Whitelist the ELB IP addresses and route payment requests from the Application servers through the EL.
-- [x] Automatically assign public IP addresses to the application instances in the Auto Scaling group and run a script on boot that adds each instances public IP address to the payment validation whitelist AP.
+- [ ] Automatically assign public IP addresses to the application instances in the Auto Scaling group and run a script on boot that adds each instances public IP address to the payment validation whitelist AP.
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -1431,8 +1431,8 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 ### A company is building software on AWS that requires access to various AWS services. Which configuration should be used to ensure mat AWS credentials (i.e., Access Key ID/Secret Access Key combination) are not compromised?
 
-- [x] Enable Multi-Factor Authentication for your AWS root account.
-- [ ] Assign an IAM role to the Amazon EC2 instance.
+- [ ] Enable Multi-Factor Authentication for your AWS root account.
+- [x] Assign an IAM role to the Amazon EC2 instance.
 - [ ] Store the AWS Access Key ID/Secret Access Key combination in software comments.
 - [ ] Assign an IAM user to the Amazon EC2 Instance.
 
@@ -7746,3 +7746,11 @@ Which solution meets these requirements?
 - [ ]  Use AWS Firewall Manager to perform threat detection. Configure Amazon EventBridge to filter for Firewall Manager findings and to invoke an AWS Lambda function to adjust the AWS WAF web ACL.
 - [ ]  Use Amazon Inspector to perform threat detection and to update the AWS WAF rules. Create a VPC network ACL to limit access to the web application.
 - [ ]  Use Amazon Macie to perform threat detection and to update the AWS WAF rules. Create a VPC network ACL to limit access to the web application.
+
+
+### A company has deployed a multi-account strategy on AWS by using AWS Control Tower. The company has provided individual AWS accounts to each of its developers. The company wants to implement controls to limit AWS resource costs that the developers incur. Which solution will meet these requirements with the LEAST operational overhead?
+
+- [ ] Instruct each developer to tag all their resources with a tag that has a key of CostCenter and a value of the developer's name. Use the required-tags AWS Config managed rule to check for the tag. Create an AWS Lambda function to terminate resources that do not have the tag. Configure AWS Cost Explorer to send a daily report to each developer to monitor their spending.
+- [x] Use AWS Budgets to establish budgets for each developer account. Set up budget alerts for actual and forecast values to notify developers when they exceed or expect to exceed their assigned budget. Use AWS Budgets actions to apply a DenyAll policy to the developer's IAM role to prevent additional resources from being launched when the assigned budget is reached.
+- [ ] Use AWS Cost Explorer to monitor and report on costs for each developer account. Configure Cost Explorer to send a daily report to each developer to monitor their spending. Use AWS Cost Anomaly Detection to detect anomalous spending and provide alerts.
+- [ ] Use AWS Service Catalog to allow developers to launch resources within a limited cost range. Create AWS Lambda functions in each AWS account to stop running resources at the end of each work day. Configure the Lambda functions to resume the resources at the start of each work day.
