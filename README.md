@@ -1435,8 +1435,8 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 ### A company is building software on AWS that requires access to various AWS services. Which configuration should be used to ensure mat AWS credentials (i.e., Access Key ID/Secret Access Key combination) are not compromised?
 
-- [x] Enable Multi-Factor Authentication for your AWS root account.
-- [ ] Assign an IAM role to the Amazon EC2 instance.
+- [ ] Enable Multi-Factor Authentication for your AWS root account.
+- [x] Assign an IAM role to the Amazon EC2 instance.
 - [ ] Store the AWS Access Key ID/Secret Access Key combination in software comments.
 - [ ] Assign an IAM user to the Amazon EC2 Instance.
 
