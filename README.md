@@ -2635,7 +2635,8 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### What is an effective method to mitigate this?
+### You run an ad-supported photo sharing website using Amazon S3 to serve photos to visitors of your site. At some point you find out that other sites have been linking to the photos on your site, causing loss to your business.
+What is an effective method to mitigate this?
 
 - [x] Remove public read access and use signed URLs with expiry dates.
 - [ ] Use CloudFront distributions for static content.
@@ -2769,7 +2770,7 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 ### You are tasked with setting up a Linux bastion host for access to Amazon EC2 instances running in your VPC. Only clients connecting from the corporate external public IP address 72.34.51.100 should have SSH access to the host. Which option will meet the customer requirement?
 
-- [x] Security Group Inbound Rule: Protocol – TCP.
+- [x] Security Group Inbound Rule: Protocol – TCP. Port Range – 22, Source 72.34.51.100/32
 - [ ] Port Range- 22, Source 72.34.51. 100/32.
 - [ ] Security Group Inbound Rule: Protocol – UDP, Port Range- 22, Source 72.34.51.100/32.
 - [ ] Network ACL Inbound Rule: Protocol – UDP, Port Range- 22, Source 72.34.51.100/32.
