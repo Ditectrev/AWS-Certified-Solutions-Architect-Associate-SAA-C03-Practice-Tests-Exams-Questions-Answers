@@ -1363,10 +1363,10 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 ### A web company is looking to implement an external payment service into their highly available application deployed in a VPC Their application EC2 instances are behind a public lacing ELB Auto scaling is used to add additional instances as traffic increases under normal load the application runs 2 instances in the Auto Scaling group but at peak it can scale 3x in size. The application instances need to communicate with the payment service over the Internet which requires whitelisting of all public IP addresses used to communicate with it. A maximum of 4 whitelisting IP addresses are allowed at a time and can be added through an API. How should they architect their solution?
 
-- [ ] Route payment requests through two NAT instances setup for High Availability and whitelist the Elastic IP addresses attached to the MAT instances.
+- [x] Route payment requests through two NAT instances setup for High Availability and whitelist the Elastic IP addresses attached to the MAT instances.
 - [ ] Whitelist the VPC Internet Gateway Public IP and route payment requests through the Internet Gateway.
 - [ ] Whitelist the ELB IP addresses and route payment requests from the Application servers through the EL.
-- [x] Automatically assign public IP addresses to the application instances in the Auto Scaling group and run a script on boot that adds each instances public IP address to the payment validation whitelist AP.
+- [ ] Automatically assign public IP addresses to the application instances in the Auto Scaling group and run a script on boot that adds each instances public IP address to the payment validation whitelist AP.
 
 **[⬆ Back to Top](#table-of-contents)**
 
