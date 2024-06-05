@@ -7,9 +7,11 @@
 ❣️ Please support us by purchasing this course on Udemy in an interactive version with the [discounted link](https://www.udemy.com/course/aws-certified-solutions-architect-associate-saa-c03-exams-v/?referralCode=CEA49DDC465C505A263A). If you're working for a company, you could most probably easily claim this expense during preparation for your exam. For us, it's to be, or not to be, in the game.
 
 🛍️ Alternatively, you can buy the PDF with those questions on [Etsy](https://ditectrev.etsy.com/listing/1529635334) or [Google Play Books](https://play.google.com/store/books/details?id=Z6MGEQAAQBAJ).
+🛍️ Alternatively, you can buy the PDF with those questions on [Etsy](https://ditectrev.etsy.com/listing/1529635334) or [Google Play Books](https://play.google.com/store/books/details?id=Z6MGEQAAQBAJ).
 
 ## ✨ This course is unlike any Amazon Web Services Certified (AWS Certified) Solutions Architect Associate (SAA-C03) course you will find online.
 
+✋ Join a live online community and a course taught by industry experts and pass the Amazon Web Services Certified (AWS Certified) Solutions Architect Associate (SAA-C03) confidently. We aim to build an ecosystem of Information Technology (IT) certifications and online courses in cooperation with the technology industry. We believe it will give our students 100% confidence in the pacing market in an open-source environment. We are just at the beginning of our way, so it's even better for you to join now!
 ✋ Join a live online community and a course taught by industry experts and pass the Amazon Web Services Certified (AWS Certified) Solutions Architect Associate (SAA-C03) confidently. We aim to build an ecosystem of Information Technology (IT) certifications and online courses in cooperation with the technology industry. We believe it will give our students 100% confidence in the pacing market in an open-source environment. We are just at the beginning of our way, so it's even better for you to join now!
 
 [![Join our Discord](images/discord.png 'Join our Discord')](https://discord.gg/RFjtXKfJy3)
@@ -17,6 +19,7 @@
 ## ⌛️ Short and to the point; why should you take the course:
 
 1. Always happy to answer your questions on Udemy's Q&A's and outside :)
+2. Failed? Please submit a screenshot of your exam result and request a refund (via our upcoming platform, not possible on Udemy); we'll always accept it.
 2. Failed? Please submit a screenshot of your exam result and request a refund (via our upcoming platform, not possible on Udemy); we'll always accept it.
 3. Learn about topics, such as:
    - Access Control;
@@ -79,6 +82,10 @@
 
 - Improve multiple questions, typos, and fix broken links.
 
+**[v1.1.0](../../releases/tag/v1.1.0): May 8, 2024.**
+
+- Improve multiple questions, typos, and fix broken links.
+
 ## 🙋‍♀️ & 🙋‍♂️ Contribution
 
 We are so thankful for every contribution, which makes sure we can deliver top-notch content. Whenever you find a missing resource, broken link in a [Table of Contents](#table-of-contents), the wrong answer, please submit an [issue](../../issues). Even better would be a [Pull Request (PR)](../../pulls).
@@ -116,8 +123,11 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 | 2   | [What is the minimum time Interval for the data that Amazon CloudWatch receives and aggregates?](#what-is-the-minimum-time-interval-for-the-data-that-amazon-cloudwatch-receives-and-aggregates)
 | 3   | [A user has launched an EC2 instance. The instance got terminated as soon as it was launched. Which of the below mentioned options is not a possible reason for this?](#a-user-has-launched-an-ec2-instance-the-instance-got-terminated-as-soon-as-it-was-launched-which-of-the-below-mentioned-options-is-not-a-possible-reason-for-this)
 | 4   | [Your website is serving on-demand training videos to your workforce. Videos are uploaded monthly in high resolution MP4 format. Your workforce is distributed globally often on the move and using company-provided tablets that require the HTTP Live Streaming (HLS) protocol to watch a video. Your company has no video transcoding expertise and it required you may need to pay for a consultant. How do you implement the most cost-efficient architecture without compromising high availability and quality of video delivery'?](#your-website-is-serving-on-demand-training-videos-to-your-workforce-videos-are-uploaded-monthly-in-high-resolution-mp4-format-your-workforce-is-distributed-globally-often-on-the-move-and-using-company-provided-tablets-that-require-the-http-live-streaming-hls-protocol-to-watch-a-video-your-company-has-no-video-transcoding-expertise-and-it-required-you-may-need-to-pay-for-a-consultant-how-do-you-implement-the-most-cost-efficient-architecture-without-compromising-high-availability-and-quality-of-video-delivery)
+| 3   | [A user has launched an EC2 instance. The instance got terminated as soon as it was launched. Which of the below mentioned options is not a possible reason for this?](#a-user-has-launched-an-ec2-instance-the-instance-got-terminated-as-soon-as-it-was-launched-which-of-the-below-mentioned-options-is-not-a-possible-reason-for-this)
+| 4   | [Your website is serving on-demand training videos to your workforce. Videos are uploaded monthly in high resolution MP4 format. Your workforce is distributed globally often on the move and using company-provided tablets that require the HTTP Live Streaming (HLS) protocol to watch a video. Your company has no video transcoding expertise and it required you may need to pay for a consultant. How do you implement the most cost-efficient architecture without compromising high availability and quality of video delivery'?](#your-website-is-serving-on-demand-training-videos-to-your-workforce-videos-are-uploaded-monthly-in-high-resolution-mp4-format-your-workforce-is-distributed-globally-often-on-the-move-and-using-company-provided-tablets-that-require-the-http-live-streaming-hls-protocol-to-watch-a-video-your-company-has-no-video-transcoding-expertise-and-it-required-you-may-need-to-pay-for-a-consultant-how-do-you-implement-the-most-cost-efficient-architecture-without-compromising-high-availability-and-quality-of-video-delivery)
 | 5   | [You are designing an intrusion detection prevention (IDS/IPS) solution for a customer web application in a single VPC. You are considering the options for implementing IOS IPS protection for traffic coming from the Internet. Which of the following options would you consider? (Choose 2 answers)](#you-are-designing-an-intrusion-detection-prevention-idsips-solution-for-a-customer-web-application-in-a-single-vpc-you-are-considering-the-options-for-implementing-ios-ips-protection-for-traffic-coming-from-the-internet-which-of-the-following-options-would-you-consider-choose-2-answers)
 | 6   | [Which of the following are valid statements about Amazon S3? (Choose 2 answers)](#which-of-the-following-are-valid-statements-about-amazon-s3-choose-2-answers)
+| 7   | [How can the domain's zone apex, for example, 'myzoneapexdomain.com', be pointed towards an Elastic Load Balancer?](#how-can-the-domains-zone-apex-for-example-myzoneapexdomaincom-be-pointed-towards-an-elastic-load-balancer)
 | 7   | [How can the domain's zone apex, for example, 'myzoneapexdomain.com', be pointed towards an Elastic Load Balancer?](#how-can-the-domains-zone-apex-for-example-myzoneapexdomaincom-be-pointed-towards-an-elastic-load-balancer)
 | 8   | [When should I choose Provisioned IOPS over Standard RDS storage?](#when-should-i-choose-provisioned-iops-over-standard-rds-storage)
 | 9   | [Your department creates regular analytics reports from your company's log files All log data is collected in Amazon S3 and processed by daily Amazon Elastic MapReduce (EMR) jobs that generate daily PDF reports and aggregated tables in CSV format for an Amazon Redshift data warehouse. Which of the following alternatives will lower costs without compromising average performance of the system or data integrity for the raw data?](#your-department-creates-regular-analytics-reports-from-your-companys-log-files-all-log-data-is-collected-in-amazon-s3-and-processed-by-daily-amazon-elastic-mapreduce-emr-jobs-that-generate-daily-pdf-reports-and-aggregated-tables-in-csv-format-for-an-amazon-redshift-data-warehouse-which-of-the-following-alternatives-will-lower-costs-without-compromising-average-performance-of-the-system-or-data-integrity-for-the-raw-data)
@@ -1234,6 +1244,7 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 **[⬆ Back to Top](#table-of-contents)**
 
 ### To serve Web traffic for a popular product your chief financial officer and IT director have purchased 10 ml large heavy utilization Reserved Instances (RIs) evenly spread across two Availability Zones: Route 53 is used to deliver the traffic to an Elastic Load Balancer (ELB). After several months, the product grows even more popular and you need additional capacity As a result, your company purchases two C3.2xlarge medium utilization RIs You register the two c3 2xlarge instances with your ELB and quickly find that the ml large instances are at 100% of capacity and the c3 2xlarge instances have significant capacity that's unused Which option is the most cost effective and uses EC2 capacity most effectively?
+### To serve Web traffic for a popular product your chief financial officer and IT director have purchased 10 ml large heavy utilization Reserved Instances (RIs) evenly spread across two Availability Zones: Route 53 is used to deliver the traffic to an Elastic Load Balancer (ELB). After several months, the product grows even more popular and you need additional capacity As a result, your company purchases two C3.2xlarge medium utilization RIs You register the two c3 2xlarge instances with your ELB and quickly find that the ml large instances are at 100% of capacity and the c3 2xlarge instances have significant capacity that's unused Which option is the most cost effective and uses EC2 capacity most effectively?
 
 - [x] Use a separate ELB for each instance type and distribute load to ELBs with Route 53 weighted round robin.
 - [ ] Configure Autoscaning group and Launch Configuration with ELB to add up to 10 more on-demand ml large instances when triggered by Cloudwatch shut off c3 2xlarge instances.
@@ -1363,8 +1374,8 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 ### A web company is looking to implement an external payment service into their highly available application deployed in a VPC Their application EC2 instances are behind a public lacing ELB Auto scaling is used to add additional instances as traffic increases under normal load the application runs 2 instances in the Auto Scaling group but at peak it can scale 3x in size. The application instances need to communicate with the payment service over the Internet which requires whitelisting of all public IP addresses used to communicate with it. A maximum of 4 whitelisting IP addresses are allowed at a time and can be added through an API. How should they architect their solution?
 
-- [x] Route payment requests through two NAT instances setup for High Availability and whitelist the Elastic IP addresses attached to the MAT instances.
-- [ ] Whitelist the VPC Internet Gateway Public IP and route payment requests through the Internet Gateway.
+- [x] Route payment requests through two NAT instances setup for High Availability and whitelist the Elastic IP addresses attached to the MAT instances.
+- [ ] Whitelist the VPC Internet Gateway Public IP and route payment requests through the Internet Gateway.
 - [ ] Whitelist the ELB IP addresses and route payment requests from the Application servers through the EL.
 - [ ] Automatically assign public IP addresses to the application instances in the Auto Scaling group and run a script on boot that adds each instances public IP address to the payment validation whitelist AP.
 
