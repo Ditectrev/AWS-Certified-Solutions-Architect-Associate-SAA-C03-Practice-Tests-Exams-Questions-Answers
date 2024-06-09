@@ -227,7 +227,7 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 | 113 | [A user is storing a large number of objects on AWS S3. The user wants to implement the search functionality among the objects. How can the user achieve this?](#a-user-is-storing-a-large-number-of-objects-on-aws-s3-the-user-wants-to-implement-the-search-functionality-among-the-objects-how-can-the-user-achieve-this)
 | 114 | [A corporate web application is deployed within an Amazon Virtual Private Cloud (VPC) and is connected to the corporate data center via an IPsec VPN. The application must authenticate against the on-premises LDAP server. After authentication, each logged-in user can only access an Amazon Simple Storage Space (S3) keyspace specific to that user. Which two approaches can satisfy these objectives? (Choose 2 answers)](#a-corporate-web-application-is-deployed-within-an-amazon-virtual-private-cloud-vpc-and-is-connected-to-the-corporate-data-center-via-an-ipsec-vpn-the-application-must-authenticate-against-the-on-premises-ldap-server-after-authentication-each-logged-in-user-can-only-access-an-amazon-simple-storage-space-s3-keyspace-specific-to-that-user-which-two-approaches-can-satisfy-these-objectives-choose-2-answers)
 | 115 | [A group can contain many users. Can a user belong to multiple groups?](#a-group-can-contain-many-users-can-a-user-belong-to-multiple-groups)
-| 116 | [Does Dynamic DB support in-place atomic updates?](#does-dynamic-db-support-in-place-atomic-updates)
+| 116 | [Does Dynamo DB support in-place atomic updates?](#does-dynamo-db-support-in-place-atomic-updates)
 | 117 | [Can you move a Reserved Instance from one Availability Zone to another?](#can-you-move-a-reserved-instance-from-one-availability-zone-to-another)
 | 118 | [You want to establish a dedicated network connection from your premises to AWS in order to save money by transferring data directly to AWS rather than through your internet service provider. You are sure there must be some other benefits beyond cost savings. Which of the following statements would be the best choice to put your client's mind at rest?](#you-want-to-establish-a-dedicated-network-connection-from-your-premises-to-aws-in-order-to-save-money-by-transferring-data-directly-to-aws-rather-than-through-your-internet-service-provider-you-are-sure-there-must-be-some-other-benefits-beyond-cost-savings-which-of-the-following-statements-would-be-the-best-choice-to-put-your-clients-mind-at-rest)
 | 119 | [Can I detach the primary (ethO) network interface when the instance is running or stopped?](#can-i-detach-the-primary-etho-network-interface-when-the-instance-is-running-or-stopped)
@@ -796,7 +796,6 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 - [ ] A video transcoding pipeline running on EC2 using SQS to distribute tasks and Auto Scaling to adjust the number of nodes depending on the length of the queue. EBS volumes to host videos and EBS snapshots to incrementally backup original files after a few days. CloudFront to serve HLS transcoded videos from EC2.
 - [x] Elastic Transcoder to transcode original high-resolution MP4 videos to HL.
 - [ ] EBS volumes to host videos and EBS snapshots to incrementally backup original files after a few days. CloudFront to serve HLS transcoded videos from EC2.
-- [ ] Elastic Transcoder to transcode original high-resolution MP4 videos to HL.
 - [ ] Amazon S3 to host videos with Lifecycle Management to archive original files to Glacier after a few days. CloudFront to serve HLStranscoded videos from S3.
 - [ ] A video transcoding pipeline running on EC2 using SQS to distribute tasks and Auto Scaling to adjust the number of nodes depending on the length of the queue. S3 to host videos with Lifecycle Management to archive all files to Glacier after a few days. CloudFront to serve HLS transcoded videos from Glacier.
 
@@ -1808,7 +1807,7 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### Does Dynamic DB support in-place atomic updates?
+### Does Dynamo DB support in-place atomic updates?
 
 - [ ] It is not defined.
 - [x] Yes.
