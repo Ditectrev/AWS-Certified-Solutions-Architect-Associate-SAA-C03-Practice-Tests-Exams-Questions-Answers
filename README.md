@@ -79,6 +79,10 @@
 
 - Improve multiple questions, typos, and fix broken links.
 
+**[v2.0.0](../../releases/tag/v2.0.0): June 17, 2024.**
+
+- Add 66 new questions, delete 6 duplicated questions, fix multiple questions, and spelling improvements.
+
 ## 🙋‍♀️ & 🙋‍♂️ Contribution
 
 We are so thankful for every contribution, which makes sure we can deliver top-notch content. Whenever you find a missing resource, broken link in a [Table of Contents](#table-of-contents), the wrong answer, please submit an [issue](../../issues). Even better would be a [Pull Request (PR)](../../pulls).
