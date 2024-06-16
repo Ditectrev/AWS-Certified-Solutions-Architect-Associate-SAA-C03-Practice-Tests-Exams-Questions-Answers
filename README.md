@@ -4818,7 +4818,7 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 - [x] Elastic Load Balancing request routing.
 - [ ] An Amazon Route 53 weighted routing policy.
 - [ ] Elastic Load Balancing cross-zone load balancing.
-- [ ] An Amazon Route 53 latency routing pol icy.
+- [ ] An Amazon Route 53 latency routing policy.
 
 **[⬆ Back to Top](#table-of-contents)**
 
