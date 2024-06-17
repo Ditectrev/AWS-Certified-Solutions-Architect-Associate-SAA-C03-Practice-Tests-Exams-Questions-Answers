@@ -2,11 +2,11 @@
 
 ![Promotional image](images/promotional.png)
 
-## Udemy & Etsy
+## Udemy & shop.ditectrev.com
 
 ❣️ Please support us by purchasing this course on Udemy in an interactive version with the [discounted link](https://www.udemy.com/course/aws-certified-solutions-architect-associate-saa-c03-exams-v/?referralCode=CEA49DDC465C505A263A). If you're working for a company, you could most probably easily claim this expense during preparation for your exam. For us, it's to be, or not to be, in the game.
 
-🛍️ Alternatively, you can buy the PDF with those questions on [Etsy](https://ditectrev.etsy.com/listing/1529635334) or [Google Play Books](https://play.google.com/store/books/details?id=Z6MGEQAAQBAJ).
+🛍️ Alternatively, you can buy the PDF with those questions on [shop.ditectrev.com](https://shop.ditectrev.com/product/amazon-web-services-certified-aws-certified-solutions-architect-associate-saa-c03-practice-tests-exams-questions-answers) or [Google Play Books](https://play.google.com/store/books/details?id=Z6MGEQAAQBAJ).
 
 ## ✨ This course is unlike any Amazon Web Services Certified (AWS Certified) Solutions Architect Associate (SAA-C03) course you will find online.
 
