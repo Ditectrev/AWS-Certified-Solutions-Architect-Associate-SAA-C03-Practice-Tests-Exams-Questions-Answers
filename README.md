@@ -4847,7 +4847,7 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### Which of the following are t rue regarding AWS CloudTrail? (Choose 3 answers)
+### Which of the following are true regarding AWS CloudTrail? (Choose 3 answers)
 
 - [ ] CloudTrail is enabled globally.
 - [ ] CloudTrail is enabled by default.
