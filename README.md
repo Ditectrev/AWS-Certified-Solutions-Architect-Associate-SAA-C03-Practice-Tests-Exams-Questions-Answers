@@ -83,6 +83,11 @@
 
 - Add 66 new questions, delete 6 duplicated questions, fix multiple questions, and spelling improvements.
 
+**[v2.0.0](../../releases/tag/v2.0.0): August 3, 2024.**
+
+- AI-generated explanations (only paid [Udemy](https://www.udemy.com/course/aws-certified-solutions-architect-associate-saa-c03-exams-v/?referralCode=CEA49DDC465C505A263A)).
+
+
 ## 🙋‍♀️ & 🙋‍♂️ Contribution
 
 We are so thankful for every contribution, which makes sure we can deliver top-notch content. Whenever you find a missing resource, broken link in a [Table of Contents](#table-of-contents), the wrong answer, please submit an [issue](../../issues). Even better would be a [Pull Request (PR)](../../pulls).
