@@ -4,7 +4,7 @@
 
 ## ❣️ Support
 
-There are many ways to support us, in exchange you'll get this material in a proper format:
+There are many ways to support us; in exchange, you'll get this material in a proper format:
 - [Udemy is the only one to have explanations for questions](https://www.udemy.com/course/aws-certified-solutions-architect-associate-saa-c03-exams-v/?referralCode=CEA49DDC465C505A263A),
 - [shop.ditectrev.com, in EPUB or PDF formats, with answers marked](https://shop.ditectrev.com/product/amazon-web-services-certified-aws-certified-solutions-architect-associate-saa-c03-practice-tests-exams-questions-answers),
 - [shop.ditectrev.com, in EPUB or PDF formats, without answers marked](https://shop.ditectrev.com/product/amazon-web-services-certified-aws-certified-solutions-architect-associate-saa-c03-practice-tests-exams-questions-no-answers),
@@ -16,9 +16,9 @@ There are many ways to support us, in exchange you'll get this material in a pro
 - [eBay, in PDF format, without answers marked](https://www.ebay.com/itm/404898797787?mkcid=16&mkevt=1&mkrid=711-127632-2357-0&ssspo=_ptbuk3gqdw&sssrc=2524149&ssuid=_ptbuk3gqdw&widget_ver=artemis&media=COPY)
 - [Patreon subscription, where you can get access to all of the materials in EPUB and PDF formats](https://patreon.com/Ditectrev).
 
-🛍️ If you're working for a company, you could most probably easily claim this expense during preparation for your exam. For us, it's to be, or not to be, in the game.
+🛍️ If you work for a company, you could probably easily claim this expense while preparing for your exam. For us, it's about being in the game or not.
 
-⭐ Good ratings & reviews helps us to survive. Please remember to leave a nice one, when you purchase an item. 
+⭐ Good ratings & reviews help us to survive. Please don't forget to leave a nice one when you purchase an item. 
 
 ## ✨ This course is unlike any Amazon Web Services Certified (AWS Certified) Solutions Architect Associate (SAA-C03) course you will find online.
 
