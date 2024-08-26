@@ -5,18 +5,18 @@
 ## ❣️ Support
 
 There are many ways to support us; in exchange, you'll get this material in a proper format:
-- ❣️ [shop.ditectrev.com, in EPUB or PDF formats, with answers marked](https://shop.ditectrev.com/product/amazon-web-services-certified-aws-certified-solutions-architect-associate-saa-c03-practice-tests-exams-questions-answers),
-- ❣️ [shop.ditectrev.com, in EPUB or PDF formats, without answers marked](https://shop.ditectrev.com/product/amazon-web-services-certified-aws-certified-solutions-architect-associate-saa-c03-practice-tests-exams-questions-no-answers),
-- [Udemy is the only one to have explanations for questions](https://www.udemy.com/course/aws-certified-solutions-architect-associate-saa-c03-exams-v/?referralCode=CEA49DDC465C505A263A),
-- [Google Play Books, in PDF format, with answers marked](https://play.google.com/store/books/details?id=Z6MGEQAAQBAJ),
-- [Google Play Books, in PDF format, without answers marked](https://play.google.com/store/books/details?id=aaMGEQAAQBAJ),
-- [Etsy, in PDF format, with answers marked](https://ditectrev.etsy.com/listing/1529635334),
-- [Etsy, in PDF format, without answers marked](https://ditectrev.etsy.com/listing/1529636684),
-- [eBay, in PDF format, with answers marked](https://www.ebay.com/itm/404899853022?mkcid=16&mkevt=1&mkrid=711-127632-2357-0&ssspo=_ptbuk3gqdw&sssrc=2524149&ssuid=_ptbuk3gqdw&widget_ver=artemis&media=COPY),
-- [eBay, in PDF format, without answers marked](https://www.ebay.com/itm/404898797787?mkcid=16&mkevt=1&mkrid=711-127632-2357-0&ssspo=_ptbuk3gqdw&sssrc=2524149&ssuid=_ptbuk3gqdw&widget_ver=artemis&media=COPY),
-- [Patreon subscription, where you can get access to all of the materials in EPUB and PDF formats](https://patreon.com/Ditectrev?utm_medium=unknown&utm_source=join_link&utm_campaign=creatorshare_creator&utm_content=copyLink).
+- ❤️ [shop.ditectrev.com, in EPUB or PDF formats, with answers marked](https://shop.ditectrev.com/product/amazon-web-services-certified-aws-certified-solutions-architect-associate-saa-c03-practice-tests-exams-questions-answers),
+- ❤️ [shop.ditectrev.com, in EPUB or PDF formats, without answers marked](https://shop.ditectrev.com/product/amazon-web-services-certified-aws-certified-solutions-architect-associate-saa-c03-practice-tests-exams-questions-no-answers),
+- 📖 [Udemy is the only one to have explanations for questions](https://www.udemy.com/course/aws-certified-solutions-architect-associate-saa-c03-exams-v/?referralCode=CEA49DDC465C505A263A),
+- 📚 [Google Play Books, in PDF format, with answers marked](https://play.google.com/store/books/details?id=Z6MGEQAAQBAJ),
+- 📚 [Google Play Books, in PDF format, without answers marked](https://play.google.com/store/books/details?id=aaMGEQAAQBAJ),
+- 🛍️ [Etsy, in PDF format, with answers marked](https://ditectrev.etsy.com/listing/1529635334),
+- 🛍️ [Etsy, in PDF format, without answers marked](https://ditectrev.etsy.com/listing/1529636684),
+- 🛒 [eBay, in PDF format, with answers marked](https://www.ebay.com/itm/404899853022?mkcid=16&mkevt=1&mkrid=711-127632-2357-0&ssspo=_ptbuk3gqdw&sssrc=2524149&ssuid=_ptbuk3gqdw&widget_ver=artemis&media=COPY),
+- 🛒 [eBay, in PDF format, without answers marked](https://www.ebay.com/itm/404898797787?mkcid=16&mkevt=1&mkrid=711-127632-2357-0&ssspo=_ptbuk3gqdw&sssrc=2524149&ssuid=_ptbuk3gqdw&widget_ver=artemis&media=COPY),
+- 🔄 [Patreon subscription, where you can get access to all of the materials in EPUB and PDF formats](https://patreon.com/Ditectrev?utm_medium=unknown&utm_source=join_link&utm_campaign=creatorshare_creator&utm_content=copyLink).
 
-🛍️ If you work for a company, you could probably easily claim this expense while preparing for your exam. For us, it's about being in the game or not.
+💰 If you work for a company, you could probably easily claim this expense while preparing for your exam. For us, it's about being in the game or not.
 
 ⭐ Good ratings & reviews help us to survive. Please don't forget to leave a nice one when you purchase an item. 
 
