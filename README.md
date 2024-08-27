@@ -2,7 +2,7 @@
 
 ![Promotional image](images/promotional.png)
 
-## ❣️ Support
+## Udemy & shop.ditectrev.com
 
 There are many ways to support us; in exchange, you'll get this material in a proper format:
 - ❣️ [shop.ditectrev.com, in EPUB or PDF formats, with answers marked](https://shop.ditectrev.com/product/amazon-web-services-certified-aws-certified-solutions-architect-associate-saa-c03-practice-tests-exams-questions-answers),
@@ -16,7 +16,7 @@ There are many ways to support us; in exchange, you'll get this material in a pr
 - [eBay, in PDF format, without answers marked](https://www.ebay.com/itm/404898797787?mkcid=16&mkevt=1&mkrid=711-127632-2357-0&ssspo=_ptbuk3gqdw&sssrc=2524149&ssuid=_ptbuk3gqdw&widget_ver=artemis&media=COPY),
 - [Patreon subscription, where you can get access to all of the materials in EPUB and PDF formats](https://patreon.com/Ditectrev?utm_medium=unknown&utm_source=join_link&utm_campaign=creatorshare_creator&utm_content=copyLink).
 
-🛍️ Alternatively, you can buy the PDF with those questions on [Etsy](https://ditectrev.etsy.com/listing/1529635334) or [Google Play Books](https://play.google.com/store/books/details?id=Z6MGEQAAQBAJ).
+🛍️ Alternatively, you can buy the PDF with those questions on [shop.ditectrev.com](https://shop.ditectrev.com/product/amazon-web-services-certified-aws-certified-solutions-architect-associate-saa-c03-practice-tests-exams-questions-answers) or [Google Play Books](https://play.google.com/store/books/details?id=Z6MGEQAAQBAJ).
 
 ## ✨ This course is unlike any Amazon Web Services Certified (AWS Certified) Solutions Architect Associate (SAA-C03) course you will find online.
 
