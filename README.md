@@ -4,19 +4,21 @@
 
 ## ❣️ Support
 
-There are many ways to support us, in exchange you'll get this material in a proper format:
+There are many ways to support us; in exchange, you'll get this material in a proper format:
+- ❣️ [shop.ditectrev.com, in EPUB or PDF formats, with answers marked](https://shop.ditectrev.com/product/amazon-web-services-certified-aws-certified-solutions-architect-associate-saa-c03-practice-tests-exams-questions-answers),
+- ❣️ [shop.ditectrev.com, in EPUB or PDF formats, without answers marked](https://shop.ditectrev.com/product/amazon-web-services-certified-aws-certified-solutions-architect-associate-saa-c03-practice-tests-exams-questions-no-answers),
 - [Udemy is the only one to have explanations for questions](https://www.udemy.com/course/aws-certified-solutions-architect-associate-saa-c03-exams-v/?referralCode=CEA49DDC465C505A263A),
-- [shop.ditectrev.com, in EPUB or PDF formats, with answers marked](https://shop.ditectrev.com/product/amazon-web-services-certified-aws-certified-solutions-architect-associate-saa-c03-practice-tests-exams-questions-answers),
-- [shop.ditectrev.com, in EPUB or PDF formats, without answers marked](https://shop.ditectrev.com/product/amazon-web-services-certified-aws-certified-solutions-architect-associate-saa-c03-practice-tests-exams-questions-no-answers),
 - [Google Play Books, in PDF format, with answers marked](https://play.google.com/store/books/details?id=Z6MGEQAAQBAJ),
 - [Google Play Books, in PDF format, without answers marked](https://play.google.com/store/books/details?id=aaMGEQAAQBAJ),
 - [Etsy, in PDF format, with answers marked](https://ditectrev.etsy.com/listing/1529635334),
 - [Etsy, in PDF format, without answers marked](https://ditectrev.etsy.com/listing/1529636684),
 - [eBay, in PDF format, with answers marked](https://www.ebay.com/itm/404899853022?mkcid=16&mkevt=1&mkrid=711-127632-2357-0&ssspo=_ptbuk3gqdw&sssrc=2524149&ssuid=_ptbuk3gqdw&widget_ver=artemis&media=COPY),
-- [eBay, in PDF format, without answers marked](https://www.ebay.com/itm/404898797787?mkcid=16&mkevt=1&mkrid=711-127632-2357-0&ssspo=_ptbuk3gqdw&sssrc=2524149&ssuid=_ptbuk3gqdw&widget_ver=artemis&media=COPY)
-- [Patreon subscription, where you can get access to all of the materials in EPUB and PDF formats](https://patreon.com/Ditectrev).
+- [eBay, in PDF format, without answers marked](https://www.ebay.com/itm/404898797787?mkcid=16&mkevt=1&mkrid=711-127632-2357-0&ssspo=_ptbuk3gqdw&sssrc=2524149&ssuid=_ptbuk3gqdw&widget_ver=artemis&media=COPY),
+- [Patreon subscription, where you can get access to all of the materials in EPUB and PDF formats](https://patreon.com/Ditectrev?utm_medium=unknown&utm_source=join_link&utm_campaign=creatorshare_creator&utm_content=copyLink).
 
-🛍️ Alternatively, you can buy the PDF with those questions on [Etsy](https://ditectrev.etsy.com/listing/1529635334) or [Google Play Books](https://play.google.com/store/books/details?id=Z6MGEQAAQBAJ).
+🛍️ If you work for a company, you could probably easily claim this expense while preparing for your exam. For us, it's about being in the game or not.
+
+⭐ Good ratings & reviews help us to survive. Please don't forget to leave a nice one when you purchase an item. 
 
 ## ✨ This course is unlike any Amazon Web Services Certified (AWS Certified) Solutions Architect Associate (SAA-C03) course you will find online.
 
@@ -88,6 +90,15 @@ There are many ways to support us, in exchange you'll get this material in a pro
 **[v1.1.0](../../releases/tag/v1.1.0): May 8, 2024.**
 
 - Improve multiple questions, typos, and fix broken links.
+
+**[v2.0.0](../../releases/tag/v2.0.0): June 17, 2024.**
+
+- Add 66 new questions, delete 6 duplicated questions, fix multiple questions, and spelling improvements.
+
+**[v2.0.0](../../releases/tag/v2.0.0): August 3, 2024.**
+
+- AI-generated explanations (only paid [Udemy](https://www.udemy.com/course/aws-certified-solutions-architect-associate-saa-c03-exams-v/?referralCode=CEA49DDC465C505A263A)).
+
 
 ## 🙋‍♀️ & 🙋‍♂️ Contribution
 
