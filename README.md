@@ -16,9 +16,7 @@ There are many ways to support us, in exchange you'll get this material in a pro
 - [eBay, in PDF format, without answers marked](https://www.ebay.com/itm/404898797787?mkcid=16&mkevt=1&mkrid=711-127632-2357-0&ssspo=_ptbuk3gqdw&sssrc=2524149&ssuid=_ptbuk3gqdw&widget_ver=artemis&media=COPY)
 - [Patreon subscription, where you can get access to all of the materials in EPUB and PDF formats](https://patreon.com/Ditectrev).
 
-🛍️ If you're working for a company, you could most probably easily claim this expense during preparation for your exam. For us, it's to be, or not to be, in the game.
-
-⭐ Good ratings & reviews helps us to survive. Please remember to leave a nice one, when you purchase an item. 
+🛍️ Alternatively, you can buy the PDF with those questions on [Etsy](https://ditectrev.etsy.com/listing/1529635334) or [Google Play Books](https://play.google.com/store/books/details?id=Z6MGEQAAQBAJ).
 
 ## ✨ This course is unlike any Amazon Web Services Certified (AWS Certified) Solutions Architect Associate (SAA-C03) course you will find online.
 
