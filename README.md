@@ -4131,11 +4131,11 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 ### Which of the following are use cases for Amazon DynamoDB? (Choose 3 answers)
 
 - [ ] Storing BLOB data.
-- [ ] Managing web sessions.
+- [x] Managing web sessions.
 - [x] Storing JSON documents.
-- [ ] Storing metadata for Amazon S3 objects.
-- [x] Running relational joins and complex updates.
-- [x] Storing large amounts of infrequently accessed data.
+- [x] Storing metadata for Amazon S3 objects.
+- [ ] Running relational joins and complex updates.
+- [ ] Storing large amounts of infrequently accessed data.
 
 **[⬆ Back to Top](#table-of-contents)**
 
