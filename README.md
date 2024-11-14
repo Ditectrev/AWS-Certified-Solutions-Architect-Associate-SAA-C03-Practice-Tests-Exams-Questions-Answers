@@ -20,7 +20,7 @@ There are many ways to support us; in exchange, you'll get this material in a pr
 
 ⭐ Good ratings & reviews help us to survive. Please don't forget to leave a nice one when you purchase an item. 
 
-## 👩‍💻 & 👩‍💻 Interactive Course(s)
+## 👩‍💻 & 👨‍💻 Interactive Course(s)
 
 It's great to learn these questions as your exam preparation, and, yes, you should pass just based on that. However, we highly recommend more interactive learning if you want to become an expert. Currently, we're recommending those courses:
 
