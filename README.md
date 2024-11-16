@@ -24,7 +24,7 @@ There are many ways to support us; in exchange, you'll get this material in a pr
 
 It's great to learn these questions as your exam preparation, and, yes, you should pass just based on that. However, we highly recommend more interactive learning if you want to become an expert. Currently, we're recommending those courses:
 
-- 📖 [Educative: video-free course, including set up out-of-the-box for you Cloud Labs to practice hands-on without the need to set up an environment (and payments). The link includes the highest available discount Educative offers](https://www.educative.io/courses/master-aws-certified-solutions-architect-associate-saa-c03-exam?aff=VALz).
+- 📖 [Educative: text-based, video-free course, including set up out-of-the-box for you Cloud Labs to practice hands-on without the need to set up an environment (and payments). The link includes the highest available discount Educative offers](https://www.educative.io/courses/master-aws-certified-solutions-architect-associate-saa-c03-exam?aff=VALz).
 
 Yes, we have a little commission from that link. Therefore, by using that link, you're supporting us.
 
