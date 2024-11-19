@@ -1,6 +1,7 @@
 import tkinter as tk
 from tkinter import messagebox
 import os
+import random
 
 # Questions and answers
 def load_questions_from_readme():
@@ -76,6 +77,9 @@ class QuizApp:
         self.incorrect_label = tk.Label(score_frame, text=f"Incorrect: {self.score_incorrect}", fg="red")
         self.incorrect_label.grid(row=0, column=1, padx=10)
 
+        self.question_counter_label = tk.Label(score_frame, text=f"Question {self.current_question + 1} of {len(questions)}", fg="black")
+        self.question_counter_label.grid(row=0, column=2, padx=10)
+
     def next_question(self):
         self.current_question += 1
         if self.current_question >= len(questions):
@@ -88,15 +92,17 @@ class QuizApp:
                 self.option_buttons[idx-1].config(text=option, fg="black")
             self.submit_button.config(state="normal")
         self.back_button.config(state="normal" if self.current_question > 0 else "disabled")
+        self.update_question_counter()
 
     def previous_question(self):
         self.current_question -= 1
         self.question_label.config(text=questions[self.current_question]["question"])
         self.var.set(-1)
         for idx, option in enumerate(questions[self.current_question]["options"]):
-            self.option_buttons[idx].config(text=option, fg="black")
+            self.option_buttons[idx-1].config(text=option, fg="black")
         self.submit_button.config(state="normal")
         self.back_button.config(state="normal" if self.current_question > 0 else "disabled")
+        self.update_question_counter()
         
     def reset_answer(self):
         self.var.set(-1)
@@ -104,6 +110,9 @@ class QuizApp:
             btn.config(fg="black")
         self.submit_button.config(state="normal")
         self.next_button.config(state="disabled")
+    def randomize_question_order():
+        random.shuffle(questions)
+    randomize_question_order()
 
     def check_answer(self):
         selected = self.var.get()
@@ -118,12 +127,18 @@ class QuizApp:
             self.option_buttons[selected].config(fg="red")
             self.score_incorrect += 1
 
+        self.question_counter_label.config(text=f"Question {self.current_question + 1} of {len(questions)}")
         self.correct_label.config(text=f"Correct: {self.score_correct}")
         self.incorrect_label.config(text=f"Incorrect: {self.score_incorrect}")
-
         self.next_button.config(state="normal")
+
+    def update_question_counter(self):
+        self.question_counter_label.config(text=f"Question {self.current_question + 1} of {len(questions)}")
+        self.correct_label.config(text=f"Correct: {self.score_correct}")
+        self.incorrect_label.config(text=f"Incorrect: {self.score_incorrect}")
 
 if __name__ == "__main__":
     root = tk.Tk()
     app = QuizApp(root)
     root.mainloop()
+    
