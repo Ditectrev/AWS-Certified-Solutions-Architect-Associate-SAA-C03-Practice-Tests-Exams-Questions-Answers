@@ -1,4 +1,4 @@
-# ⬆️ Amazon Web Services Certified (AWS Certified) Solutions Architect Associate (SAA-C03) Practice Tests Exams Questions & Answers
+*# ⬆️ Amazon Web Services Certified (AWS Certified) Solutions Architect Associate (SAA-C03) Practice Tests Exams Questions & Answers
 
 ![Promotional image](images/promotional.png)
 
@@ -9122,14 +9122,12 @@ A company is running a multi-tier web application on AWS. The application runs i
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### A web application must persist order data to Amazon S3 to support neat-real time processing. A solutions architect needs create an architecture that is both scalable and fault tolerant.Which solutions meet these requirements? (Choose two.)
-- [ ]   Write the order event to an Amazon DynamoDB table. Use DynamoDB Streams to trigger an AWS Lambda function that parses the payload and writes the data to Amazon S3.
-- [x]  Write the order event to an Amazon Simple Queue Service (Amazon SQS) queue. Use the queue to trigger an AWSLambda function that parsers the payload and writes the data to Amazon S3.
-- [ ]  Write the order event to an Amazon Simple Notification Service (Amazon SNS) topic
-- [ ] Use the SNS topic to trigger an AWS Lambda function that parses the payload and writes the data to Amazon S3.
-- [x]  Write the order event to an Amazon Simple Queue Service (Amazon SQS) queue. Use an Amazon EventBridge (Amazon CloudWatch Events) rule to trigger an AWS Lambda function that parses the payload and writes the data to Amazon S3.
-- [ ] Write the order event to an Amazon Simple Notification Service (Amazon SNS) topi
-- [ ]  Use an Amazon EventBridge (Amazon CloudWatch Events) rule to trigger an AWS Lambda function that parses the payload andwrites the data to Amazon S3.
+### A web application must persist order data to Amazon S3 to support near-real time processing. A solutions architect needs to create an architecture that is both scalable and fault tolerant. Which solutions meet these requirements? (Choose two.)
+- [ ] Write the order event to an Amazon DynamoDB table. Use DynamoDB Streams to trigger an AWS Lambda function that parses the payload and writes the data to Amazon S3.
+- [x] Write the order event to an Amazon Simple Queue Service (Amazon SQS) queue. Use the queue to trigger an AWS Lambda function that parses the payload and writes the data to Amazon S3.
+- [ ] Write the order event to an Amazon Simple Notification Service (Amazon SNS) topic. Use the SNS topic to trigger an AWS Lambda function that parses the payload and writes the data to Amazon S3.
+- [x] Write the order event to an Amazon Simple Queue Service (Amazon SQS) queue. Use an Amazon EventBridge (Amazon CloudWatch Events) rule to trigger an AWS Lambda function that parses the payload and writes the data to Amazon S3.
+- [ ] Write the order event to an Amazon Simple Notification Service (Amazon SNS) topic. Use an Amazon EventBridge (Amazon CloudWatch Events) rule to trigger an AWS Lambda function that parses the payload and writes the data to Amazon S3.
 
 ### A company has an application hosted on Amazon EC2 instances in two VPCs across different AWS Regions. To communicate with each other, the instances use the internet for connectivity. The security team wants to ensure that no communication between the instances happens over the internet.What should a solutions architect do to accomplish this?
 - [ ]   Create a NAT gateway and update the route table of the EC2 instancesג€™ subnet.
@@ -9183,10 +9181,11 @@ A company is running a multi-tier web application on AWS. The application runs i
 
 ### A company hosts an application on AWS. The application gives users the ability to upload photos and store the photos in an Amazon S3 bucket. The company wants to use Amazon CloudFront and a custom domain name to upload the photo files to the S3 bucket in the eu-west-1 Region. Which solution will meet these requirements? (Choose two.)
 
-- [x] Use AWS Certificate Manager (ACM) to create a public certificate in the us-east-1 Region. Use the certificate in CloudFront. Most Voted
+- [x] Use AWS Certificate Manager (ACM) to create a public certificate in the us-east-1 Region. Use the certificate in CloudFront.
 - [ ] Use AWS Certificate Manager (ACM) to create a public certificate in eu-west-1. Use the certificate in CloudFront.
 - [ ] Configure Amazon S3 to allow uploads from CloudFront. Configure S3 Transfer Acceleration.
-- [x] Configure Amazon S3 to allow uploads from CloudFront origin access control (OAC). Most Voted
+- [x] Configure Amazon S3 to allow uploads from CloudFront origin access control (OAC).
 - [ ] Configure Amazon S3 to allow uploads from CloudFront. Configure an Amazon S3 website endpoint.
 
 **[⬆ Back to Top](#table-of-contents)**
+*
