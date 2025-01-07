@@ -1277,9 +1277,9 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 ### You are deploying an application to collect votes for a very popular television show. Millions of users will submit votes using mobile devices. The votes must be collected into a durable, scalable, and highly available data store for real-time public tabulation. Which service should you use?
 
-- [ ] Amazon DynamoDB.
+- [x] Amazon DynamoDB.
 - [ ] Amazon Redshift.
-- [x] Amazon Kinesis.
+- [ ] Amazon Kinesis.
 - [ ] Amazon Simple Queue Service.
 
 **[⬆ Back to Top](#table-of-contents)**
