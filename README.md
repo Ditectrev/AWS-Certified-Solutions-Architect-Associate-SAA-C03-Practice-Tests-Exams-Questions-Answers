@@ -12,8 +12,8 @@ There are many ways to support us; in exchange, you'll get this material in a pr
 - 📚 [Google Play Books, in PDF format, without answers marked](https://play.google.com/store/books/details?id=aaMGEQAAQBAJ),
 - 🛍️ [Etsy, in PDF format, with answers marked](https://ditectrev.etsy.com/listing/1529635334),
 - 🛍️ [Etsy, in PDF format, without answers marked](https://ditectrev.etsy.com/listing/1529636684),
-- 🛒 [eBay, in PDF format, with answers marked](https://www.ebay.com/itm/404899853022?mkcid=16&mkevt=1&mkrid=711-127632-2357-0&ssspo=_ptbuk3gqdw&sssrc=2524149&ssuid=_ptbuk3gqdw&widget_ver=artemis&media=COPY),
-- 🛒 [eBay, in PDF format, without answers marked](https://www.ebay.com/itm/404898797787?mkcid=16&mkevt=1&mkrid=711-127632-2357-0&ssspo=_ptbuk3gqdw&sssrc=2524149&ssuid=_ptbuk3gqdw&widget_ver=artemis&media=COPY),
+- 🛒 [eBay, in PDF format, with answers marked](https://www.ebay.com/itm/405489177567?mkcid=16&mkevt=1&mkrid=711-127632-2357-0&ssspo=_ptbuk3gqdw&sssrc=2047675&ssuid=_ptbuk3gqdw&widget_ver=artemis&media=COPY),
+- 🛒 [eBay, in PDF format, without answers marked](https://www.ebay.com/itm/405489177919?mkcid=16&mkevt=1&mkrid=711-127632-2357-0&ssspo=_ptbuk3gqdw&sssrc=2047675&ssuid=_ptbuk3gqdw&widget_ver=artemis&media=COPY),
 - 🔄 [Patreon subscription allows you to get access to all of the materials in EPUB and PDF formats. You can also buy separate items on Patreon, but the subscription technically allows us to include all updates for EPUB and PDF formats. Hence, you get EPUB and PDF updates when you subscribe to Patreon](https://patreon.com/Ditectrev?utm_medium=unknown&utm_source=join_link&utm_campaign=creatorshare_creator&utm_content=copyLink).
 
 💰 If you work for a company, you could probably easily claim this expense while preparing for your exam. For us, it's about being in the game or not.
