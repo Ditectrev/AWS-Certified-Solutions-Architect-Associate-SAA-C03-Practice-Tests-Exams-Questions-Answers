@@ -2126,8 +2126,8 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 ### You need to pass a custom script to new Amazon Linux instances created in your Auto Scaling group. Which feature allows you to accomplish this?
 
-- [ ] User data.
-- [x] EC2Config service.
+- [x] User data.
+- [ ] EC2Config service.
 - [ ] IAM roles.
 - [ ] AWS Config.
 
