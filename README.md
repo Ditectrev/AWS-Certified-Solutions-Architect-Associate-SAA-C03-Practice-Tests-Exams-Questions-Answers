@@ -166,7 +166,7 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 | 23  | [In the context of MySQL, version numbers are organized as MySQL version = X.Y.Z. What does X denote here?](#in-the-context-of-mysql-version-numbers-are-organized-as-mysql-version--xyz-what-does-x-denote-here)
 | 24  | [Which one of the below doesn't affect Amazon CloudFront billing?](#which-one-of-the-below-doesnt-affect-amazon-cloudfront-billing)
 | 25  | [Just when you thought you knew every possible storage option on AWS you hear someone mention Reduced Redundancy Storage (RRS) within Amazon S3. What is the ideal scenario to use Reduced Redundancy Storage (RRS)?](#just-when-you-thought-you-knew-every-possible-storage-option-on-aws-you-hear-someone-mention-reduced-redundancy-storage-rrs-within-amazon-s3-what-is-the-ideal-scenario-to-use-reduced-redundancy-storage-rrs)
-| 26  | [$ aws sqs receive-message –queue-url https://queue.amazonaws.com/546419318123/Test](#-aws-sqs-receive-message-queue-url-httpsqueueamazonawscom546419318123test)
+| 26  | [Which of the following AWS CLI commands is syntactically incorrect?](#which-of-the-following-aws-cli-commands-is-syntactically-incorrect)
 | 27  | [When running my DB Instance as a Multi-AZ deployment, can I use the standby for read or write operations?](#when-running-my-db-instance-as-a-multi-az-deployment-can-i-use-the-standby-for-read-or-write-operations)
 | 28  | [In the Launch Db Instance Wizard, where can I select the backup and maintenance options?](#in-the-launch-db-instance-wizard-where-can-i-select-the-backup-and-maintenance-options)
 | 29  | [What is the network performance offered by the c4.8xlarge instance in Amazon EC2?](#what-is-the-network-performance-offered-by-the-c48xlarge-instance-in-amazon-ec2)
@@ -1077,12 +1077,12 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### $ aws sqs receive-message –queue-url <https://queue.amazonaws.com/546419318123/Test>
+### Which of the following AWS CLI commands is syntactically incorrect?
 
-- [x] 3.
-- [ ] 4.
-- [ ] 2.
-- [ ] 1.
+- [ ] `$ aws ec2 describe-instances`.
+- [ ] `$ aws ec2 start-instances --instance-ids i-1348636c`.
+- [ ] `$ aws sns publish --topic-arn arn:aws:sns:us-east-1:546419318123:OperationsError -message "Script Failure"`.
+- [x] `$ aws sqs receive-message --queue-url https://queue.amazonaws.com/546419318123/Test`.
 
 **[⬆ Back to Top](#table-of-contents)**
 
