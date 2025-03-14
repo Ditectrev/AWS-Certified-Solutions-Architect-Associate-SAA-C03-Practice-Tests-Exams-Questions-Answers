@@ -191,7 +191,7 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 | 48  | [You are deploying an application to collect votes for a very popular television show. Millions of users will submit votes using mobile devices. The votes must be collected into a durable, scalable, and highly available data store for real-time public tabulation. Which service should you use?](#you-are-deploying-an-application-to-collect-votes-for-a-very-popular-television-show-millions-of-users-will-submit-votes-using-mobile-devices-the-votes-must-be-collected-into-a-durable-scalable-and-highly-available-data-store-for-real-time-public-tabulation-which-service-should-you-use)
 | 49  | [Are Reserved Instances available for Multi-AZ Deployments?](#are-reserved-instances-available-for-multi-az-deployments)
 | 50  | [A [...] for a VPC is a collection of subnets (typically private) that you may want to designate for your backend RDS DB Instances.](#a--for-a-vpc-is-a-collection-of-subnets-typically-private-that-you-may-want-to-designate-for-your-backend-rds-db-instances)
-| 51  | [An instance is launched into a VPC subnet with the network ACL configured to al low all inbound traffic and deny all outbound traffic. The instance's security group is configured to allow SSH from any IPaddress and deny all outbound traffic. What changes need to be made to allow SSH access to the instance?](#an-instance-is-launched-into-a-vpc-subnet-with-the-network-acl-configured-to-al-low-all-inbound-traffic-and-deny-all-outbound-traffic-the-instances-security-group-is-configured-to-allow-ssh-from-any-ipaddress-and-deny-all-outbound-traffic-what-changes-need-to-be-made-to-allow-ssh-access-to-the-instance)
+| 51  | [An instance is launched into a VPC subnet with the network ACL configured to allow all inbound traffic and deny all outbound traffic. The instance's security group is configured to allow SSH from any IP address and deny all outbound traffic. What changes need to be made to allow SSH access to the instance?](#an-instance-is-launched-into-a-vpc-subnet-with-the-network-acl-configured-to-allow-all-inbound-traffic-and-deny-all-outbound-traffic-the-instances-security-group-is-configured-to-allow-ssh-from-any-ip-address-and-deny-all-outbound-traffic-what-changes-need-to-be-made-to-allow-ssh-access-to-the-instance)
 | 52  | [You can modify the backup retention period; valid values are 0 (for no backup retention) to a maximum of [...] days.](#you-can-modify-the-backup-retention-period-valid-values-are-0-for-no-backup-retention-to-a-maximum-of--days)
 | 53  | [To serve Web traffic for a popular product your chief financial officer and IT director have purchased 10 ml large heavy utilization Reserved Instances (RIs) evenly spread across two Availability Zones: Route 53 is used to deliver the traffic to an Elastic Load Balancer (ELB). After several months, the product grows even more popular and you need additional capacity As a result, your company purchases two C3.2xlarge medium utilization RIs You register the two c3 2xlarge instances with your ELB and quickly find that the ml large instances are at 100% of capacity and the c3 2xlarge instances have significant capacity that's unused Which option is the most cost effective and uses EC2 capacity most effectively?](#to-serve-web-traffic-for-a-popular-product-your-chief-financial-officer-and-it-director-have-purchased-10-ml-large-heavy-utilization-reserved-instances-ris-evenly-spread-across-two-availability-zones-route-53-is-used-to-deliver-the-traffic-to-an-elastic-load-balancer-elb-after-several-months-the-product-grows-even-more-popular-and-you-need-additional-capacity-as-a-result-your-company-purchases-two-c32xlarge-medium-utilization-ris-you-register-the-two-c3-2xlarge-instances-with-your-elb-and-quickly-find-that-the-ml-large-instances-are-at-100-of-capacity-and-the-c3-2xlarge-instances-have-significant-capacity-thats-unused-which-option-is-the-most-cost-effective-and-uses-ec2-capacity-most-effectively)
 | 54  | [An existing application stores sensitive information on a non-boot Amazon EBS data volume attached to an Amazon Elastic Compute Cloud instance. Which of the following approaches would protect the sensitive data on an Amazon EBS volume?](#an-existing-application-stores-sensitive-information-on-a-non-boot-amazon-ebs-data-volume-attached-to-an-amazon-elastic-compute-cloud-instance-which-of-the-following-approaches-would-protect-the-sensitive-data-on-an-amazon-ebs-volume)
@@ -1302,11 +1302,11 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### An instance is launched into a VPC subnet with the network ACL configured to al low all inbound traffic and deny all outbound traffic. The instance's security group is configured to allow SSH from any IPaddress and deny all outbound traffic. What changes need to be made to allow SSH access to the instance?
+### An instance is launched into a VPC subnet with the network ACL configured to allow all inbound traffic and deny all outbound traffic. The instance's security group is configured to allow SSH from any IP address and deny all outbound traffic. What changes need to be made to allow SSH access to the instance?
 
-- [ ] The out bound security group needs to be modified to allow out bound traffic.
+- [ ] The outbound security group needs to be modified to allow outbound traffic.
 - [x] The outbound network ACL needs to be modified to allow outbound traffic.
-- [ ] Nothing, it can be accessed from any IP address using SS.
+- [ ] Nothing, it can be accessed from any IP address using S3.
 - [ ] Both the outbound security group and outbound network ACL need to be modified to allow outbound traffic.
 
 **[⬆ Back to Top](#table-of-contents)**
@@ -2912,7 +2912,7 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 ### You are responsible for a legacy web application whose server environment is approaching end of life. You would like to migrate this application to AWS as quickly as possible, since the application environment currently has the following limitations. The VM's single 10GB VMDK is almost full Me virtual network interface still uses the 10Mbps driver, which leaves your 100Mbps WAN connection completely underutilized. It is currently running on a highly customized. Windows VM within a VMware environment: You do not have me installation media. This is a mission critical application with an RTO (Recovery Time Objective) of 8 hours. RPO (Recovery Point Objective) of 1 hour. How could you best migrate this application to AWS while meeting your business continuity requirements?
 
 - [x] Use the EC2 VM Import Connector for vCenter to import the VM into EC2.
-- [ ] Use Import/Export to import the VM as an ESS snapshot and attach to EC2.
+- [ ] Use Import/Export to import the VM as an EBS snapshot and attach to EC2.
 - [ ] Use S3 to create a backup of the VM and restore the data into EC2.
 - [ ] Use me ec2-bundle-instance API to Import an Image of the VM into EC2.
 
@@ -5568,7 +5568,7 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 - [x] Create an IAM Role that allows write access to the DynamoDB table.
 - [x] Add an IAM Role to a running EC2 instance.
-- [ ] Create an IAM User that al lows write access to the Dynamo DB table.
+- [ ] Create an IAM User that allows write access to the Dynamo DB table.
 - [ ] Add an IAM User to a running EC2 instance.
 - [x] Launch an EC2 Instance with the IAM Role included in the launch configuration.
 
@@ -6210,7 +6210,7 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 ### Your team has a tomcat-based Java application you need to deploy into development, test and production environments. After some research, you opt to use Elastic Beanstalk due to its tight integration with your developer tools and RDS due to its ease of management. Your QA team lead points out that you need to roll a sanitized set of production data into your environment on a nightly basis. Similarly, other software teams in your org want access to that same restored data via their EC2 instances in your VPC. The optimal setup for persistence and security that meets the above requirements would be the following:
 
 - [x] Create your RDS instance as part of your Elastic Beanstalk definition and alter its security group to allow access to it from hosts in your application subnets.
-- [ ] Create your RDS instance separately and add its IP address to your application's DB connection strings in your code Alter its security group to allow access to it from hosts within your VPC's IPaddress block.
+- [ ] Create your RDS instance separately and add its IP address to your application's DB connection strings in your code Alter its security group to allow access to it from hosts within your VPC's IP address block.
 - [ ] Create your RDS instance separately and pass its DNS name to your app's DB connection string as an environment variable. Create a security group for client machines and add it as a valid source for DB traffic to the security group of the RDS instance itself.
 - [ ] Create your RDS instance separately and pass its DNS name to your's DB connection string as an environment variable Alter its security group to allow access to It from hosts in your application subnets.
 
@@ -7249,7 +7249,7 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 ### An ecommerce company wants to collect user clickstream data from the company's website for real-time analysis. The website experiences fluctuating traffic patterns throughout the day. The company needs a scalable solution that can adapt to varying levels of traffic. Which solution will meet these requirements?
 
 - [x] Use a data stream in Amazon Kinesis Data Streams in on-demand mode to capture the clickstream data. Use AWS Lambda to process the data in real time.
-- [ ] Use Amazon Kinesis Data Firehose to capture the clickstream data. Use AWS Glue to process the data in real time.
+- [ ] Use Amazon Kinesis Data Firehose to capture the clickstream data. Use AWS Glue to process the data in real time.S
 - [ ] Use Amazon Kinesis Video Streams to capture the clickstream data. Use AWS Glue to process the data in real time.
 - [ ] Use Amazon Managed Service for Apache Flink (previously known as Amazon Kinesis Data Analytics) to capture the clickstream data. Use AWS Lambda to process the data in real time.
 
