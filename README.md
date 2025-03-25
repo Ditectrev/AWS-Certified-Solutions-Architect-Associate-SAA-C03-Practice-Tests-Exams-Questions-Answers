@@ -107,6 +107,9 @@ Yes, we have a little commission from that link. Therefore, by using that link, 
 
 - AI-generated explanations (only paid [Udemy](https://www.udemy.com/course/aws-certified-solutions-architect-associate-saa-c03-exams-v/?referralCode=CEA49DDC465C505A263A)).
 
+**[v2.1.0](../../releases/tag/v2.1.0): March 25, 2025.**
+
+- Fix 6 questions with wrong answers along with several typos.
 
 ## 🙋‍♀️ & 🙋‍♂️ Contribution
 
