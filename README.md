@@ -2078,8 +2078,8 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 ### Can a 'user' be associated with multiple AWS accounts?
 
-- [ ] Yes.
-- [x] No.
+- [x] Yes.
+- [ ] No.
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -4774,10 +4774,10 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 ### You must assign each server to at least [...] security group.
 
-- [x] 3.
+- [ ] 3.
 - [ ] 2.
 - [ ] 4.
-- [ ] 1.
+- [x] 1.
 
 **[⬆ Back to Top](#table-of-contents)**
 
