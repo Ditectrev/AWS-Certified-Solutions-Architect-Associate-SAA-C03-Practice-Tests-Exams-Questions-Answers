@@ -1085,8 +1085,8 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 - [ ] `$ aws ec2 describe-instances`.
 - [ ] `$ aws ec2 start-instances --instance-ids i-1348636c`.
-- [ ] `$ aws sns publish --topic-arn arn:aws:sns:us-east-1:546419318123:OperationsError -message "Script Failure"`.
-- [x] `$ aws sqs receive-message --queue-url https://queue.amazonaws.com/546419318123/Test`.
+- [x] `$ aws sns publish --topic-arn arn:aws:sns:us-east-1:546419318123:OperationsError -message "Script Failure"`.
+- [ ] `$ aws sqs receive-message --queue-url https://queue.amazonaws.com/546419318123/Test`.
 
 **[⬆ Back to Top](#table-of-contents)**
 
