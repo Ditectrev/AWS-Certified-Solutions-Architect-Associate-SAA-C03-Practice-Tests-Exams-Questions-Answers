@@ -3401,9 +3401,9 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 ### Can I initiate a 'forced failover' for my MySQL Multi-AZ DB Instance deployment?
 
-- [x] Only in certain regions.
+- [ ] Only in certain regions.
 - [ ] Only in VPC.
-- [ ] Yes.
+- [x] Yes.
 - [ ] No.
 
 **[⬆ Back to Top](#table-of-contents)**
@@ -4252,8 +4252,8 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 ### True or False: Without IAM, you cannot control the tasks a particular user or system can do and what AWS resources they might use.
 
-- [ ] True.
-- [x] False.
+- [x] True.
+- [ ] False.
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -4537,8 +4537,8 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 ### True or False: When using IAM to control access to your RDS resources, the key names that can be used are case sensitive. For example, aws: CurrentTime is NOT equivalent to AWS: currenttime.
 
-- [x] True.
-- [ ] False.
+- [ ] True.
+- [x] False.
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -4589,9 +4589,9 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 ### A t2.medium EC2 instance type must be launched with what type of Amazon Machine Image (AMI)?
 
-- [x] An Instance store Hardware Virtual Machine AMI.
+- [ ] An Instance store Hardware Virtual Machine AMI.
 - [ ] An Instance store Paravirtual AMI.
-- [ ] An Amazon EBS-backed Hardware Virtual Machine AMI.
+- [x] An Amazon EBS-backed Hardware Virtual Machine AMI.
 - [ ] An Amazon EBS-backed Paravirtual AMI.
 
 **[⬆ Back to Top](#table-of-contents)**
