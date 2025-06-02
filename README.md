@@ -4098,8 +4098,8 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 ### A customer has a 10 GB AWS Direct Connect connection to an AWS region where they have a web application hosted on Amazon Elastic Computer Cloud (EC2). The application has dependencies on an on-premises mainframe database that uses a BASE (Basic Available. Sort stale Eventual consistency) rather than an ACID (Atomicity. Consistency isolation. Durability) consistency model. The application is exhibiting undesirable behavior because the database is not able to handle the volume of writes. How can you reduce the load on your on-premises database resources in the most cost-effective way?
 
-- [x] Use an Amazon Elastic MapReduce (EMR) S3DistCp as a synchronization mechanism between the on-premises database and a Hadoop cluster on AWS.
-- [ ] Modify the application to write to an Amazon SQS queue and develop a worker process to flush the queue to the on-premises database.
+- [ ] Use an Amazon Elastic MapReduce (EMR) S3DistCp as a synchronization mechanism between the on-premises database and a Hadoop cluster on AWS.
+- [x] Modify the application to write to an Amazon SQS queue and develop a worker process to flush the queue to the on-premises database.
 - [ ] Modify the application to use DynamoDB to feed an EMR cluster which uses a map function to write to the on-premises database.
 - [ ] Provision an RDS read-replica database on AWS to handle the writes and synchronize the two databases using Data Pipeline.
 
