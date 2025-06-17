@@ -868,7 +868,7 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 ### What is the minimum time Interval for the data that Amazon CloudWatch receives and aggregates?
 
 - [ ] One second.
-- [ ] Five seconds.
+- [x] Five seconds.
 - [x] One minute.
 - [ ] Three minutes.
 - [ ] Five minutes.
