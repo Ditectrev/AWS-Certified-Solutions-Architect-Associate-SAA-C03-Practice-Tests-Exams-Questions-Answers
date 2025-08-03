@@ -5336,10 +5336,10 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 ### How many relational database engines does RDS currently support?
 
-- [x] Three: MySQL, Oracle and Microsoft SQL Server.
+- [ ] Three: MySQL, Oracle and Microsoft SQL Server.
 - [ ] Just two: MySQL and Oracle.
 - [ ] Five: MySQL, PostgreSQL, MongoDB, Cassandra and SQLite.
-- [ ] Just one: MySQL.
+- [x] Eight: Amazon Aurora PostgreSQL-Compatible Edition, Amazon Aurora MySQL-Compatible Edition, RDS for PostgreSQL, RDS for MySQL, RDS for MariaDB, RDS for SQL Server, RDS for Oracle, and RDS for Db2.
 
 **[⬆ Back to Top](#table-of-contents)**
 
