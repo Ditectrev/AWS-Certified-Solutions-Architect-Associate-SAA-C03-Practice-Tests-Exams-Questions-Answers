@@ -67,7 +67,7 @@ Yes, we have a little commission from that link. Therefore, by using that link, 
    - Compliancy, Governance, Identity & Privacy;
    - Elastic IP (EIP);
    - Inbound Data Traffic & Outbound Data Traffic;
-   - Input/Output operations Per Second (IOPS)
+   - Input/Output operations Per Second (IOPS);
    - Public & Private Cloud;
    - Service Level Agreement (SLA);
    - Software as a Service (SaaS);
