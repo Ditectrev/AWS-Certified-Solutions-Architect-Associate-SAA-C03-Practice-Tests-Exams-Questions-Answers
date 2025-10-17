@@ -25,9 +25,10 @@ There are many ways to support us; in exchange, you'll get this material in a pr
 
 It's great to learn these questions as your exam preparation, and, yes, you should pass just based on that. However, we highly recommend more interactive learning if you want to become an expert. Currently, we're recommending those courses:
 
+- 🎬 [Coursera: video-based, official course by Amazon Web Services (AWS)](https://imp.i384100.net/XmM95b).
 - 📖 [Educative: text-based, video-free course, including set up out-of-the-box for you Cloud Labs to practice hands-on without the need to set up an environment (and payments). The link includes the highest available discount Educative offers](https://www.educative.io/courses/master-aws-certified-solutions-architect-associate-saa-c03-exam?aff=VALz).
 
-Yes, we have a little commission from that link. Therefore, by using that link, you're supporting us.
+Yes, we have a little commission from these links. Therefore, by using these links, you're supporting us.
 
 ## ✨ This course is unlike any Amazon Web Services Certified (AWS Certified) Solutions Architect Associate (SAA-C03) course you will find online.
 
@@ -111,6 +112,10 @@ Yes, we have a little commission from that link. Therefore, by using that link, 
 **[v2.1.0](../../releases/tag/v2.1.0): March 25, 2025.**
 
 - Fix 6 questions with wrong answers along with several typos.
+
+**[v2.2.0](../../releases/tag/v2.2.0): October 17, 2025.**
+
+- Fix multiple typos, punctuations, and 10 questions with wrong answers.
 
 ## 🙋‍♀️ & 🙋‍♂️ Contribution
 
