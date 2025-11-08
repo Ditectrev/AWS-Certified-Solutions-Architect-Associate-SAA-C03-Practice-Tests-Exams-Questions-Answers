@@ -1,0 +1,112 @@
+{
+  "Comment": "Step Function pour traiter des messages HTTP par lots avec enrichissement et stockage",
+  "StartAt": "RecupererMessagesHTTP",
+  "States": {
+    "RecupererMessagesHTTP": {
+      "Type": "Task",
+      "Comment": "Récupère les messages depuis la file (100 messages, tableau avec tous les messages)",
+      "Resource": "arn:aws:states:::lambda:invoke",
+      "Parameters": {
+        "FunctionName": "RecupererMessagesHTTP",
+        "Payload": {
+          "maxMessages": 100
+        }
+      },
+      "ResultPath": "$.messages",
+      "Next": "TraiterParLotsDe20"
+    },
+    "TraiterParLotsDe20": {
+      "Type": "Map",
+      "Comment": "Lot de 20 messages - Traiter les messages par lots",
+      "ItemsPath": "$.messages.Payload.messages",
+      "MaxConcurrency": 5,
+      "ItemProcessor": {
+        "ProcessorConfig": {
+          "Mode": "INLINE"
+        },
+        "StartAt": "EnrichirMessage",
+        "States": {
+          "EnrichirMessage": {
+            "Type": "Task",
+            "Comment": "Enrichir chaque message avec de nouveaux IDs de messages",
+            "Resource": "arn:aws:states:::lambda:invoke",
+            "Parameters": {
+              "FunctionName": "EnrichirMessageAvecNouveauxIDs",
+              "Payload.$": "$"
+            },
+            "ResultPath": "$.enrichedMessage",
+            "Next": "StockerDansS3"
+          },
+          "StockerDansS3": {
+            "Type": "Task",
+            "Comment": "Stocker les données dans un zip dans S3",
+            "Resource": "arn:aws:states:::lambda:invoke",
+            "Parameters": {
+              "FunctionName": "StockerDansZipS3",
+              "Payload.$": "$.enrichedMessage.Payload"
+            },
+            "ResultPath": "$.s3Result",
+            "Next": "EcrireDansDynamoDB"
+          },
+          "EcrireDansDynamoDB": {
+            "Type": "Task",
+            "Comment": "Écrire le message enrichi avec succès dans DynamoDB",
+            "Resource": "arn:aws:states:::dynamodb:putItem",
+            "Parameters": {
+              "TableName": "MessagesTable",
+              "Item": {
+                "messageId": {
+                  "S.$": "$.enrichedMessage.Payload.messageId"
+                },
+                "timestamp": {
+                  "N.$": "$.enrichedMessage.Payload.timestamp"
+                },
+                "data": {
+                  "S.$": "States.JsonToString($.enrichedMessage.Payload)"
+                },
+                "s3Location": {
+                  "S.$": "$.s3Result.Payload.s3Key"
+                },
+                "status": {
+                  "S": "SUCCESS"
+                }
+              }
+            },
+            "Catch": [
+              {
+                "ErrorEquals": ["States.ALL"],
+                "ResultPath": "$.error",
+                "Next": "GererErreur"
+              }
+            ],
+            "ResultPath": "$.dynamoResult",
+            "End": true
+          },
+          "GererErreur": {
+            "Type": "Task",
+            "Comment": "Liste des messages en problème - n'est pas vide - Déposer un message dans la DLQ",
+            "Resource": "arn:aws:states:::sqs:sendMessage",
+            "Parameters": {
+              "QueueUrl": "https://sqs.region.amazonaws.com/account-id/dead-letter-queue",
+              "MessageBody.$": "States.JsonToString($)"
+            },
+            "ResultPath": "$.dlqResult",
+            "Next": "Echec"
+          },
+          "Echec": {
+            "Type": "Fail",
+            "Comment": "Échec du traitement du message",
+            "Cause": "Erreur lors du traitement du message",
+            "Error": "MessageProcessingError"
+          }
+        }
+      },
+      "ResultPath": "$.processedMessages",
+      "Next": "Succes"
+    },
+    "Succes": {
+      "Type": "Succeed",
+      "Comment": "Tous les messages ont été traités avec succès"
+    }
+  }
+}
