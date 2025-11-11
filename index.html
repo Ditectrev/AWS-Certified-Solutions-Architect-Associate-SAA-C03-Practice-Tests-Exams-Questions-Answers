@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AWS SAA-C03 Practice Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🎯 AWS Solutions Architect Associate Practice Quiz</h1>
+            <div class="stats">
+                <div class="stat-item">
+                    <span class="stat-label">Progress:</span>
+                    <span class="stat-value" id="progress">0/0</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-label">Correct:</span>
+                    <span class="stat-value correct" id="correct">0</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-label">Incorrect:</span>
+                    <span class="stat-value incorrect" id="incorrect">0</span>
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <div id="loading" class="loading">
+                <div class="spinner"></div>
+                <p>Loading questions...</p>
+            </div>
+
+            <div id="quiz-container" class="quiz-container" style="display: none;">
+                <div class="question-header">
+                    <span class="question-number" id="question-number">Question 1 of 710</span>
+                    <button class="btn-secondary" id="reset-btn">Reset Progress</button>
+                </div>
+
+                <div class="question-card">
+                    <h2 class="question-text" id="question-text"></h2>
+                    
+                    <div class="options" id="options-container"></div>
+
+                    <div class="button-group">
+                        <button class="btn-primary" id="submit-btn">Submit Answer</button>
+                        <button class="btn-primary" id="next-btn" style="display: none;">Next Question</button>
+                    </div>
+
+                    <div class="result-feedback" id="result-feedback" style="display: none;"></div>
+                </div>
+            </div>
+
+            <div id="completion-screen" class="completion-screen" style="display: none;">
+                <div class="completion-card">
+                    <h2>🎉 Congratulations!</h2>
+                    <p>You've completed all available questions!</p>
+                    <div class="final-stats">
+                        <div class="final-stat">
+                            <span class="final-stat-label">Total Questions:</span>
+                            <span class="final-stat-value" id="final-total">0</span>
+                        </div>
+                        <div class="final-stat">
+                            <span class="final-stat-label">Correct Answers:</span>
+                            <span class="final-stat-value correct" id="final-correct">0</span>
+                        </div>
+                        <div class="final-stat">
+                            <span class="final-stat-label">Accuracy:</span>
+                            <span class="final-stat-value" id="final-accuracy">0%</span>
+                        </div>
+                    </div>
+                    <button class="btn-primary" id="restart-btn">Start Over</button>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
