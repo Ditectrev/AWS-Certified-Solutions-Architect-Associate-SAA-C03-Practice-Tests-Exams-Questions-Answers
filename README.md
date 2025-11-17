@@ -909,11 +909,11 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 ### Which of the following are valid statements about Amazon S3? (Choose 2 answers)
 
-- [ ] Amazon S3 provides read-after-write consistency for any type of PUT or DELETE.
+- [x] Amazon S3 provides read-after-write consistency for any type of PUT or DELETE.
 - [ ] Consistency is not guaranteed for any type of PUT or DELETE.
 - [x] A successful response to a PUT request only occurs when a complete object is saved.
 - [ ] Partially saved objects are immediately readable with a GET after an overwrite PU.
-- [x] S3 provides eventual consistency for overwrite PUTS and DELETE.
+- [ ] S3 provides eventual consistency for overwrite PUTS and DELETE.
 
 **[⬆ Back to Top](#table-of-contents)**
 
